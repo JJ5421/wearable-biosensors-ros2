@@ -29,6 +29,7 @@ Installation:
 8. Outstanding question of whether or not the bags are corrupted by a sudden power-off
 
 
+THE FOLLOWING IS OLD PACKAGE RELATED INFORMATION TO RUN BASIC ROS2 FUNCTIONALITY
 For vernier respiration belt
 ```bash
 ros2 run vernier_respiration_belt vernier_respiration_belt_node
