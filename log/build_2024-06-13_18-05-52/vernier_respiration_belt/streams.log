@@ -1,0 +1,21 @@
+[4.074s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data
+[5.457s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.457s]   warnings.warn(
+[5.648s] running develop
+[5.650s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.651s]   warnings.warn(
+[6.695s] running egg_info
+[6.695s] writing vernier_respiration_belt.egg-info/PKG-INFO
+[6.697s] writing dependency_links to vernier_respiration_belt.egg-info/dependency_links.txt
+[6.698s] writing entry points to vernier_respiration_belt.egg-info/entry_points.txt
+[6.699s] writing requirements to vernier_respiration_belt.egg-info/requires.txt
+[6.700s] writing top-level names to vernier_respiration_belt.egg-info/top_level.txt
+[6.710s] reading manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[6.715s] writing manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[6.723s] running build_ext
+[6.724s] Creating /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages/vernier-respiration-belt.egg-link (link to .)
+[6.729s] Installing vernier_respiration_belt_node script to /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt
+[6.730s] 
+[6.731s] Installed /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt
+[6.733s] running symlink_data
+[6.885s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data

@@ -1,0 +1,118 @@
+[0.217s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4
+[4.215s] [  3%] Built target cdcl_umd_msgs__cpp
+[4.219s] [  3%] Built target ament_cmake_python_symlink_cdcl_umd_msgs
+[4.221s] [ 12%] Built target cdcl_umd_msgs__rosidl_generator_c
+[4.222s] [ 22%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_cpp
+[4.223s] [ 32%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp
+[4.223s] [ 41%] Built target cdcl_umd_msgs__rosidl_typesupport_cpp
+[4.224s] [ 51%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c
+[4.224s] [ 61%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_c
+[4.224s] [ 70%] Built target cdcl_umd_msgs__rosidl_typesupport_c
+[4.225s] [ 70%] Built target cdcl_umd_msgs
+[4.225s] [ 74%] Built target cdcl_umd_msgs__py
+[4.226s] [ 80%] Built target cdcl_umd_msgs__rosidl_generator_py
+[4.226s] [ 87%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_c__pyext
+[4.227s] [ 93%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.229s] [100%] Built target cdcl_umd_msgs__rosidl_typesupport_c__pyext
+[4.230s] running egg_info
+[4.231s] writing cdcl_umd_msgs.egg-info/PKG-INFO
+[4.235s] writing dependency_links to cdcl_umd_msgs.egg-info/dependency_links.txt
+[4.236s] writing top-level names to cdcl_umd_msgs.egg-info/top_level.txt
+[4.237s] reading manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'
+[4.237s] writing manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'
+[4.237s] [100%] Built target ament_cmake_python_build_cdcl_umd_msgs_egg
+[5.880s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4
+[6.512s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs
+[6.571s] -- Install configuration: ""
+[6.583s] -- Execute custom install script
+[6.603s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/rosidl_interfaces/cdcl_umd_msgs
+[6.632s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__functions.h
+[6.635s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__struct.h
+[6.636s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__type_support.h
+[6.636s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.644s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/vitals.h
+[6.648s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/library_path.sh
+[6.654s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/library_path.dsv
+[6.660s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_c.h
+[6.671s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.678s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_introspection_c.h
+[6.686s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.713s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__builder.hpp
+[6.720s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__struct.hpp
+[6.727s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__traits.hpp
+[6.734s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/vitals.hpp
+[6.744s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_cpp.hpp
+[6.751s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.757s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_introspection_cpp.hpp
+[6.767s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/pythonpath.sh
+[6.772s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/pythonpath.dsv
+[6.780s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.784s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.789s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.805s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.816s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/__init__.py
+[6.820s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_c.c
+[6.825s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.830s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.835s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.840s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.846s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.849s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so
+[6.853s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/__init__.py
+[6.857s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/_vitals.py
+[6.862s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/_vitals_s.c
+[6.868s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.874s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.880s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.886s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/msg/Vitals.idl
+[6.890s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/msg/Vitals.msg
+[6.908s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/package_run_dependencies/cdcl_umd_msgs
+[6.919s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/parent_prefix_path/cdcl_umd_msgs
+[6.930s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/ament_prefix_path.sh
+[6.935s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/ament_prefix_path.dsv
+[6.943s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/path.sh
+[6.966s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/path.dsv
+[6.974s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.bash
+[6.980s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.sh
+[7.001s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.zsh
+[7.005s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.dsv
+[7.006s] -- Symlinking: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.dsv
+[7.063s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/packages/cdcl_umd_msgs
+[7.072s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake-extras.cmake
+[7.073s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.077s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.081s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.082s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.089s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.089s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.109s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgsConfig.cmake
+[7.115s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgsConfig-version.cmake
+[7.116s] -- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.xml
+[7.117s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_generator_c.so
+[7.123s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_fastrtps_c.so
+[7.133s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_introspection_c.so
+[7.140s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_c.so
+[7.157s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.163s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_introspection_cpp.so
+[7.170s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_cpp.so
+[7.762s] Listing '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs'...
+[7.765s] Listing '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg'...
+[7.816s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_generator_py.so
+[7.835s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cExport.cmake
+[7.836s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.843s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.844s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.851s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.852s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.857s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cExport.cmake
+[7.858s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.869s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cppExport.cmake
+[7.876s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.880s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.890s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.891s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.927s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cppExport.cmake
+[7.928s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.950s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_pyExport.cmake
+[7.950s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.985s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs

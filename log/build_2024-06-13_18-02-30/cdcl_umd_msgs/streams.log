@@ -1,0 +1,69 @@
+[0.226s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs
+[4.567s] -- The C compiler identification is GNU 11.4.0
+[4.568s] -- The CXX compiler identification is GNU 11.4.0
+[4.568s] -- Detecting C compiler ABI info
+[4.569s] -- Detecting C compiler ABI info - done
+[4.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.570s] -- Detecting C compile features
+[4.570s] -- Detecting C compile features - done
+[4.571s] -- Detecting CXX compiler ABI info
+[4.573s] -- Detecting CXX compiler ABI info - done
+[4.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.574s] -- Detecting CXX compile features
+[4.575s] -- Detecting CXX compile features - done
+[4.575s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.140s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.877s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.650s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.840s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.934s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.698s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[15.735s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.035s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[16.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.051s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.056s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[16.327s] -- Found PythonExtra: .so  
+[16.890s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.382s] -- Added test 'lint_cmake' to check CMake code style
+[17.437s] -- Added test 'xmllint' to check XML markup files
+[17.529s] -- Configuring done
+[18.361s] -- Generating done
+[18.460s] -- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs
+[18.600s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs
+[18.603s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4
+[19.578s] [  3%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c.o[0m
+[19.580s] [  6%] Built target cdcl_umd_msgs__cpp
+[19.844s] In file included from [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.h:19[m[K,
+[19.856s]                  from [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c:4[m[K:
+[19.856s] [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kcdcl_umd_msgs/msg/detail/header__struct.h: No such file or directory
+[19.857s]    22 | #include [01;31m[K"cdcl_umd_msgs/msg/detail/header__struct.h"[m[K
+[19.858s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.879s] compilation terminated.
+[19.884s] [  6%] Built target ament_cmake_python_symlink_cdcl_umd_msgs
+[19.940s] [  9%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp.o[0m
+[20.014s] gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/build.make:105: CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c.o] Error 1
+[20.021s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/all] Error 2
+[20.022s] gmake[1]: *** Waiting for unfinished jobs....
+[20.092s] [ 12%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp.o[0m
+[20.388s] In file included from [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp:7[m[K:
+[20.393s] [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/msg/detail/vitals__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcdcl_umd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[20.398s]    20 | #include [01;31m[K"cdcl_umd_msgs/msg/detail/header__struct.hpp"[m[K
+[20.402s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.407s] compilation terminated.
+[20.411s] gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp.o] Error 1
+[20.417s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+[20.531s] In file included from [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[20.536s]                  from [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp:4[m[K:
+[20.537s] [01m[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/msg/detail/vitals__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcdcl_umd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[20.537s]    20 | #include [01;31m[K"cdcl_umd_msgs/msg/detail/header__struct.hpp"[m[K
+[20.538s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.538s] compilation terminated.
+[20.541s] gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp.o] Error 1
+[20.542s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[20.543s] gmake: *** [Makefile:146: all] Error 2
+[20.554s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '2': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4

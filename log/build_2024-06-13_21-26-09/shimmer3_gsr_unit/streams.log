@@ -1,0 +1,21 @@
+[11.493s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build --no-deps symlink_data
+[14.434s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.436s]   warnings.warn(
+[14.849s] running develop
+[14.851s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.852s]   warnings.warn(
+[18.173s] running egg_info
+[18.174s] writing shimmer3_gsr_unit.egg-info/PKG-INFO
+[18.190s] writing dependency_links to shimmer3_gsr_unit.egg-info/dependency_links.txt
+[18.191s] writing entry points to shimmer3_gsr_unit.egg-info/entry_points.txt
+[18.204s] writing requirements to shimmer3_gsr_unit.egg-info/requires.txt
+[18.210s] writing top-level names to shimmer3_gsr_unit.egg-info/top_level.txt
+[18.238s] reading manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'
+[18.247s] writing manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'
+[18.277s] running build_ext
+[18.287s] Creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3-gsr-unit.egg-link (link to .)
+[18.301s] Installing shimmer_gsr_ppg_node script to /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/shimmer3_gsr_unit
+[18.310s] 
+[18.313s] Installed /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit
+[18.315s] running symlink_data
+[22.693s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build --no-deps symlink_data

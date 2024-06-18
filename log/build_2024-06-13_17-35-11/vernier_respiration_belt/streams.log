@@ -1,0 +1,45 @@
+[7.459s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data
+[8.415s] /home/jj/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[8.416s] !!
+[8.417s] 
+[8.417s]         ********************************************************************************
+[8.418s]         Usage of dash-separated 'script-dir' will not be supported in future
+[8.418s]         versions. Please use the underscore name 'script_dir' instead.
+[8.420s] 
+[8.420s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[8.429s]         or your builds will no longer be supported.
+[8.430s] 
+[8.432s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[8.433s]         ********************************************************************************
+[8.434s] 
+[8.434s] !!
+[8.435s]   opt = self.warn_dash_deprecation(opt, section)
+[10.002s] running develop
+[10.004s] /home/jj/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.004s] !!
+[10.005s] 
+[10.005s]         ********************************************************************************
+[10.006s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.007s]         Instead, use pypa/build, pypa/installer or other
+[10.007s]         standards-based tools.
+[10.008s] 
+[10.008s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.009s]         ********************************************************************************
+[10.009s] 
+[10.010s] !!
+[10.010s]   easy_install.initialize_options(self)
+[11.623s] running egg_info
+[11.732s] writing vernier_respiration_belt.egg-info/PKG-INFO
+[11.734s] writing dependency_links to vernier_respiration_belt.egg-info/dependency_links.txt
+[11.736s] writing entry points to vernier_respiration_belt.egg-info/entry_points.txt
+[11.739s] writing requirements to vernier_respiration_belt.egg-info/requires.txt
+[11.739s] writing top-level names to vernier_respiration_belt.egg-info/top_level.txt
+[11.957s] reading manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[11.962s] writing manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[12.087s] running build_ext
+[12.088s] Creating /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages/vernier-respiration-belt.egg-link (link to .)
+[12.089s] Installing vernier_respiration_belt_node script to /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt
+[12.092s] 
+[12.093s] Installed /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt
+[12.094s] running symlink_data
+[12.304s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data

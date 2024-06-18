@@ -1,0 +1,678 @@
+[0.000000] (-) TimerEvent: {}
+[0.002257] (cdcl_umd_msgs) JobQueued: {'identifier': 'cdcl_umd_msgs', 'dependencies': OrderedDict()}
+[0.002979] (emotiv_insight) JobQueued: {'identifier': 'emotiv_insight', 'dependencies': OrderedDict()}
+[0.003543] (empatica_e4) JobQueued: {'identifier': 'empatica_e4', 'dependencies': OrderedDict()}
+[0.003762] (shimmer3_gsr_unit) JobQueued: {'identifier': 'shimmer3_gsr_unit', 'dependencies': OrderedDict()}
+[0.004129] (polar_h10) JobQueued: {'identifier': 'polar_h10', 'dependencies': OrderedDict([('cdcl_umd_msgs', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs')])}
+[0.004346] (vernier_respiration_belt) JobQueued: {'identifier': 'vernier_respiration_belt', 'dependencies': OrderedDict([('cdcl_umd_msgs', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs')])}
+[0.004500] (manager) JobQueued: {'identifier': 'manager', 'dependencies': OrderedDict([('cdcl_umd_msgs', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs'), ('polar_h10', '/home/jj/wearable-biosensors-ros2/install/polar_h10'), ('vernier_respiration_belt', '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt')])}
+[0.004635] (cdcl_umd_msgs) JobStarted: {'identifier': 'cdcl_umd_msgs'}
+[0.058457] (emotiv_insight) JobStarted: {'identifier': 'emotiv_insight'}
+[0.099003] (-) TimerEvent: {}
+[0.110797] (empatica_e4) JobStarted: {'identifier': 'empatica_e4'}
+[0.154144] (shimmer3_gsr_unit) JobStarted: {'identifier': 'shimmer3_gsr_unit'}
+[0.202658] (-) TimerEvent: {}
+[0.204644] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'cmake'}
+[0.214048] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'build'}
+[0.217727] (cdcl_umd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P5O4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[0.302922] (-) TimerEvent: {}
+[0.403850] (-) TimerEvent: {}
+[0.504788] (-) TimerEvent: {}
+[0.605766] (-) TimerEvent: {}
+[0.706773] (-) TimerEvent: {}
+[0.817765] (-) TimerEvent: {}
+[0.919232] (-) TimerEvent: {}
+[1.020412] (-) TimerEvent: {}
+[1.121831] (-) TimerEvent: {}
+[1.222826] (-) TimerEvent: {}
+[1.323786] (-) TimerEvent: {}
+[1.424710] (-) TimerEvent: {}
+[1.525718] (-) TimerEvent: {}
+[1.627273] (-) TimerEvent: {}
+[1.729305] (-) TimerEvent: {}
+[1.831631] (-) TimerEvent: {}
+[1.933038] (-) TimerEvent: {}
+[2.033974] (-) TimerEvent: {}
+[2.135393] (-) TimerEvent: {}
+[2.236385] (-) TimerEvent: {}
+[2.337390] (-) TimerEvent: {}
+[2.438324] (-) TimerEvent: {}
+[2.539710] (-) TimerEvent: {}
+[2.640556] (-) TimerEvent: {}
+[2.741481] (-) TimerEvent: {}
+[2.842652] (-) TimerEvent: {}
+[2.943635] (-) TimerEvent: {}
+[3.044616] (-) TimerEvent: {}
+[3.145782] (-) TimerEvent: {}
+[3.247079] (-) TimerEvent: {}
+[3.348276] (-) TimerEvent: {}
+[3.449453] (-) TimerEvent: {}
+[3.550432] (-) TimerEvent: {}
+[3.651377] (-) TimerEvent: {}
+[3.752331] (-) TimerEvent: {}
+[3.853264] (-) TimerEvent: {}
+[3.954199] (-) TimerEvent: {}
+[4.055088] (-) TimerEvent: {}
+[4.156180] (-) TimerEvent: {}
+[4.257094] (-) TimerEvent: {}
+[4.357936] (-) TimerEvent: {}
+[4.458999] (-) TimerEvent: {}
+[4.510449] (cdcl_umd_msgs) StdoutLine: {'line': b'[  3%] Built target cdcl_umd_msgs__cpp\n'}
+[4.511437] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 12%] Built target cdcl_umd_msgs__rosidl_generator_c\n'}
+[4.512030] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_cdcl_umd_msgs\n'}
+[4.512555] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 22%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.518172] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 32%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.521878] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 41%] Built target cdcl_umd_msgs__rosidl_typesupport_cpp\n'}
+[4.525319] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 51%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.531292] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 61%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_c\n'}
+[4.531823] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 70%] Built target cdcl_umd_msgs__rosidl_typesupport_c\n'}
+[4.535866] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 70%] Built target cdcl_umd_msgs\n'}
+[4.536525] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 74%] Built target cdcl_umd_msgs__py\n'}
+[4.537230] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 80%] Built target cdcl_umd_msgs__rosidl_generator_py\n'}
+[4.538173] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 87%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.542441] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 93%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.543057] (cdcl_umd_msgs) StdoutLine: {'line': b'[100%] Built target cdcl_umd_msgs__rosidl_typesupport_c__pyext\n'}
+[4.543571] (cdcl_umd_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.544034] (cdcl_umd_msgs) StdoutLine: {'line': b'writing cdcl_umd_msgs.egg-info/PKG-INFO\n'}
+[4.544535] (cdcl_umd_msgs) StdoutLine: {'line': b'writing dependency_links to cdcl_umd_msgs.egg-info/dependency_links.txt\n'}
+[4.545131] (cdcl_umd_msgs) StdoutLine: {'line': b'writing top-level names to cdcl_umd_msgs.egg-info/top_level.txt\n'}
+[4.545736] (cdcl_umd_msgs) StdoutLine: {'line': b"reading manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'\n"}
+[4.546322] (cdcl_umd_msgs) StdoutLine: {'line': b"writing manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'\n"}
+[4.546875] (cdcl_umd_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cdcl_umd_msgs_egg\n'}
+[4.559183] (-) TimerEvent: {}
+[4.660097] (-) TimerEvent: {}
+[4.760962] (-) TimerEvent: {}
+[4.861875] (-) TimerEvent: {}
+[4.963929] (-) TimerEvent: {}
+[5.064939] (-) TimerEvent: {}
+[5.167049] (-) TimerEvent: {}
+[5.267842] (-) TimerEvent: {}
+[5.368775] (-) TimerEvent: {}
+[5.469640] (-) TimerEvent: {}
+[5.570636] (-) TimerEvent: {}
+[5.671545] (-) TimerEvent: {}
+[5.772429] (-) TimerEvent: {}
+[5.873283] (-) TimerEvent: {}
+[5.974182] (-) TimerEvent: {}
+[6.075174] (-) TimerEvent: {}
+[6.176081] (-) TimerEvent: {}
+[6.277806] (-) TimerEvent: {}
+[6.379199] (-) TimerEvent: {}
+[6.443039] (cdcl_umd_msgs) CommandEnded: {'returncode': 0}
+[6.505731] (-) TimerEvent: {}
+[6.607510] (-) TimerEvent: {}
+[6.709725] (-) TimerEvent: {}
+[6.813645] (-) TimerEvent: {}
+[6.917697] (-) TimerEvent: {}
+[7.025688] (-) TimerEvent: {}
+[7.129663] (-) TimerEvent: {}
+[7.323648] (-) TimerEvent: {}
+[7.426063] (-) TimerEvent: {}
+[7.527891] (-) TimerEvent: {}
+[7.575473] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'install'}
+[7.628135] (-) TimerEvent: {}
+[7.647761] (cdcl_umd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P5O4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[7.722103] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.736565] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.737270] (-) TimerEvent: {}
+[7.738755] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/rosidl_interfaces/cdcl_umd_msgs\n'}
+[7.739569] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__functions.h\n'}
+[7.740520] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__struct.h\n'}
+[7.741193] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__type_support.h\n'}
+[7.742277] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.743124] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/vitals.h\n'}
+[7.750261] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/library_path.sh\n'}
+[7.751087] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/library_path.dsv\n'}
+[7.751957] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_c.h\n'}
+[7.752522] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.760009] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_introspection_c.h\n'}
+[7.760793] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.772651] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__builder.hpp\n'}
+[7.778560] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__struct.hpp\n'}
+[7.779089] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__traits.hpp\n'}
+[7.780147] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/vitals.hpp\n'}
+[7.782352] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.782913] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.783393] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/include/cdcl_umd_msgs/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.790041] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/pythonpath.sh\n'}
+[7.790703] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/pythonpath.dsv\n'}
+[7.791290] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.791861] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.792305] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.792713] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.798395] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/__init__.py\n'}
+[7.799780] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.801229] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.805167] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/_cdcl_umd_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.805958] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.809224] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.810807] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.812073] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so\n'}
+[7.813414] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/__init__.py\n'}
+[7.814845] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/_vitals.py\n'}
+[7.816218] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg/_vitals_s.c\n'}
+[7.828113] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.831153] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.837458] (-) TimerEvent: {}
+[7.838680] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.840242] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/msg/Vitals.idl\n'}
+[7.841594] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/msg/Vitals.msg\n'}
+[7.859481] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/package_run_dependencies/cdcl_umd_msgs\n'}
+[7.860506] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/parent_prefix_path/cdcl_umd_msgs\n'}
+[7.861457] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/ament_prefix_path.sh\n'}
+[7.862745] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/ament_prefix_path.dsv\n'}
+[7.864213] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/path.sh\n'}
+[7.877912] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/environment/path.dsv\n'}
+[7.880567] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.bash\n'}
+[7.886347] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.sh\n'}
+[7.889135] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.zsh\n'}
+[7.899587] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/local_setup.dsv\n'}
+[7.902108] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.dsv\n'}
+[7.937798] (-) TimerEvent: {}
+[8.020971] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/packages/cdcl_umd_msgs\n'}
+[8.023837] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.026591] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.029405] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.032309] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.037998] (-) TimerEvent: {}
+[8.041195] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.044333] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.047093] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.059643] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgsConfig.cmake\n'}
+[8.062054] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgsConfig-version.cmake\n'}
+[8.064665] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.xml\n'}
+[8.067939] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_generator_c.so\n'}
+[8.074933] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.087931] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.092515] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_c.so\n'}
+[8.110304] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.123247] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.135005] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_typesupport_cpp.so\n'}
+[8.138217] (-) TimerEvent: {}
+[8.241761] (-) TimerEvent: {}
+[8.345762] (-) TimerEvent: {}
+[8.446704] (-) TimerEvent: {}
+[8.547941] (-) TimerEvent: {}
+[8.648909] (-) TimerEvent: {}
+[8.675125] (cdcl_umd_msgs) StdoutLine: {'line': b"Listing '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs'...\n"}
+[8.676967] (cdcl_umd_msgs) StdoutLine: {'line': b"Listing '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages/cdcl_umd_msgs/msg'...\n"}
+[8.749125] (-) TimerEvent: {}
+[8.752141] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/libcdcl_umd_msgs__rosidl_generator_py.so\n'}
+[8.757603] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cExport.cmake\n'}
+[8.758504] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.770654] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.771524] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.785434] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.786532] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.794092] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.796419] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.800463] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.805225] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.806294] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.821983] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.822671] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.823102] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.823492] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/cdcl_umd_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.836244] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.837074] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/cmake/export_cdcl_umd_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.849342] (-) TimerEvent: {}
+[8.863778] (cdcl_umd_msgs) CommandEnded: {'returncode': 0}
+[8.949603] (-) TimerEvent: {}
+[9.054725] (-) TimerEvent: {}
+[9.156387] (-) TimerEvent: {}
+[9.258376] (-) TimerEvent: {}
+[9.360760] (-) TimerEvent: {}
+[9.462264] (-) TimerEvent: {}
+[9.563836] (-) TimerEvent: {}
+[9.669692] (-) TimerEvent: {}
+[9.771104] (-) TimerEvent: {}
+[9.872045] (-) TimerEvent: {}
+[9.973667] (-) TimerEvent: {}
+[10.075272] (-) TimerEvent: {}
+[10.176677] (-) TimerEvent: {}
+[10.278181] (-) TimerEvent: {}
+[10.379448] (-) TimerEvent: {}
+[10.493783] (-) TimerEvent: {}
+[10.504590] (cdcl_umd_msgs) JobEnded: {'identifier': 'cdcl_umd_msgs', 'rc': 0}
+[10.513454] (polar_h10) JobStarted: {'identifier': 'polar_h10'}
+[10.594116] (-) TimerEvent: {}
+[10.609568] (emotiv_insight) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jj/wearable-biosensors-ros2/build/emotiv_insight/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/emotiv_insight', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jj', 'OLDPWD': '/home/jj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P5O4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jj/wearable-biosensors-ros2/build/emotiv_insight', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jj/wearable-biosensors-ros2/build/emotiv_insight/prefix_override:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs'}, 'shell': False}
+[10.644382] (empatica_e4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jj/wearable-biosensors-ros2/build/empatica_e4/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/empatica_e4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jj', 'OLDPWD': '/home/jj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P5O4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jj/wearable-biosensors-ros2/build/empatica_e4', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs'}, 'shell': False}
+[10.704581] (-) TimerEvent: {}
+[10.805806] (-) TimerEvent: {}
+[10.906675] (-) TimerEvent: {}
+[11.007575] (-) TimerEvent: {}
+[11.109202] (-) TimerEvent: {}
+[11.210742] (-) TimerEvent: {}
+[11.311847] (-) TimerEvent: {}
+[11.412968] (-) TimerEvent: {}
+[11.525049] (-) TimerEvent: {}
+[11.629458] (-) TimerEvent: {}
+[11.733669] (-) TimerEvent: {}
+[11.835075] (-) TimerEvent: {}
+[11.938520] (-) TimerEvent: {}
+[12.040879] (-) TimerEvent: {}
+[12.149801] (-) TimerEvent: {}
+[12.253946] (-) TimerEvent: {}
+[12.356560] (-) TimerEvent: {}
+[12.460538] (-) TimerEvent: {}
+[12.567389] (-) TimerEvent: {}
+[12.668910] (-) TimerEvent: {}
+[12.770640] (-) TimerEvent: {}
+[12.874434] (-) TimerEvent: {}
+[12.976268] (-) TimerEvent: {}
+[13.078077] (-) TimerEvent: {}
+[13.179836] (-) TimerEvent: {}
+[13.286032] (-) TimerEvent: {}
+[13.387793] (-) TimerEvent: {}
+[13.489452] (-) TimerEvent: {}
+[13.598084] (-) TimerEvent: {}
+[13.701043] (-) TimerEvent: {}
+[13.804715] (-) TimerEvent: {}
+[13.908676] (-) TimerEvent: {}
+[14.012433] (-) TimerEvent: {}
+[14.122105] (-) TimerEvent: {}
+[14.224668] (-) TimerEvent: {}
+[14.329802] (-) TimerEvent: {}
+[14.433805] (-) TimerEvent: {}
+[14.535352] (-) TimerEvent: {}
+[14.637197] (-) TimerEvent: {}
+[14.738887] (-) TimerEvent: {}
+[14.838244] (empatica_e4) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[14.845337] (-) TimerEvent: {}
+[14.846716] (empatica_e4) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.910274] (emotiv_insight) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[14.911964] (emotiv_insight) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.946133] (-) TimerEvent: {}
+[15.049887] (-) TimerEvent: {}
+[15.153901] (-) TimerEvent: {}
+[15.256032] (-) TimerEvent: {}
+[15.370033] (-) TimerEvent: {}
+[15.429975] (shimmer3_gsr_unit) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jj', 'OLDPWD': '/home/jj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P5O4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs'}, 'shell': False}
+[15.470277] (-) TimerEvent: {}
+[15.578532] (-) TimerEvent: {}
+[15.679957] (-) TimerEvent: {}
+[15.715230] (emotiv_insight) StdoutLine: {'line': b'running develop\n'}
+[15.728423] (empatica_e4) StdoutLine: {'line': b'running develop\n'}
+[15.733428] (emotiv_insight) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.734294] (emotiv_insight) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.748658] (empatica_e4) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.752554] (empatica_e4) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.780554] (-) TimerEvent: {}
+[15.897832] (-) TimerEvent: {}
+[15.999461] (-) TimerEvent: {}
+[16.105787] (-) TimerEvent: {}
+[16.212014] (-) TimerEvent: {}
+[16.315437] (-) TimerEvent: {}
+[16.418444] (-) TimerEvent: {}
+[16.522084] (-) TimerEvent: {}
+[16.629103] (-) TimerEvent: {}
+[16.731985] (-) TimerEvent: {}
+[16.836816] (-) TimerEvent: {}
+[16.940650] (-) TimerEvent: {}
+[17.051092] (-) TimerEvent: {}
+[17.157902] (-) TimerEvent: {}
+[17.263421] (-) TimerEvent: {}
+[17.365990] (-) TimerEvent: {}
+[17.469088] (-) TimerEvent: {}
+[17.573029] (-) TimerEvent: {}
+[17.676748] (-) TimerEvent: {}
+[17.779711] (-) TimerEvent: {}
+[17.887461] (-) TimerEvent: {}
+[17.994212] (-) TimerEvent: {}
+[18.097841] (-) TimerEvent: {}
+[18.201231] (-) TimerEvent: {}
+[18.303611] (-) TimerEvent: {}
+[18.407600] (-) TimerEvent: {}
+[18.510636] (-) TimerEvent: {}
+[18.613707] (-) TimerEvent: {}
+[18.718636] (-) TimerEvent: {}
+[18.822741] (-) TimerEvent: {}
+[18.928430] (-) TimerEvent: {}
+[19.036411] (-) TimerEvent: {}
+[19.138307] (-) TimerEvent: {}
+[19.248018] (-) TimerEvent: {}
+[19.357880] (-) TimerEvent: {}
+[19.459423] (-) TimerEvent: {}
+[19.567303] (-) TimerEvent: {}
+[19.673869] (-) TimerEvent: {}
+[19.775868] (-) TimerEvent: {}
+[19.878391] (-) TimerEvent: {}
+[19.982413] (-) TimerEvent: {}
+[20.084452] (-) TimerEvent: {}
+[20.185776] (-) TimerEvent: {}
+[20.287642] (-) TimerEvent: {}
+[20.389242] (-) TimerEvent: {}
+[20.490936] (-) TimerEvent: {}
+[20.593942] (-) TimerEvent: {}
+[20.695783] (-) TimerEvent: {}
+[20.805790] (-) TimerEvent: {}
+[20.908250] (-) TimerEvent: {}
+[21.010062] (-) TimerEvent: {}
+[21.112552] (-) TimerEvent: {}
+[21.221710] (-) TimerEvent: {}
+[21.329878] (-) TimerEvent: {}
+[21.437898] (-) TimerEvent: {}
+[21.539603] (-) TimerEvent: {}
+[21.641865] (-) TimerEvent: {}
+[21.743931] (-) TimerEvent: {}
+[21.807905] (empatica_e4) StdoutLine: {'line': b'running egg_info\n'}
+[21.820798] (empatica_e4) StdoutLine: {'line': b'writing empatica_e4.egg-info/PKG-INFO\n'}
+[21.829920] (empatica_e4) StdoutLine: {'line': b'writing dependency_links to empatica_e4.egg-info/dependency_links.txt\n'}
+[21.840246] (empatica_e4) StdoutLine: {'line': b'writing entry points to empatica_e4.egg-info/entry_points.txt\n'}
+[21.841628] (empatica_e4) StdoutLine: {'line': b'writing requirements to empatica_e4.egg-info/requires.txt\n'}
+[21.850010] (empatica_e4) StdoutLine: {'line': b'writing top-level names to empatica_e4.egg-info/top_level.txt\n'}
+[21.851626] (-) TimerEvent: {}
+[21.875976] (empatica_e4) StdoutLine: {'line': b"reading manifest file 'empatica_e4.egg-info/SOURCES.txt'\n"}
+[21.888642] (empatica_e4) StdoutLine: {'line': b"writing manifest file 'empatica_e4.egg-info/SOURCES.txt'\n"}
+[21.923118] (empatica_e4) StdoutLine: {'line': b'running build_ext\n'}
+[21.929909] (empatica_e4) StdoutLine: {'line': b'Creating /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica-e4.egg-link (link to .)\n'}
+[21.946137] (empatica_e4) StdoutLine: {'line': b'Installing empatica_e4_node script to /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/empatica_e4\n'}
+[21.954202] (empatica_e4) StdoutLine: {'line': b'\n'}
+[21.955388] (-) TimerEvent: {}
+[21.970476] (empatica_e4) StdoutLine: {'line': b'Installed /home/jj/wearable-biosensors-ros2/build/empatica_e4\n'}
+[21.971217] (empatica_e4) StdoutLine: {'line': b'running symlink_data\n'}
+[22.029973] (emotiv_insight) StdoutLine: {'line': b'running egg_info\n'}
+[22.056279] (emotiv_insight) StdoutLine: {'line': b'writing emotiv_insight.egg-info/PKG-INFO\n'}
+[22.059196] (-) TimerEvent: {}
+[22.069528] (emotiv_insight) StdoutLine: {'line': b'writing dependency_links to emotiv_insight.egg-info/dependency_links.txt\n'}
+[22.074348] (emotiv_insight) StdoutLine: {'line': b'writing entry points to emotiv_insight.egg-info/entry_points.txt\n'}
+[22.075138] (emotiv_insight) StdoutLine: {'line': b'writing requirements to emotiv_insight.egg-info/requires.txt\n'}
+[22.075825] (emotiv_insight) StdoutLine: {'line': b'writing top-level names to emotiv_insight.egg-info/top_level.txt\n'}
+[22.096666] (emotiv_insight) StdoutLine: {'line': b"reading manifest file 'emotiv_insight.egg-info/SOURCES.txt'\n"}
+[22.102241] (emotiv_insight) StdoutLine: {'line': b"writing manifest file 'emotiv_insight.egg-info/SOURCES.txt'\n"}
+[22.131579] (emotiv_insight) StdoutLine: {'line': b'running build_ext\n'}
+[22.132924] (emotiv_insight) StdoutLine: {'line': b'Creating /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages/emotiv-insight.egg-link (link to .)\n'}
+[22.154852] (emotiv_insight) StdoutLine: {'line': b'Installing emotiv_insight_node script to /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/emotiv_insight\n'}
+[22.168913] (-) TimerEvent: {}
+[22.173270] (emotiv_insight) StdoutLine: {'line': b'\n'}
+[22.185178] (emotiv_insight) StdoutLine: {'line': b'Installed /home/jj/wearable-biosensors-ros2/build/emotiv_insight\n'}
+[22.186791] (emotiv_insight) StdoutLine: {'line': b'running symlink_data\n'}
+[22.269546] (-) TimerEvent: {}
+[22.372053] (-) TimerEvent: {}
+[22.484776] (-) TimerEvent: {}
+[22.639950] (-) TimerEvent: {}
+[22.745872] (-) TimerEvent: {}
+[22.803732] (shimmer3_gsr_unit) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[22.809124] (shimmer3_gsr_unit) StderrLine: {'line': b'  warnings.warn(\n'}
+[22.846520] (-) TimerEvent: {}
+[22.919017] (empatica_e4) CommandEnded: {'returncode': 0}
+[22.953737] (-) TimerEvent: {}
+[23.059450] (-) TimerEvent: {}
+[23.099091] (empatica_e4) JobEnded: {'identifier': 'empatica_e4', 'rc': 0}
+[23.110042] (vernier_respiration_belt) JobStarted: {'identifier': 'vernier_respiration_belt'}
+[23.160201] (-) TimerEvent: {}
+[23.265621] (-) TimerEvent: {}
+[23.326331] (emotiv_insight) CommandEnded: {'returncode': 0}
+[23.376187] (-) TimerEvent: {}
+[23.479004] (-) TimerEvent: {}
+[23.567664] (emotiv_insight) JobEnded: {'identifier': 'emotiv_insight', 'rc': 0}
+[23.580871] (-) TimerEvent: {}
+[23.678261] (shimmer3_gsr_unit) StdoutLine: {'line': b'running develop\n'}
+[23.679327] (shimmer3_gsr_unit) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[23.680083] (shimmer3_gsr_unit) StderrLine: {'line': b'  warnings.warn(\n'}
+[23.680983] (-) TimerEvent: {}
+[23.784850] (-) TimerEvent: {}
+[23.888142] (-) TimerEvent: {}
+[23.990633] (-) TimerEvent: {}
+[24.093278] (-) TimerEvent: {}
+[24.196118] (-) TimerEvent: {}
+[24.300555] (-) TimerEvent: {}
+[24.405164] (-) TimerEvent: {}
+[24.510991] (-) TimerEvent: {}
+[24.613906] (-) TimerEvent: {}
+[24.722716] (-) TimerEvent: {}
+[24.825959] (-) TimerEvent: {}
+[24.935610] (-) TimerEvent: {}
+[25.041313] (-) TimerEvent: {}
+[25.143624] (-) TimerEvent: {}
+[25.245911] (-) TimerEvent: {}
+[25.348899] (-) TimerEvent: {}
+[25.452246] (-) TimerEvent: {}
+[25.556321] (-) TimerEvent: {}
+[25.660128] (-) TimerEvent: {}
+[25.765867] (-) TimerEvent: {}
+[25.870759] (-) TimerEvent: {}
+[25.975488] (-) TimerEvent: {}
+[26.081608] (-) TimerEvent: {}
+[26.185874] (-) TimerEvent: {}
+[26.289536] (-) TimerEvent: {}
+[26.391350] (-) TimerEvent: {}
+[26.492533] (-) TimerEvent: {}
+[26.598634] (-) TimerEvent: {}
+[26.702774] (-) TimerEvent: {}
+[26.809652] (-) TimerEvent: {}
+[26.911717] (-) TimerEvent: {}
+[27.015139] (-) TimerEvent: {}
+[27.117286] (-) TimerEvent: {}
+[27.219954] (-) TimerEvent: {}
+[27.322615] (-) TimerEvent: {}
+[27.332029] (shimmer3_gsr_unit) StdoutLine: {'line': b'running egg_info\n'}
+[27.345291] (shimmer3_gsr_unit) StdoutLine: {'line': b'writing shimmer3_gsr_unit.egg-info/PKG-INFO\n'}
+[27.350765] (shimmer3_gsr_unit) StdoutLine: {'line': b'writing dependency_links to shimmer3_gsr_unit.egg-info/dependency_links.txt\n'}
+[27.360204] (shimmer3_gsr_unit) StdoutLine: {'line': b'writing entry points to shimmer3_gsr_unit.egg-info/entry_points.txt\n'}
+[27.370115] (shimmer3_gsr_unit) StdoutLine: {'line': b'writing requirements to shimmer3_gsr_unit.egg-info/requires.txt\n'}
+[27.371747] (shimmer3_gsr_unit) StdoutLine: {'line': b'writing top-level names to shimmer3_gsr_unit.egg-info/top_level.txt\n'}
+[27.408157] (shimmer3_gsr_unit) StdoutLine: {'line': b"reading manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'\n"}
+[27.418903] (shimmer3_gsr_unit) StdoutLine: {'line': b"writing manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'\n"}
+[27.422920] (-) TimerEvent: {}
+[27.445325] (shimmer3_gsr_unit) StdoutLine: {'line': b'running build_ext\n'}
+[27.449238] (shimmer3_gsr_unit) StdoutLine: {'line': b'Creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3-gsr-unit.egg-link (link to .)\n'}
+[27.465340] (shimmer3_gsr_unit) StdoutLine: {'line': b'Installing shimmer_gsr_ppg_node script to /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/shimmer3_gsr_unit\n'}
+[27.466716] (shimmer3_gsr_unit) StdoutLine: {'line': b'\n'}
+[27.468647] (shimmer3_gsr_unit) StdoutLine: {'line': b'Installed /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit\n'}
+[27.480564] (shimmer3_gsr_unit) StdoutLine: {'line': b'running symlink_data\n'}
+[27.523259] (-) TimerEvent: {}
+[27.630247] (-) TimerEvent: {}
+[27.733895] (-) TimerEvent: {}
+[27.837869] (-) TimerEvent: {}
+[27.945977] (-) TimerEvent: {}
+[28.049268] (-) TimerEvent: {}
+[28.154484] (-) TimerEvent: {}
+[28.261327] (-) TimerEvent: {}
+[28.323198] (shimmer3_gsr_unit) CommandEnded: {'returncode': 0}
+[28.361798] (-) TimerEvent: {}
+[28.431817] (shimmer3_gsr_unit) JobEnded: {'identifier': 'shimmer3_gsr_unit', 'rc': 0}
+[28.443456] (polar_h10) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jj/wearable-biosensors-ros2/build/polar_h10/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/polar_h10', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jj', 'OLDPWD': '/home/jj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P5O4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jj/wearable-biosensors-ros2/build/polar_h10', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager'}, 'shell': False}
+[28.477264] (-) TimerEvent: {}
+[28.579073] (-) TimerEvent: {}
+[28.682419] (-) TimerEvent: {}
+[28.785825] (-) TimerEvent: {}
+[28.888229] (-) TimerEvent: {}
+[28.991193] (-) TimerEvent: {}
+[29.095604] (-) TimerEvent: {}
+[29.199860] (-) TimerEvent: {}
+[29.304666] (-) TimerEvent: {}
+[29.413896] (-) TimerEvent: {}
+[29.517814] (-) TimerEvent: {}
+[29.620432] (-) TimerEvent: {}
+[29.724933] (-) TimerEvent: {}
+[29.828115] (-) TimerEvent: {}
+[29.933336] (-) TimerEvent: {}
+[30.035077] (-) TimerEvent: {}
+[30.137824] (-) TimerEvent: {}
+[30.241767] (-) TimerEvent: {}
+[30.345803] (-) TimerEvent: {}
+[30.448671] (-) TimerEvent: {}
+[30.553066] (-) TimerEvent: {}
+[30.665077] (-) TimerEvent: {}
+[30.767711] (-) TimerEvent: {}
+[30.870515] (-) TimerEvent: {}
+[30.972395] (-) TimerEvent: {}
+[31.080621] (-) TimerEvent: {}
+[31.182690] (-) TimerEvent: {}
+[31.285307] (-) TimerEvent: {}
+[31.393820] (-) TimerEvent: {}
+[31.497785] (-) TimerEvent: {}
+[31.599867] (-) TimerEvent: {}
+[31.702462] (-) TimerEvent: {}
+[31.803920] (-) TimerEvent: {}
+[31.913793] (-) TimerEvent: {}
+[32.016990] (-) TimerEvent: {}
+[32.123172] (-) TimerEvent: {}
+[32.225215] (-) TimerEvent: {}
+[32.328448] (-) TimerEvent: {}
+[32.430707] (-) TimerEvent: {}
+[32.532791] (-) TimerEvent: {}
+[32.555296] (polar_h10) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[32.557402] (polar_h10) StderrLine: {'line': b'  warnings.warn(\n'}
+[32.640613] (-) TimerEvent: {}
+[32.742257] (-) TimerEvent: {}
+[32.844224] (-) TimerEvent: {}
+[32.945681] (-) TimerEvent: {}
+[33.008634] (polar_h10) StdoutLine: {'line': b'running develop\n'}
+[33.016730] (polar_h10) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[33.018702] (polar_h10) StderrLine: {'line': b'  warnings.warn(\n'}
+[33.048694] (-) TimerEvent: {}
+[33.150554] (-) TimerEvent: {}
+[33.252924] (-) TimerEvent: {}
+[33.354632] (-) TimerEvent: {}
+[33.462300] (-) TimerEvent: {}
+[33.564106] (-) TimerEvent: {}
+[33.666860] (-) TimerEvent: {}
+[33.735714] (vernier_respiration_belt) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jj', 'OLDPWD': '/home/jj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P5O4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager'}, 'shell': False}
+[33.767158] (-) TimerEvent: {}
+[33.872344] (-) TimerEvent: {}
+[33.977757] (-) TimerEvent: {}
+[34.079879] (-) TimerEvent: {}
+[34.182069] (-) TimerEvent: {}
+[34.284277] (-) TimerEvent: {}
+[34.386592] (-) TimerEvent: {}
+[34.488332] (-) TimerEvent: {}
+[34.592176] (-) TimerEvent: {}
+[34.694092] (-) TimerEvent: {}
+[34.795646] (-) TimerEvent: {}
+[34.897052] (-) TimerEvent: {}
+[34.999318] (-) TimerEvent: {}
+[35.101042] (-) TimerEvent: {}
+[35.203376] (-) TimerEvent: {}
+[35.305914] (-) TimerEvent: {}
+[35.409071] (-) TimerEvent: {}
+[35.511968] (-) TimerEvent: {}
+[35.613674] (-) TimerEvent: {}
+[35.716111] (-) TimerEvent: {}
+[35.822264] (-) TimerEvent: {}
+[35.925185] (-) TimerEvent: {}
+[36.030339] (-) TimerEvent: {}
+[36.133761] (-) TimerEvent: {}
+[36.237561] (-) TimerEvent: {}
+[36.341955] (-) TimerEvent: {}
+[36.444233] (-) TimerEvent: {}
+[36.550044] (-) TimerEvent: {}
+[36.662525] (-) TimerEvent: {}
+[36.679121] (polar_h10) StdoutLine: {'line': b'running egg_info\n'}
+[36.685678] (polar_h10) StdoutLine: {'line': b'writing polar_h10.egg-info/PKG-INFO\n'}
+[36.692060] (polar_h10) StdoutLine: {'line': b'writing dependency_links to polar_h10.egg-info/dependency_links.txt\n'}
+[36.695918] (polar_h10) StdoutLine: {'line': b'writing entry points to polar_h10.egg-info/entry_points.txt\n'}
+[36.697040] (polar_h10) StdoutLine: {'line': b'writing requirements to polar_h10.egg-info/requires.txt\n'}
+[36.703286] (polar_h10) StdoutLine: {'line': b'writing top-level names to polar_h10.egg-info/top_level.txt\n'}
+[36.721295] (polar_h10) StdoutLine: {'line': b"reading manifest file 'polar_h10.egg-info/SOURCES.txt'\n"}
+[36.730374] (polar_h10) StdoutLine: {'line': b"writing manifest file 'polar_h10.egg-info/SOURCES.txt'\n"}
+[36.748633] (polar_h10) StdoutLine: {'line': b'running build_ext\n'}
+[36.749925] (polar_h10) StdoutLine: {'line': b'Creating /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar-h10.egg-link (link to .)\n'}
+[36.757565] (polar_h10) StdoutLine: {'line': b'Installing polar_h10_node script to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/polar_h10\n'}
+[36.763857] (polar_h10) StdoutLine: {'line': b'\n'}
+[36.766892] (-) TimerEvent: {}
+[36.790798] (polar_h10) StdoutLine: {'line': b'Installed /home/jj/wearable-biosensors-ros2/build/polar_h10\n'}
+[36.812647] (polar_h10) StdoutLine: {'line': b'running symlink_data\n'}
+[36.867713] (-) TimerEvent: {}
+[36.974048] (-) TimerEvent: {}
+[37.078006] (-) TimerEvent: {}
+[37.172644] (polar_h10) CommandEnded: {'returncode': 0}
+[37.183440] (-) TimerEvent: {}
+[37.288847] (-) TimerEvent: {}
+[37.297309] (polar_h10) JobEnded: {'identifier': 'polar_h10', 'rc': 0}
+[37.389117] (-) TimerEvent: {}
+[37.490804] (-) TimerEvent: {}
+[37.575817] (vernier_respiration_belt) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[37.578446] (vernier_respiration_belt) StderrLine: {'line': b'  warnings.warn(\n'}
+[37.591278] (-) TimerEvent: {}
+[37.694922] (-) TimerEvent: {}
+[37.797323] (-) TimerEvent: {}
+[37.901767] (-) TimerEvent: {}
+[38.002876] (-) TimerEvent: {}
+[38.007158] (vernier_respiration_belt) StdoutLine: {'line': b'running develop\n'}
+[38.010150] (vernier_respiration_belt) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[38.011383] (vernier_respiration_belt) StderrLine: {'line': b'  warnings.warn(\n'}
+[38.103418] (-) TimerEvent: {}
+[38.206137] (-) TimerEvent: {}
+[38.307609] (-) TimerEvent: {}
+[38.410873] (-) TimerEvent: {}
+[38.514535] (-) TimerEvent: {}
+[38.617750] (-) TimerEvent: {}
+[38.719322] (-) TimerEvent: {}
+[38.820784] (-) TimerEvent: {}
+[38.922261] (-) TimerEvent: {}
+[39.025735] (-) TimerEvent: {}
+[39.128201] (-) TimerEvent: {}
+[39.230853] (-) TimerEvent: {}
+[39.332320] (-) TimerEvent: {}
+[39.433683] (-) TimerEvent: {}
+[39.535081] (-) TimerEvent: {}
+[39.636086] (-) TimerEvent: {}
+[39.737715] (-) TimerEvent: {}
+[39.839297] (-) TimerEvent: {}
+[39.943045] (-) TimerEvent: {}
+[40.044532] (-) TimerEvent: {}
+[40.145863] (-) TimerEvent: {}
+[40.247361] (-) TimerEvent: {}
+[40.348957] (-) TimerEvent: {}
+[40.450053] (-) TimerEvent: {}
+[40.550869] (-) TimerEvent: {}
+[40.651704] (-) TimerEvent: {}
+[40.735970] (vernier_respiration_belt) StdoutLine: {'line': b'running egg_info\n'}
+[40.737132] (vernier_respiration_belt) StdoutLine: {'line': b'writing vernier_respiration_belt.egg-info/PKG-INFO\n'}
+[40.738756] (vernier_respiration_belt) StdoutLine: {'line': b'writing dependency_links to vernier_respiration_belt.egg-info/dependency_links.txt\n'}
+[40.739796] (vernier_respiration_belt) StdoutLine: {'line': b'writing entry points to vernier_respiration_belt.egg-info/entry_points.txt\n'}
+[40.741128] (vernier_respiration_belt) StdoutLine: {'line': b'writing requirements to vernier_respiration_belt.egg-info/requires.txt\n'}
+[40.742289] (vernier_respiration_belt) StdoutLine: {'line': b'writing top-level names to vernier_respiration_belt.egg-info/top_level.txt\n'}
+[40.751956] (-) TimerEvent: {}
+[40.753849] (vernier_respiration_belt) StdoutLine: {'line': b"reading manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'\n"}
+[40.762422] (vernier_respiration_belt) StdoutLine: {'line': b"writing manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'\n"}
+[40.774128] (vernier_respiration_belt) StdoutLine: {'line': b'running build_ext\n'}
+[40.775168] (vernier_respiration_belt) StdoutLine: {'line': b'Creating /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages/vernier-respiration-belt.egg-link (link to .)\n'}
+[40.781182] (vernier_respiration_belt) StdoutLine: {'line': b'Installing vernier_respiration_belt_node script to /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt\n'}
+[40.783309] (vernier_respiration_belt) StdoutLine: {'line': b'\n'}
+[40.784536] (vernier_respiration_belt) StdoutLine: {'line': b'Installed /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt\n'}
+[40.786462] (vernier_respiration_belt) StdoutLine: {'line': b'running symlink_data\n'}
+[40.852338] (-) TimerEvent: {}
+[40.953969] (-) TimerEvent: {}
+[40.974216] (vernier_respiration_belt) CommandEnded: {'returncode': 0}
+[41.050656] (vernier_respiration_belt) JobEnded: {'identifier': 'vernier_respiration_belt', 'rc': 0}
+[41.054466] (-) TimerEvent: {}
+[41.056726] (manager) JobStarted: {'identifier': 'manager'}
+[41.146236] (manager) JobProgress: {'identifier': 'manager', 'progress': 'cmake'}
+[41.151859] (manager) JobProgress: {'identifier': 'manager', 'progress': 'build'}
+[41.153270] (manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jj/wearable-biosensors-ros2/build/manager', '--', '-j4', '-l4'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P5O4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[41.165208] (-) TimerEvent: {}
+[41.266008] (-) TimerEvent: {}
+[41.366933] (-) TimerEvent: {}
+[41.383528] (manager) CommandEnded: {'returncode': 0}
+[41.467133] (-) TimerEvent: {}
+[41.542404] (manager) JobProgress: {'identifier': 'manager', 'progress': 'install'}
+[41.549559] (manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jj/wearable-biosensors-ros2/build/manager'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1324,unix/jjpc:/tmp/.ICE-unix/1324'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa61ea64_3932_4594_8856_3def5f661d5b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P5O4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[41.567449] (-) TimerEvent: {}
+[41.592252] (manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.602672] (manager) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.603990] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/launch/collector.launch.py\n'}
+[41.608251] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/package_run_dependencies/manager\n'}
+[41.609676] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/parent_prefix_path/manager\n'}
+[41.618174] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.sh\n'}
+[41.619213] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.dsv\n'}
+[41.619891] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.sh\n'}
+[41.620330] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.dsv\n'}
+[41.620736] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.bash\n'}
+[41.621307] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.sh\n'}
+[41.622138] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.zsh\n'}
+[41.622592] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.dsv\n'}
+[41.623056] (manager) StdoutLine: {'line': b'-- Symlinking: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.dsv\n'}
+[41.669935] (-) TimerEvent: {}
+[41.674047] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/packages/manager\n'}
+[41.676257] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig.cmake\n'}
+[41.681802] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig-version.cmake\n'}
+[41.688888] (manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.xml\n'}
+[41.696704] (manager) CommandEnded: {'returncode': 0}
+[41.770091] (-) TimerEvent: {}
+[41.870872] (-) TimerEvent: {}
+[41.949274] (manager) JobEnded: {'identifier': 'manager', 'rc': 0}
+[41.952830] (-) EventReactorShutdown: {}

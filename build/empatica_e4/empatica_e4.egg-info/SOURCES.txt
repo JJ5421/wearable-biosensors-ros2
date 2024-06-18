@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+empatica_e4/__init__.py
+empatica_e4/empatica_e4_node.py
+empatica_e4.egg-info/PKG-INFO
+empatica_e4.egg-info/SOURCES.txt
+empatica_e4.egg-info/dependency_links.txt
+empatica_e4.egg-info/entry_points.txt
+empatica_e4.egg-info/requires.txt
+empatica_e4.egg-info/top_level.txt
+empatica_e4.egg-info/zip-safe
+launch/ros2-empatica_E4.launch.py
+resource/empatica_e4

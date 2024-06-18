@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing vernier_respiration_belt.egg-info/PKG-INFO
+writing dependency_links to vernier_respiration_belt.egg-info/dependency_links.txt
+writing entry points to vernier_respiration_belt.egg-info/entry_points.txt
+writing requirements to vernier_respiration_belt.egg-info/requires.txt
+writing top-level names to vernier_respiration_belt.egg-info/top_level.txt
+reading manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+writing manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages/vernier-respiration-belt.egg-link (link to .)
+Installing vernier_respiration_belt_node script to /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt
+
+Installed /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt
+running symlink_data

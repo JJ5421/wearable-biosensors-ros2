@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating shimmer3_gsr_unit.egg-info
+writing shimmer3_gsr_unit.egg-info/PKG-INFO
+writing dependency_links to shimmer3_gsr_unit.egg-info/dependency_links.txt
+writing entry points to shimmer3_gsr_unit.egg-info/entry_points.txt
+writing requirements to shimmer3_gsr_unit.egg-info/requires.txt
+writing top-level names to shimmer3_gsr_unit.egg-info/top_level.txt
+writing manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'
+reading manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'
+writing manifest file 'shimmer3_gsr_unit.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3-gsr-unit.egg-link (link to .)
+Installing shimmer_gsr_ppg_node script to /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/shimmer3_gsr_unit
+
+Installed /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit
+running symlink_data
+creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index
+creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index
+creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index/packages
+symbolically linking /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/resource/shimmer3_gsr_unit -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index/packages
+symbolically linking /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/package.xml -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit
+symbolically linking /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/launch/ros2-shimmer3_gsr.launch.py -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit

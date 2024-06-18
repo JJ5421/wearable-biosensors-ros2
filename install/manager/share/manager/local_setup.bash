@@ -1,0 +1,1 @@
+/home/jj/wearable-biosensors-ros2/build/manager/ament_cmake_environment_hooks/local_setup.bash

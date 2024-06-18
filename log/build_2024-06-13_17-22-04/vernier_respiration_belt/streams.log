@@ -1,0 +1,22 @@
+[6.246s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data
+[7.924s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.924s]   warnings.warn(
+[8.130s] running develop
+[8.131s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.132s]   warnings.warn(
+[9.225s] running egg_info
+[9.225s] writing vernier_respiration_belt.egg-info/PKG-INFO
+[9.227s] writing dependency_links to vernier_respiration_belt.egg-info/dependency_links.txt
+[9.228s] writing entry points to vernier_respiration_belt.egg-info/entry_points.txt
+[9.229s] writing requirements to vernier_respiration_belt.egg-info/requires.txt
+[9.230s] writing top-level names to vernier_respiration_belt.egg-info/top_level.txt
+[9.238s] package init file 'vernier_respiration_belt/gdx/__init__.py' not found (or not a regular file)
+[9.240s] reading manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[9.245s] writing manifest file 'vernier_respiration_belt.egg-info/SOURCES.txt'
+[9.252s] running build_ext
+[9.253s] Creating /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages/vernier-respiration-belt.egg-link (link to .)
+[9.258s] Installing vernier_respiration_belt_node script to /home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt
+[9.260s] 
+[9.260s] Installed /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt
+[9.261s] running symlink_data
+[9.482s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data

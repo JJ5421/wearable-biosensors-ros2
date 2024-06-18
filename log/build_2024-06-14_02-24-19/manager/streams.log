@@ -1,0 +1,25 @@
+[16.532s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/manager': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/manager/prefix_override:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/manager/build --no-deps symlink_data
+[22.992s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[22.993s]   warnings.warn(
+[23.006s] running develop
+[26.242s] running egg_info
+[26.243s] creating manager.egg-info
+[26.249s] writing manager.egg-info/PKG-INFO
+[26.255s] writing dependency_links to manager.egg-info/dependency_links.txt
+[26.261s] writing entry points to manager.egg-info/entry_points.txt
+[26.267s] writing requirements to manager.egg-info/requires.txt
+[26.272s] writing top-level names to manager.egg-info/top_level.txt
+[26.295s] writing manifest file 'manager.egg-info/SOURCES.txt'
+[26.320s] reading manifest file 'manager.egg-info/SOURCES.txt'
+[26.330s] writing manifest file 'manager.egg-info/SOURCES.txt'
+[26.346s] running build_ext
+[26.347s] Creating /home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages/manager.egg-link (link to .)
+[26.357s] 
+[26.360s] Installed /home/jj/wearable-biosensors-ros2/build/manager
+[26.363s] running symlink_data
+[26.363s] creating /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index
+[26.366s] creating /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index
+[26.369s] creating /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/packages
+[26.375s] symbolically linking /home/jj/wearable-biosensors-ros2/build/manager/resource/manager -> /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/packages
+[26.382s] symbolically linking /home/jj/wearable-biosensors-ros2/build/manager/package.xml -> /home/jj/wearable-biosensors-ros2/install/manager/share/manager
+[26.819s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/manager' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/manager/prefix_override:/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/manager/build --no-deps symlink_data

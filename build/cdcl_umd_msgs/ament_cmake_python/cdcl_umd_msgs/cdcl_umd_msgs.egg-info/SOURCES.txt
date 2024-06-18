@@ -1,0 +1,8 @@
+setup.py
+cdcl_umd_msgs/__init__.py
+cdcl_umd_msgs.egg-info/PKG-INFO
+cdcl_umd_msgs.egg-info/SOURCES.txt
+cdcl_umd_msgs.egg-info/dependency_links.txt
+cdcl_umd_msgs.egg-info/top_level.txt
+cdcl_umd_msgs/msg/__init__.py
+cdcl_umd_msgs/msg/_vitals.py

@@ -1,0 +1,45 @@
+[7.698s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/polar_h10': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data
+[8.660s] /home/jj/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[8.665s] !!
+[8.670s] 
+[8.674s]         ********************************************************************************
+[8.679s]         Usage of dash-separated 'script-dir' will not be supported in future
+[8.685s]         versions. Please use the underscore name 'script_dir' instead.
+[8.690s] 
+[8.693s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[8.697s]         or your builds will no longer be supported.
+[8.703s] 
+[8.707s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[8.710s]         ********************************************************************************
+[8.714s] 
+[8.719s] !!
+[8.723s]   opt = self.warn_dash_deprecation(opt, section)
+[10.183s] running develop
+[10.184s] /home/jj/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.184s] !!
+[10.185s] 
+[10.186s]         ********************************************************************************
+[10.186s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.187s]         Instead, use pypa/build, pypa/installer or other
+[10.187s]         standards-based tools.
+[10.188s] 
+[10.188s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.189s]         ********************************************************************************
+[10.190s] 
+[10.191s] !!
+[10.192s]   easy_install.initialize_options(self)
+[11.789s] running egg_info
+[11.898s] writing polar_h10.egg-info/PKG-INFO
+[11.900s] writing dependency_links to polar_h10.egg-info/dependency_links.txt
+[11.901s] writing entry points to polar_h10.egg-info/entry_points.txt
+[11.903s] writing requirements to polar_h10.egg-info/requires.txt
+[11.905s] writing top-level names to polar_h10.egg-info/top_level.txt
+[12.127s] reading manifest file 'polar_h10.egg-info/SOURCES.txt'
+[12.138s] writing manifest file 'polar_h10.egg-info/SOURCES.txt'
+[12.358s] running build_ext
+[12.361s] Creating /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar-h10.egg-link (link to .)
+[12.362s] Installing polar_h10_node script to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/polar_h10
+[12.364s] 
+[12.365s] Installed /home/jj/wearable-biosensors-ros2/build/polar_h10
+[12.367s] running symlink_data
+[12.567s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/polar_h10' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data

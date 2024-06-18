@@ -1,0 +1,457 @@
+[0.586s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbcf9aa40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd0cb040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd0cb040>>, mixin_verb=('build',))
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.801s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jj/wearable-biosensors-ros2'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'ros'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['cmake', 'python']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'cmake'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(cdcl:humble-jammy-biosensors) by extension 'python_setup_py'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ignore', 'ignore_ament_install']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore_ament_install'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_pkg']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_pkg'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ros'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['cmake', 'python']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'cmake'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['python_setup_py']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python_setup_py'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'ros'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['cmake', 'python']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'cmake'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'python'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extensions ['python_setup_py']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(media/contributors) by extension 'python_setup_py'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'ignore'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'ignore_ament_install'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['colcon_pkg']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'colcon_meta'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['ros']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'ros'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['cmake', 'python']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'cmake'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'python'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extensions ['python_setup_py']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(media/img) by extension 'python_setup_py'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/cdcl_umd_msgs) by extension 'ros'
+[0.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cdcl_umd_msgs' with type 'ros.ament_python' and name 'cdcl_umd_msgs'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotiv_insight) by extension 'ros'
+[0.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emotiv_insight' with type 'ros.ament_python' and name 'emotiv_insight'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extensions ['colcon_pkg']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/empatica_e4) by extension 'ros'
+[0.927s] DEBUG:colcon.colcon_core.package_identification:Package 'src/empatica_e4' with type 'ros.ament_python' and name 'empatica_e4'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extensions ['ignore', 'ignore_ament_install']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extension 'ignore'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extension 'colcon_pkg'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extensions ['colcon_meta']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extension 'colcon_meta'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extensions ['ros']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/polar_h10) by extension 'ros'
+[0.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polar_h10' with type 'ros.ament_python' and name 'polar_h10'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/shimmer3_gsr_unit) by extension 'ros'
+[0.939s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shimmer3_gsr_unit' with type 'ros.ament_python' and name 'shimmer3_gsr_unit'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vernier_respiration_belt) by extension 'ros'
+[0.944s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vernier_respiration_belt' with type 'ros.ament_python' and name 'vernier_respiration_belt'
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.063s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jj/wearable-biosensors-ros2/install
+[1.074s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.327s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_args' from command line to 'None'
+[1.328s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_target' from command line to 'None'
+[1.328s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.328s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.329s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.329s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.329s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.329s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.330s] Level 5:colcon.colcon_core.verb:set package 'cdcl_umd_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.330s] DEBUG:colcon.colcon_core.verb:Building package 'cdcl_umd_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_args' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_target' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_clean_cache' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'emotiv_insight' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.336s] DEBUG:colcon.colcon_core.verb:Building package 'emotiv_insight' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/emotiv_insight', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/emotiv_insight', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/emotiv_insight', 'symlink_install': True, 'test_result_base': None}
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_args' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_target' from command line to 'None'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_clean_cache' from command line to 'False'
+[1.339s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_clean_first' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'cmake_force_configure' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'ament_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'catkin_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'empatica_e4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.340s] DEBUG:colcon.colcon_core.verb:Building package 'empatica_e4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/empatica_e4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/empatica_e4', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/empatica_e4', 'symlink_install': True, 'test_result_base': None}
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_args' from command line to 'None'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_target' from command line to 'None'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_clean_first' from command line to 'False'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'cmake_force_configure' from command line to 'False'
+[1.343s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'ament_cmake_args' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'shimmer3_gsr_unit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.344s] DEBUG:colcon.colcon_core.verb:Building package 'shimmer3_gsr_unit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/shimmer3_gsr_unit', 'symlink_install': True, 'test_result_base': None}
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_target' from command line to 'None'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_clean_cache' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_clean_first' from command line to 'False'
+[1.349s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'cmake_force_configure' from command line to 'False'
+[1.349s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'ament_cmake_args' from command line to 'None'
+[1.349s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'catkin_cmake_args' from command line to 'None'
+[1.349s] Level 5:colcon.colcon_core.verb:set package 'polar_h10' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.349s] DEBUG:colcon.colcon_core.verb:Building package 'polar_h10' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/polar_h10', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/polar_h10', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/polar_h10', 'symlink_install': True, 'test_result_base': None}
+[1.352s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_args' from command line to 'None'
+[1.352s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_target' from command line to 'None'
+[1.352s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.352s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_clean_cache' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_clean_first' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'cmake_force_configure' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'ament_cmake_args' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'catkin_cmake_args' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'vernier_respiration_belt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.353s] DEBUG:colcon.colcon_core.verb:Building package 'vernier_respiration_belt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt', 'merge_install': False, 'path': '/home/jj/wearable-biosensors-ros2/src/vernier_respiration_belt', 'symlink_install': True, 'test_result_base': None}
+[1.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.364s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs' with build type 'ament_python'
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('cdcl_umd_msgs', 'ament_prefix_path')
+[1.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/ament_prefix_path.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/ament_prefix_path.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/ament_prefix_path.sh'
+[1.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/emotiv_insight' with build type 'ament_python'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotiv_insight', 'ament_prefix_path')
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/ament_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/ament_prefix_path.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/ament_prefix_path.sh'
+[1.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.537s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/empatica_e4' with build type 'ament_python'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('empatica_e4', 'ament_prefix_path')
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/ament_prefix_path.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/ament_prefix_path.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/ament_prefix_path.sh'
+[1.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.579s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/shimmer3_gsr_unit' with build type 'ament_python'
+[1.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('shimmer3_gsr_unit', 'ament_prefix_path')
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/ament_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/ament_prefix_path.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/ament_prefix_path.sh'
+[1.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.854s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs'
+[2.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/emotiv_insight'
+[4.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.056s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/empatica_e4'
+[7.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/shimmer3_gsr_unit'
+[9.297s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build --no-deps symlink_data
+[17.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/prefix_override:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/build --no-deps symlink_data
+[21.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/emotiv_insight': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/emotiv_insight/prefix_override:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/emotiv_insight/build --no-deps symlink_data
+[22.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build --no-deps symlink_data
+[32.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('shimmer3_gsr_unit', 'pythonpath_develop')
+[32.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath_develop.ps1'
+[32.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build --no-deps symlink_data
+[32.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath_develop.dsv'
+[32.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath_develop.sh'
+[32.240s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit' for CMake module files
+[32.244s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit' for CMake config files
+[32.250s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib'
+[32.260s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/bin'
+[32.262s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/pkgconfig/shimmer3_gsr_unit.pc'
+[32.264s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages'
+[32.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('shimmer3_gsr_unit', 'pythonpath')
+[32.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath.ps1'
+[32.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath.dsv'
+[32.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/hook/pythonpath.sh'
+[32.298s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/bin'
+[32.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shimmer3_gsr_unit)
+[32.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/package.ps1'
+[32.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/package.dsv'
+[32.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/package.sh'
+[32.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/package.bash'
+[32.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit/package.zsh'
+[32.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/colcon-core/packages/shimmer3_gsr_unit)
+[33.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotiv_insight', 'pythonpath_develop')
+[33.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.ps1'
+[33.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/emotiv_insight' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/emotiv_insight/prefix_override:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/emotiv_insight/build --no-deps symlink_data
+[33.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.dsv'
+[33.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.sh'
+[33.317s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight' for CMake module files
+[33.324s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight' for CMake config files
+[33.332s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib'
+[33.334s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/bin'
+[33.335s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/pkgconfig/emotiv_insight.pc'
+[33.338s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages'
+[33.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotiv_insight', 'pythonpath')
+[33.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/pythonpath.ps1'
+[33.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/pythonpath.dsv'
+[33.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/hook/pythonpath.sh'
+[33.369s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/bin'
+[33.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emotiv_insight)
+[33.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/package.ps1'
+[33.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/package.dsv'
+[33.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/package.sh'
+[33.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/package.bash'
+[33.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight/package.zsh'
+[33.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/colcon-core/packages/emotiv_insight)
+[33.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('empatica_e4', 'pythonpath_develop')
+[33.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.ps1'
+[33.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build --no-deps symlink_data
+[33.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.dsv'
+[33.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.sh'
+[33.443s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4' for CMake module files
+[33.446s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4' for CMake config files
+[33.450s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib'
+[33.450s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4/bin'
+[33.451s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/pkgconfig/empatica_e4.pc'
+[33.452s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages'
+[33.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('empatica_e4', 'pythonpath')
+[33.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/pythonpath.ps1'
+[33.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/pythonpath.dsv'
+[33.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/hook/pythonpath.sh'
+[33.467s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/empatica_e4/bin'
+[33.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(empatica_e4)
+[33.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/package.ps1'
+[33.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/package.dsv'
+[33.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/package.sh'
+[33.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/package.bash'
+[33.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4/package.zsh'
+[33.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/empatica_e4/share/colcon-core/packages/empatica_e4)
+[34.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('cdcl_umd_msgs', 'pythonpath_develop')
+[34.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath_develop.ps1'
+[34.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/prefix_override:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/build --no-deps symlink_data
+[34.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath_develop.dsv'
+[34.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath_develop.sh'
+[34.030s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs' for CMake module files
+[34.033s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs' for CMake config files
+[34.037s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib'
+[34.038s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/bin'
+[34.038s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/pkgconfig/cdcl_umd_msgs.pc'
+[34.039s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages'
+[34.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('cdcl_umd_msgs', 'pythonpath')
+[34.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath.ps1'
+[34.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath.dsv'
+[34.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/hook/pythonpath.sh'
+[34.053s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/bin'
+[34.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cdcl_umd_msgs)
+[34.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.ps1'
+[34.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.dsv'
+[34.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.sh'
+[34.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.bash'
+[34.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs/package.zsh'
+[34.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/colcon-core/packages/cdcl_umd_msgs)
+[34.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/polar_h10' with build type 'ament_python'
+[34.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('polar_h10', 'ament_prefix_path')
+[34.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/ament_prefix_path.ps1'
+[34.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/ament_prefix_path.dsv'
+[34.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/ament_prefix_path.sh'
+[34.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.110s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jj/wearable-biosensors-ros2/src/vernier_respiration_belt' with build type 'ament_python'
+[34.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('vernier_respiration_belt', 'ament_prefix_path')
+[34.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/ament_prefix_path.ps1'
+[34.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/ament_prefix_path.dsv'
+[34.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/ament_prefix_path.sh'
+[34.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/polar_h10'
+[35.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.823s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jj/wearable-biosensors-ros2/src/vernier_respiration_belt'
+[37.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data
+[41.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jj/wearable-biosensors-ros2/build/polar_h10': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data
+[46.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('vernier_respiration_belt', 'pythonpath_develop')
+[46.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.ps1'
+[46.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/prefix_override:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/build --no-deps symlink_data
+[46.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.dsv'
+[46.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.sh'
+[46.426s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt' for CMake module files
+[46.429s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt' for CMake config files
+[46.433s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib'
+[46.434s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/bin'
+[46.435s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/pkgconfig/vernier_respiration_belt.pc'
+[46.437s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages'
+[46.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('vernier_respiration_belt', 'pythonpath')
+[46.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath.ps1'
+[46.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath.dsv'
+[46.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath.sh'
+[46.457s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/bin'
+[46.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vernier_respiration_belt)
+[46.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/package.ps1'
+[46.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/package.dsv'
+[46.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/package.sh'
+[46.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/package.bash'
+[46.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/vernier_respiration_belt/package.zsh'
+[46.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/share/colcon-core/packages/vernier_respiration_belt)
+[46.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('polar_h10', 'pythonpath_develop')
+[46.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/polar_h10/share/polar_h10/hook/pythonpath_develop.ps1'
+[46.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jj/wearable-biosensors-ros2/build/polar_h10' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/polar_h10:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/empatica_e4:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/build/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data
+[46.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/build/polar_h10/share/polar_h10/hook/pythonpath_develop.dsv'
+[46.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/build/polar_h10/share/polar_h10/hook/pythonpath_develop.sh'
+[46.657s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10' for CMake module files
+[46.660s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10' for CMake config files
+[46.664s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10/lib'
+[46.664s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10/bin'
+[46.665s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/pkgconfig/polar_h10.pc'
+[46.666s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages'
+[46.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('polar_h10', 'pythonpath')
+[46.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/pythonpath.ps1'
+[46.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/pythonpath.dsv'
+[46.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/hook/pythonpath.sh'
+[46.674s] Level 1:colcon.colcon_core.environment:checking '/home/jj/wearable-biosensors-ros2/install/polar_h10/bin'
+[46.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polar_h10)
+[46.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/package.ps1'
+[46.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/package.dsv'
+[46.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/package.sh'
+[46.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/package.bash'
+[46.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10/package.zsh'
+[46.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jj/wearable-biosensors-ros2/install/polar_h10/share/colcon-core/packages/polar_h10)
+[46.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[46.693s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.728s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.806s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jj/wearable-biosensors-ros2/install/local_setup.ps1'
+[46.813s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jj/wearable-biosensors-ros2/install/_local_setup_util_ps1.py'
+[46.820s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jj/wearable-biosensors-ros2/install/setup.ps1'
+[46.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jj/wearable-biosensors-ros2/install/local_setup.sh'
+[46.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jj/wearable-biosensors-ros2/install/_local_setup_util_sh.py'
+[46.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jj/wearable-biosensors-ros2/install/setup.sh'
+[46.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jj/wearable-biosensors-ros2/install/local_setup.bash'
+[46.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jj/wearable-biosensors-ros2/install/setup.bash'
+[46.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jj/wearable-biosensors-ros2/install/local_setup.zsh'
+[46.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jj/wearable-biosensors-ros2/install/setup.zsh'

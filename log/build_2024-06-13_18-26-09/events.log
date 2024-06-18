@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.001857] (-) JobUnselected: {'identifier': 'emotiv_insight'}
+[0.002437] (-) JobUnselected: {'identifier': 'empatica_e4'}
+[0.002654] (-) JobUnselected: {'identifier': 'polar_h10'}
+[0.003143] (-) JobUnselected: {'identifier': 'shimmer3_gsr_unit'}
+[0.003329] (-) JobUnselected: {'identifier': 'vernier_respiration_belt'}
+[0.003447] (cdcl_umd_msgs) JobQueued: {'identifier': 'cdcl_umd_msgs', 'dependencies': OrderedDict()}
+[0.003599] (cdcl_umd_msgs) JobStarted: {'identifier': 'cdcl_umd_msgs'}
+[0.048626] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'cmake'}
+[0.052353] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'build'}
+[0.055664] (cdcl_umd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1177,unix/jjpc:/tmp/.ICE-unix/1177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dcf6e38a_b491_4db8_86bf_6c67880d4804'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YV5DP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098495] (-) TimerEvent: {}
+[0.184105] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198881] (-) TimerEvent: {}
+[0.299693] (-) TimerEvent: {}
+[0.400632] (-) TimerEvent: {}
+[0.501663] (-) TimerEvent: {}
+[0.602694] (-) TimerEvent: {}
+[0.703479] (-) TimerEvent: {}
+[0.804452] (-) TimerEvent: {}
+[0.832045] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.874409] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.882130] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.896104] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.904646] (-) TimerEvent: {}
+[1.005464] (-) TimerEvent: {}
+[1.106417] (-) TimerEvent: {}
+[1.111543] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206788] (-) TimerEvent: {}
+[1.277560] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.306912] (-) TimerEvent: {}
+[1.407833] (-) TimerEvent: {}
+[1.508752] (-) TimerEvent: {}
+[1.609602] (-) TimerEvent: {}
+[1.710502] (-) TimerEvent: {}
+[1.811464] (-) TimerEvent: {}
+[1.912289] (-) TimerEvent: {}
+[2.013339] (-) TimerEvent: {}
+[2.114439] (-) TimerEvent: {}
+[2.215546] (-) TimerEvent: {}
+[2.316418] (-) TimerEvent: {}
+[2.417653] (-) TimerEvent: {}
+[2.518478] (-) TimerEvent: {}
+[2.619265] (-) TimerEvent: {}
+[2.720479] (-) TimerEvent: {}
+[2.821285] (-) TimerEvent: {}
+[2.922289] (-) TimerEvent: {}
+[3.023093] (-) TimerEvent: {}
+[3.110606] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.123280] (-) TimerEvent: {}
+[3.224118] (-) TimerEvent: {}
+[3.325225] (-) TimerEvent: {}
+[3.426800] (-) TimerEvent: {}
+[3.527604] (-) TimerEvent: {}
+[3.628353] (-) TimerEvent: {}
+[3.729339] (-) TimerEvent: {}
+[3.830110] (-) TimerEvent: {}
+[3.930973] (-) TimerEvent: {}
+[4.031953] (-) TimerEvent: {}
+[4.133107] (-) TimerEvent: {}
+[4.234563] (-) TimerEvent: {}
+[4.276365] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.334720] (-) TimerEvent: {}
+[4.435761] (-) TimerEvent: {}
+[4.536831] (-) TimerEvent: {}
+[4.637889] (-) TimerEvent: {}
+[4.739276] (-) TimerEvent: {}
+[4.840166] (-) TimerEvent: {}
+[4.941363] (-) TimerEvent: {}
+[5.042322] (-) TimerEvent: {}
+[5.143379] (-) TimerEvent: {}
+[5.244184] (-) TimerEvent: {}
+[5.345218] (-) TimerEvent: {}
+[5.445960] (-) TimerEvent: {}
+[5.546721] (-) TimerEvent: {}
+[5.647725] (-) TimerEvent: {}
+[5.748528] (-) TimerEvent: {}
+[5.810389] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.848717] (-) TimerEvent: {}
+[5.933685] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.949122] (-) TimerEvent: {}
+[6.050008] (-) TimerEvent: {}
+[6.055640] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.056851] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.057555] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.150205] (-) TimerEvent: {}
+[6.249044] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.250326] (-) TimerEvent: {}
+[6.351018] (-) TimerEvent: {}
+[6.451779] (-) TimerEvent: {}
+[6.503761] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[6.530014] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs\n'}
+[6.551996] (-) TimerEvent: {}
+[6.657098] (-) TimerEvent: {}
+[6.723087] (cdcl_umd_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c.o\x1b[0m\n'}
+[6.729918] (cdcl_umd_msgs) StdoutLine: {'line': b'[  6%] Built target cdcl_umd_msgs__cpp\n'}
+[6.757305] (-) TimerEvent: {}
+[6.795560] (cdcl_umd_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_cdcl_umd_msgs\n'}
+[6.838448] (cdcl_umd_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.857543] (-) TimerEvent: {}
+[6.865216] (cdcl_umd_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.h:19\x1b[m\x1b[K,\n'}
+[6.869547] (cdcl_umd_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c:4\x1b[m\x1b[K:\n'}
+[6.875159] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcdcl_umd_msgs/msg/detail/header__struct.h: No such file or directory\n'}
+[6.878841] (cdcl_umd_msgs) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"cdcl_umd_msgs/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[6.884373] (cdcl_umd_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.885218] (cdcl_umd_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[6.885976] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/build.make:137: CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c.o] Error 1\n'}
+[6.886781] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[6.887488] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.914491] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp.o\x1b[0m\n'}
+[6.949905] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp.o\x1b[0m\n'}
+[6.957890] (-) TimerEvent: {}
+[7.059671] (-) TimerEvent: {}
+[7.161113] (-) TimerEvent: {}
+[7.262925] (-) TimerEvent: {}
+[7.356206] (cdcl_umd_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[7.359589] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/msg/detail/vitals__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcdcl_umd_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[7.362866] (cdcl_umd_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"cdcl_umd_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[7.367607] (-) TimerEvent: {}
+[7.368640] (cdcl_umd_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.371486] (cdcl_umd_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[7.374274] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/build.make:118: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp.o] Error 1\n'}
+[7.376827] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[7.384726] (cdcl_umd_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/vitals__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[7.388038] (cdcl_umd_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[7.393221] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/msg/detail/vitals__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcdcl_umd_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[7.395736] (cdcl_umd_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"cdcl_umd_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[7.396314] (cdcl_umd_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.397017] (cdcl_umd_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[7.397566] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:123: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp.o] Error 1\n'}
+[7.400683] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[7.467796] (-) TimerEvent: {}
+[7.568568] (-) TimerEvent: {}
+[7.669390] (-) TimerEvent: {}
+[7.772175] (-) TimerEvent: {}
+[7.873284] (-) TimerEvent: {}
+[7.974443] (-) TimerEvent: {}
+[8.075650] (-) TimerEvent: {}
+[8.140319] (cdcl_umd_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/vitals__type_support.cpp.o\x1b[0m\n'}
+[8.176203] (-) TimerEvent: {}
+[8.277272] (-) TimerEvent: {}
+[8.378436] (-) TimerEvent: {}
+[8.479242] (-) TimerEvent: {}
+[8.580186] (-) TimerEvent: {}
+[8.603422] (cdcl_umd_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/vitals__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[8.604079] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/msg/detail/vitals__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcdcl_umd_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[8.604513] (cdcl_umd_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"cdcl_umd_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[8.604974] (cdcl_umd_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.605493] (cdcl_umd_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[8.613314] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:123: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/vitals__type_support.cpp.o] Error 1\n'}
+[8.615691] (cdcl_umd_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[8.616781] (cdcl_umd_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.624187] (cdcl_umd_msgs) CommandEnded: {'returncode': 2}
+[8.680387] (-) TimerEvent: {}
+[8.781295] (-) TimerEvent: {}
+[8.882492] (-) TimerEvent: {}
+[8.983216] (-) TimerEvent: {}
+[9.078098] (cdcl_umd_msgs) JobEnded: {'identifier': 'cdcl_umd_msgs', 'rc': 2}
+[9.083336] (-) TimerEvent: {}
+[9.090280] (-) EventReactorShutdown: {}

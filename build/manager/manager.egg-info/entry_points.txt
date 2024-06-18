@@ -1,0 +1,3 @@
+[console_scripts]
+vitaldata.launch = manager.launch.vitaldata.launch:main
+

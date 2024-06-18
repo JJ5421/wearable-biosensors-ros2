@@ -1,0 +1,6 @@
+{
+  "package_name": "cdcl_umd_msgs",
+  "non_idl_tuples": [
+    "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs:msg/Vitals.msg"
+  ]
+}

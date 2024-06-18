@@ -1,0 +1,16 @@
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/launch/collector.launch.py
+/home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/package_run_dependencies/manager
+/home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/parent_prefix_path/manager
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.sh
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.dsv
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.sh
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.dsv
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.bash
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.sh
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.zsh
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.dsv
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.dsv
+/home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/packages/manager
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig.cmake
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig-version.cmake
+/home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.xml

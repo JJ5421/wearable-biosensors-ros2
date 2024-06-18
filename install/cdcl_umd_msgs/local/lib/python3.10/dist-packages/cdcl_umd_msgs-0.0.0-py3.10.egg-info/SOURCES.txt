@@ -1,0 +1,1 @@
+/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_python/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/SOURCES.txt

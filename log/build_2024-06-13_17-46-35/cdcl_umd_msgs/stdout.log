@@ -1,0 +1,24 @@
+running develop
+Removing /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages/cdcl-umd-msgs.egg-link (link to .)
+running egg_info
+writing ../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/PKG-INFO
+writing dependency_links to ../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/dependency_links.txt
+writing requirements to ../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/requires.txt
+writing top-level names to ../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/top_level.txt
+reading manifest file '../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/SOURCES.txt'
+writing manifest file '../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cdcl_umd_msgs/__init__.py -> /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/build/lib/cdcl_umd_msgs
+running install
+running install_lib
+creating /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages/cdcl_umd_msgs
+copying /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/build/lib/cdcl_umd_msgs/__init__.py -> /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages/cdcl_umd_msgs
+byte-compiling /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages/cdcl_umd_msgs/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/cdcl_umd_msgs -> /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/ament_index/resource_index/packages
+copying package.xml -> /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/share/cdcl_umd_msgs
+running install_egg_info
+Copying ../../build/cdcl_umd_msgs/cdcl_umd_msgs.egg-info to /home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/install.log'

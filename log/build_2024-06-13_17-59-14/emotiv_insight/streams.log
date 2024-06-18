@@ -1,0 +1,44 @@
+[9.530s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/emotiv_insight': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/emotiv_insight/prefix_override:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/emotiv_insight/build --no-deps symlink_data
+[13.108s] /home/jj/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[13.109s] !!
+[13.118s] 
+[13.119s]         ********************************************************************************
+[13.120s]         Usage of dash-separated 'script-dir' will not be supported in future
+[13.120s]         versions. Please use the underscore name 'script_dir' instead.
+[13.121s] 
+[13.121s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[13.135s]         or your builds will no longer be supported.
+[13.135s] 
+[13.136s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[13.137s]         ********************************************************************************
+[13.137s] 
+[13.158s] !!
+[13.159s]   opt = self.warn_dash_deprecation(opt, section)
+[17.036s] running develop
+[17.040s] /home/jj/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[17.043s] !!
+[17.045s] 
+[17.048s]         ********************************************************************************
+[17.050s]         Please avoid running ``setup.py`` and ``easy_install``.
+[17.053s]         Instead, use pypa/build, pypa/installer or other
+[17.057s]         standards-based tools.
+[17.059s] 
+[17.063s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[17.063s]         ********************************************************************************
+[17.064s] 
+[17.064s] !!
+[17.065s]   easy_install.initialize_options(self)
+[19.941s] running egg_info
+[20.103s] writing emotiv_insight.egg-info/PKG-INFO
+[20.107s] writing dependency_links to emotiv_insight.egg-info/dependency_links.txt
+[20.107s] writing entry points to emotiv_insight.egg-info/entry_points.txt
+[20.109s] writing requirements to emotiv_insight.egg-info/requires.txt
+[20.110s] writing top-level names to emotiv_insight.egg-info/top_level.txt
+[20.419s] reading manifest file 'emotiv_insight.egg-info/SOURCES.txt'
+[20.430s] writing manifest file 'emotiv_insight.egg-info/SOURCES.txt'
+[20.741s] running build_ext
+[20.744s] Creating /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages/emotiv-insight.egg-link (link to .)
+[20.755s] Installing emotiv_insight_node script to /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/emotiv_insight
+[20.758s] 
+[20.759s] Installed /home/jj/wearable-biosensors-ros2/build/emotiv_insight
+[20.759s] running symlink_data

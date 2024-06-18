@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.002016] (cdcl_umd_msgs) JobQueued: {'identifier': 'cdcl_umd_msgs', 'dependencies': OrderedDict()}
+[0.002636] (emotiv_insight) JobQueued: {'identifier': 'emotiv_insight', 'dependencies': OrderedDict()}
+[0.002866] (empatica_e4) JobQueued: {'identifier': 'empatica_e4', 'dependencies': OrderedDict()}
+[0.003197] (shimmer3_gsr_unit) JobQueued: {'identifier': 'shimmer3_gsr_unit', 'dependencies': OrderedDict()}
+[0.003469] (polar_h10) JobQueued: {'identifier': 'polar_h10', 'dependencies': OrderedDict([('cdcl_umd_msgs', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs')])}
+[0.003601] (vernier_respiration_belt) JobQueued: {'identifier': 'vernier_respiration_belt', 'dependencies': OrderedDict([('cdcl_umd_msgs', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs')])}
+[0.003721] (cdcl_umd_msgs) JobStarted: {'identifier': 'cdcl_umd_msgs'}
+[0.039054] (emotiv_insight) JobStarted: {'identifier': 'emotiv_insight'}
+[0.071966] (empatica_e4) JobStarted: {'identifier': 'empatica_e4'}
+[0.098427] (-) TimerEvent: {}
+[0.109910] (shimmer3_gsr_unit) JobStarted: {'identifier': 'shimmer3_gsr_unit'}
+[0.153536] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'cmake'}
+[0.157255] (cdcl_umd_msgs) JobProgress: {'identifier': 'cdcl_umd_msgs', 'progress': 'build'}
+[0.160337] (cdcl_umd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1212'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1190,unix/jjpc:/tmp/.ICE-unix/1190'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ee3dd0ff_100f_4997_b0a2_033f091b3d43'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K958O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.198639] (-) TimerEvent: {}
+[0.299914] (-) TimerEvent: {}
+[0.401933] (-) TimerEvent: {}
+[0.505639] (-) TimerEvent: {}
+[0.607605] (-) TimerEvent: {}
+[0.708896] (-) TimerEvent: {}
+[0.810380] (-) TimerEvent: {}
+[0.911693] (-) TimerEvent: {}
+[1.012668] (-) TimerEvent: {}
+[1.113532] (-) TimerEvent: {}
+[1.214387] (-) TimerEvent: {}
+[1.315248] (-) TimerEvent: {}
+[1.416164] (-) TimerEvent: {}
+[1.517278] (-) TimerEvent: {}
+[1.618228] (-) TimerEvent: {}
+[1.719191] (-) TimerEvent: {}
+[1.820433] (-) TimerEvent: {}
+[1.922697] (-) TimerEvent: {}
+[2.023686] (-) TimerEvent: {}
+[2.124913] (-) TimerEvent: {}
+[2.226169] (-) TimerEvent: {}
+[2.327047] (-) TimerEvent: {}
+[2.427986] (-) TimerEvent: {}
+[2.528788] (-) TimerEvent: {}
+[2.629609] (-) TimerEvent: {}
+[2.730416] (-) TimerEvent: {}
+[2.831201] (-) TimerEvent: {}
+[2.932094] (-) TimerEvent: {}
+[3.032923] (-) TimerEvent: {}
+[3.133768] (-) TimerEvent: {}
+[3.234589] (-) TimerEvent: {}
+[3.335495] (-) TimerEvent: {}
+[3.427140] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[3.431840] (cdcl_umd_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[3.435011] (cdcl_umd_msgs) StderrLine: {'line': b'  cdcl_umd_msgs --arguments-file\n'}
+[3.435965] (-) TimerEvent: {}
+[3.437397] (cdcl_umd_msgs) StderrLine: {'line': b'  /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter__arguments__cdcl_umd_msgs.json\n'}
+[3.441779] (cdcl_umd_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[3.442489] (cdcl_umd_msgs) StderrLine: {'line': b'  /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs\n'}
+[3.443140] (cdcl_umd_msgs) StderrLine: {'line': b'  --output-file\n'}
+[3.443749] (cdcl_umd_msgs) StderrLine: {'line': b'  /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs.idls)\n'}
+[3.444252] (cdcl_umd_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.444756] (cdcl_umd_msgs) StderrLine: {'line': b'\n'}
+[3.445353] (cdcl_umd_msgs) StderrLine: {'line': b"  KeyError processing template 'struct.idl.em': 'time'\n"}
+[3.446031] (cdcl_umd_msgs) StderrLine: {'line': b'\n'}
+[3.446574] (cdcl_umd_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.447051] (cdcl_umd_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.447748] (cdcl_umd_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.448566] (cdcl_umd_msgs) StderrLine: {'line': b'\n'}
+[3.449217] (cdcl_umd_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.449751] (cdcl_umd_msgs) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[3.450314] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.450904] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.451479] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.452075] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.452616] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.453184] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.453745] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.454206] (cdcl_umd_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.454664] (cdcl_umd_msgs) StdoutLine: {'line': b'See also "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[3.536138] (-) TimerEvent: {}
+[3.637046] (-) TimerEvent: {}
+[3.738035] (-) TimerEvent: {}
+[3.839167] (-) TimerEvent: {}
+[3.940432] (-) TimerEvent: {}
+[4.041601] (-) TimerEvent: {}
+[4.142419] (-) TimerEvent: {}
+[4.243308] (-) TimerEvent: {}
+[4.344085] (-) TimerEvent: {}
+[4.444889] (-) TimerEvent: {}
+[4.545697] (-) TimerEvent: {}
+[4.646496] (-) TimerEvent: {}
+[4.747413] (-) TimerEvent: {}
+[4.848333] (-) TimerEvent: {}
+[4.901492] (cdcl_umd_msgs) CommandEnded: {'returncode': 2}
+[4.948530] (-) TimerEvent: {}
+[5.051404] (-) TimerEvent: {}
+[5.153272] (-) TimerEvent: {}
+[5.255383] (-) TimerEvent: {}
+[5.357379] (-) TimerEvent: {}
+[5.459789] (-) TimerEvent: {}
+[5.533695] (cdcl_umd_msgs) JobEnded: {'identifier': 'cdcl_umd_msgs', 'rc': 2}
+[5.560014] (-) TimerEvent: {}
+[5.660887] (-) TimerEvent: {}
+[5.761767] (-) TimerEvent: {}
+[5.862724] (-) TimerEvent: {}
+[5.963652] (-) TimerEvent: {}
+[6.065102] (-) TimerEvent: {}
+[6.165985] (-) TimerEvent: {}
+[6.266935] (-) TimerEvent: {}
+[6.368494] (-) TimerEvent: {}
+[6.470081] (-) TimerEvent: {}
+[6.571506] (-) TimerEvent: {}
+[6.672973] (-) TimerEvent: {}
+[6.774343] (-) TimerEvent: {}
+[6.875686] (-) TimerEvent: {}
+[6.977065] (-) TimerEvent: {}
+[7.078544] (-) TimerEvent: {}
+[7.180794] (-) TimerEvent: {}
+[7.209283] (shimmer3_gsr_unit) JobEnded: {'identifier': 'shimmer3_gsr_unit', 'rc': 'SIGINT'}
+[7.281002] (-) TimerEvent: {}
+[7.382296] (-) TimerEvent: {}
+[7.387923] (emotiv_insight) JobEnded: {'identifier': 'emotiv_insight', 'rc': 'SIGINT'}
+[7.482499] (-) TimerEvent: {}
+[7.494680] (empatica_e4) JobEnded: {'identifier': 'empatica_e4', 'rc': 'SIGINT'}
+[7.499603] (polar_h10) JobSkipped: {'identifier': 'polar_h10'}
+[7.499844] (vernier_respiration_belt) JobSkipped: {'identifier': 'vernier_respiration_belt'}
+[7.500010] (-) EventReactorShutdown: {}

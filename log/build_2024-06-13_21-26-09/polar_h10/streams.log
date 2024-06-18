@@ -1,0 +1,21 @@
+[7.500s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/polar_h10': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs LD_LIBRARY_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data
+[11.608s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.612s]   warnings.warn(
+[12.044s] running develop
+[12.048s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.050s]   warnings.warn(
+[14.962s] running egg_info
+[14.967s] writing polar_h10.egg-info/PKG-INFO
+[14.972s] writing dependency_links to polar_h10.egg-info/dependency_links.txt
+[14.974s] writing entry points to polar_h10.egg-info/entry_points.txt
+[14.981s] writing requirements to polar_h10.egg-info/requires.txt
+[14.982s] writing top-level names to polar_h10.egg-info/top_level.txt
+[14.998s] reading manifest file 'polar_h10.egg-info/SOURCES.txt'
+[15.008s] writing manifest file 'polar_h10.egg-info/SOURCES.txt'
+[15.017s] running build_ext
+[15.020s] Creating /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar-h10.egg-link (link to .)
+[15.026s] Installing polar_h10_node script to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/polar_h10
+[15.030s] 
+[15.037s] Installed /home/jj/wearable-biosensors-ros2/build/polar_h10
+[15.051s] running symlink_data
+[15.439s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/polar_h10' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs LD_LIBRARY_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data

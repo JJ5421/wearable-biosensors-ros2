@@ -1,0 +1,45 @@
+[10.817s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build --no-deps symlink_data
+[11.979s] /home/jj/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[11.979s] !!
+[11.980s] 
+[11.994s]         ********************************************************************************
+[11.995s]         Usage of dash-separated 'script-dir' will not be supported in future
+[11.996s]         versions. Please use the underscore name 'script_dir' instead.
+[11.996s] 
+[11.997s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[11.997s]         or your builds will no longer be supported.
+[12.004s] 
+[12.006s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[12.007s]         ********************************************************************************
+[12.007s] 
+[12.008s] !!
+[12.008s]   opt = self.warn_dash_deprecation(opt, section)
+[13.789s] /home/jj/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[13.789s] !!
+[13.790s] 
+[13.790s]         ********************************************************************************
+[13.791s]         Please avoid running ``setup.py`` and ``easy_install``.
+[13.792s]         Instead, use pypa/build, pypa/installer or other
+[13.792s]         standards-based tools.
+[13.793s] 
+[13.794s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[13.807s]         ********************************************************************************
+[13.809s] 
+[13.809s] !!
+[13.810s]   easy_install.initialize_options(self)
+[13.823s] running develop
+[16.439s] running egg_info
+[16.775s] writing empatica_e4.egg-info/PKG-INFO
+[16.788s] writing dependency_links to empatica_e4.egg-info/dependency_links.txt
+[16.790s] writing entry points to empatica_e4.egg-info/entry_points.txt
+[16.791s] writing requirements to empatica_e4.egg-info/requires.txt
+[16.792s] writing top-level names to empatica_e4.egg-info/top_level.txt
+[17.343s] reading manifest file 'empatica_e4.egg-info/SOURCES.txt'
+[17.374s] writing manifest file 'empatica_e4.egg-info/SOURCES.txt'
+[17.631s] running build_ext
+[17.632s] Creating /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica-e4.egg-link (link to .)
+[17.643s] Installing empatica_e4_node script to /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/empatica_e4
+[17.646s] 
+[17.649s] Installed /home/jj/wearable-biosensors-ros2/build/empatica_e4
+[17.650s] running symlink_data
+[18.147s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build --no-deps symlink_data
