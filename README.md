@@ -1,57 +1,33 @@
-# wearable-biosensors-ros2
+Usage:
 
-This repo is a modification of the https://github.com/SMARTlab-Purdue/ros2-foxy-wearable-biosensors. 
+1. Wet polarh10 strap, affix high on chest, and click the device into place
+2. Optionally check if it is discoverable on your phone to make sure it is on (make sure it is NOT CONNECTED TO ANY OTHER DEVICES but is discoverable)
+3. Press the VRespBelt power button once. It should flash RED.
+- The script can only connect to the device if it is in this state. Flashing green is not sufficient.
+- If VResbpBelt connection is lost, the script will throw an error and restart… in this case: HOLD THE POWER BUTTON UNTIL ALL LIGHTS TURN OFF, THEN RE-RUN STEP 2
+- The script will ideally re-establish a connection.
+4. Ensure that the check-mark has a green light. If there is no light, tighten strap. If there is red light, loosen strap.
+5. Turn on Rpi, and check for topics to come alive within the next minute.
 
-Following are the modifications.
+Installation:
 
-1.Dockerized the whole thing.
+1. Install ROS2 and all relevant packages on the Rpi. Necessary packages are listed below:
+- crontab
+- gdx
+- etc. (will figure it out by seeing what is missing when I run through this process again)
+2. Change relevant device name variables in polar_h10 and vernier_respiration_belt nodes
+- The vernier says its ID in the necessary format on the hardware
+- You must connect to the polarh10 to find its bluetooth address in the desired format (make sure to forget the device after this)
+3. (Optional) Setup your ~/.bashrc to also source all necessary libraries for troubleshooting and testing
+4. Ensure that your Rpi is on the router network to access published data remotely
+5. Configure the script.sh to run on Rpi startup using crontab:
+- $ crontab -e
+- Add the following line to the document (if prompted, just choose nano as your editor):
+@reboot /home/username/wearable-biosensors-ros2.script.sh
+6. Restart Rpi (with above usage information in action) and check ROS topics to ensure that your setup works
+7. Test bag output into the /wearable-biosensors-ros2/ros_bags folder if this is important to you
+8. Outstanding question of whether or not the bags are corrupted by a sudden power-off
 
-2.Added the device name for the vernier respiration belt and the MAC ID of the polar h10.
-
-3.Added the custom cdcl_umd_msgs message type and used the Vitals.msg to publish hr and bpm, this message type includes data along with its time stamp.
-
-# Instructions to run
-
-Setup the USB driver
-
-Create a file call vstlibusb.rules and put it in /etc/udev/rules.d. Add the following lines to that file
-```
-SUBSYSTEM=="usb", ATTRS{idVendor}=="08f7", MODE="0666"
-SUBSYSTEM=="usb_device", ATTRS{idVendor}=="08f7", MODE="0666"
-```
- 
-Tutorial links on how to use the devices
-
-[Vernier Respiration Belt](https://www.vernier.com/video/measure-respiration-rate-using-go-directrespiration-belt/)
-
-[Polar h10](https://www.youtube.com/watch?v=vw0WV-PWtcw)
-
-
-For building the docker container:
-
-After cloning the repo,navigate to the cdcl:humble-jammy-biosensors folder and run the build.sh script
-```bash
-./build.sh
-```
-
-For running the docker container, run the run.sh script 
-```bash
-./run.sh
-```
-
-To open a new terminal, run the exec.sh script
-```bash
-./exec.sh
-```
-
-# Insider the docker container
-
-Once you are inside the docker container, navigate to the cdcl_ws
-```bash
-cd /home/cdcl/cdcl_ws
-source install/setup.bash
-```
-Then you can run the vernier belt as well as the polar h10.
 
 For vernier respiration belt
 ```bash
