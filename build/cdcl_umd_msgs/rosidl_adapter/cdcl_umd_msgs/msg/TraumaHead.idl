@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/TraumaHead.msg
+// generated code does not contain a copyright notice
+
+
+module cdcl_umd_msgs {
+  module msg {
+    module TraumaHead_Constants {
+      const string NAME = "trauma_head";
+      const string TYPE = "injury";
+      const int64 NUM_HYPOTHESES = 2;
+      const int64 MAX_POSTERIOR_INDEX = 0;
+    };
+    struct TraumaHead {
+      @default (value="(0.5, 0.5)")
+      sequence<double> posteriors;
+
+      @default (value="('wound', 'normal')")
+      sequence<string> hypothesis_names;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservation.msg

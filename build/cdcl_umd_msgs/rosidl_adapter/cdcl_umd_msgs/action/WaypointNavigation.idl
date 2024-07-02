@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cdcl_umd_msgs/action/WaypointNavigation.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "sensor_msgs/msg/NavSatFix.idl"
+
+module cdcl_umd_msgs {
+  module action {
+    struct WaypointNavigation_Goal {
+      builtin_interfaces::msg::Duration timeout;
+
+      sensor_msgs::msg::NavSatFix waypoint;
+
+      @verbatim (language="comment", text=
+        "in meters")
+      double waypoint_reached_tolerance;
+    };
+    struct WaypointNavigation_Result {
+      @verbatim (language="comment", text=
+        "in meters")
+      double meters_to_go;
+
+      boolean successful;
+
+      string message;
+    };
+    struct WaypointNavigation_Feedback {
+      double meters_to_go;
+    };
+  };
+};

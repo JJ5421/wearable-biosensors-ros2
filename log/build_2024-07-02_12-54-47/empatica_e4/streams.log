@@ -1,0 +1,43 @@
+[3.957s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build
+[4.688s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.688s]   warnings.warn(
+[4.775s] running develop
+[4.777s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.777s]   warnings.warn(
+[5.390s] Removing /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica-e4.egg-link (link to .)
+[5.462s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/empatica_e4' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jj/wearable-biosensors-ros2/build/empatica_e4/build
+[5.468s] Invoking command in '/home/jj/wearable-biosensors-ros2/src/empatica_e4': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/empatica_e4 build --build-base /home/jj/wearable-biosensors-ros2/build/empatica_e4/build install --record /home/jj/wearable-biosensors-ros2/build/empatica_e4/install.log --install-scripts $base/lib/empatica_e4 --single-version-externally-managed install_data --force
+[6.319s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.320s]   warnings.warn(
+[6.349s] running egg_info
+[6.352s] writing ../../build/empatica_e4/empatica_e4.egg-info/PKG-INFO
+[6.354s] writing dependency_links to ../../build/empatica_e4/empatica_e4.egg-info/dependency_links.txt
+[6.354s] writing entry points to ../../build/empatica_e4/empatica_e4.egg-info/entry_points.txt
+[6.354s] writing requirements to ../../build/empatica_e4/empatica_e4.egg-info/requires.txt
+[6.355s] writing top-level names to ../../build/empatica_e4/empatica_e4.egg-info/top_level.txt
+[6.363s] reading manifest file '../../build/empatica_e4/empatica_e4.egg-info/SOURCES.txt'
+[6.365s] writing manifest file '../../build/empatica_e4/empatica_e4.egg-info/SOURCES.txt'
+[6.367s] running build
+[6.368s] running build_py
+[6.369s] creating /home/jj/wearable-biosensors-ros2/build/empatica_e4/build
+[6.370s] creating /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib
+[6.371s] creating /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib/empatica_e4
+[6.371s] copying empatica_e4/__init__.py -> /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib/empatica_e4
+[6.372s] copying empatica_e4/empatica_e4_node.py -> /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib/empatica_e4
+[6.373s] running install
+[6.374s] running install_lib
+[6.375s] creating /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4
+[6.376s] copying /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib/empatica_e4/__init__.py -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4
+[6.376s] copying /home/jj/wearable-biosensors-ros2/build/empatica_e4/build/lib/empatica_e4/empatica_e4_node.py -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4
+[6.377s] byte-compiling /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4/__init__.py to __init__.cpython-310.pyc
+[6.378s] byte-compiling /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4/empatica_e4_node.py to empatica_e4_node.cpython-310.pyc
+[6.383s] running install_data
+[6.384s] copying resource/empatica_e4 -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/ament_index/resource_index/packages
+[6.385s] copying package.xml -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4
+[6.387s] copying launch/ros2-empatica_E4.launch.py -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4
+[6.389s] running install_egg_info
+[6.393s] Copying ../../build/empatica_e4/empatica_e4.egg-info to /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica_e4-0.0.1-py3.10.egg-info
+[6.397s] running install_scripts
+[6.463s] Installing empatica_e4_node script to /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/empatica_e4
+[6.465s] writing list of installed files to '/home/jj/wearable-biosensors-ros2/build/empatica_e4/install.log'
+[6.524s] Invoked command in '/home/jj/wearable-biosensors-ros2/src/empatica_e4' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/empatica_e4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/empatica_e4 build --build-base /home/jj/wearable-biosensors-ros2/build/empatica_e4/build install --record /home/jj/wearable-biosensors-ros2/build/empatica_e4/install.log --install-scripts $base/lib/empatica_e4 --single-version-externally-managed install_data --force

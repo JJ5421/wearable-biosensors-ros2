@@ -7,9 +7,9 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(vernier_respiration_belt REQUIRED)
-find_package(polar_h10 REQUIRED)
-find_package(ros2bag REQUIRED)
+#find_package(vernier_respiration_belt REQUIRED)
+#find_package(polar_h10 REQUIRED)
+#find_package(ros2bag REQUIRED)
 
 
 install(DIRECTORY

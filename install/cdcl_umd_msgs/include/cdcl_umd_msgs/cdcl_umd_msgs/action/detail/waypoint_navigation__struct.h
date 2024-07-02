@@ -1,0 +1,1 @@
+/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_c/cdcl_umd_msgs/action/detail/waypoint_navigation__struct.h

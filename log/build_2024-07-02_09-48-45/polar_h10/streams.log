@@ -1,0 +1,29 @@
+[0.750s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/polar_h10': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data
+[0.941s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.941s]   warnings.warn(
+[0.966s] running develop
+[0.966s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.966s]   warnings.warn(
+[1.093s] running egg_info
+[1.093s] creating polar_h10.egg-info
+[1.093s] writing polar_h10.egg-info/PKG-INFO
+[1.094s] writing dependency_links to polar_h10.egg-info/dependency_links.txt
+[1.094s] writing entry points to polar_h10.egg-info/entry_points.txt
+[1.094s] writing requirements to polar_h10.egg-info/requires.txt
+[1.095s] writing top-level names to polar_h10.egg-info/top_level.txt
+[1.095s] writing manifest file 'polar_h10.egg-info/SOURCES.txt'
+[1.096s] reading manifest file 'polar_h10.egg-info/SOURCES.txt'
+[1.096s] writing manifest file 'polar_h10.egg-info/SOURCES.txt'
+[1.098s] running build_ext
+[1.098s] Creating /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar-h10.egg-link (link to .)
+[1.099s] Installing polar_h10_node script to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/polar_h10
+[1.099s] 
+[1.099s] Installed /home/jj/wearable-biosensors-ros2/build/polar_h10
+[1.099s] running symlink_data
+[1.100s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index
+[1.100s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index
+[1.100s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index/packages
+[1.100s] symbolically linking /home/jj/wearable-biosensors-ros2/build/polar_h10/resource/polar_h10 -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index/packages
+[1.101s] symbolically linking /home/jj/wearable-biosensors-ros2/build/polar_h10/package.xml -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10
+[1.101s] symbolically linking /home/jj/wearable-biosensors-ros2/build/polar_h10/launch/ros2-polar_h10.launch.py -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10
+[1.128s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/polar_h10' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jj/wearable-biosensors-ros2/build/polar_h10/build --no-deps symlink_data

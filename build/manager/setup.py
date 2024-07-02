@@ -1,1 +1,0 @@
-/home/jj/wearable-biosensors-ros2/src/manager/setup.py

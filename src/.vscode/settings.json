@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt",
+        "/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/build/polar_h10",
+        "/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages",
+        "/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages",
+        "/home/jj/ros2_ws/install/spot_nav2/local/lib/python3.10/dist-packages",
+        "/home/jj/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jj/wearable-biosensors-ros2/install/manager/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/build/vernier_respiration_belt",
+        "/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/build/polar_h10",
+        "/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages",
+        "/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages",
+        "/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib/python3.10/site-packages",
+        "/home/jj/ros2_ws/install/spot_nav2/local/lib/python3.10/dist-packages",
+        "/home/jj/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

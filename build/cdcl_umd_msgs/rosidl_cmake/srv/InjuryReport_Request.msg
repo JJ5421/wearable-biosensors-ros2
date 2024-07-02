@@ -1,0 +1,11 @@
+# This is for the service which reports injuries to the DARPA command post
+# Casualty ID (for year 1 this is the april tag)
+int64 casualty_id
+# System running the assessment (i.e. Apollo, Balto, UAV1 etc.)
+string system
+# The type of injury indicator (i.e. hr, rr, severe_hemorrhage etc.)
+string type
+# The value of the indicator as an integer (i.e 60 bpm, 0 hemorrhage etc.)
+int64 value
+# How long ago the indicator was assessed, only used for hr and rr
+int64 time_ago

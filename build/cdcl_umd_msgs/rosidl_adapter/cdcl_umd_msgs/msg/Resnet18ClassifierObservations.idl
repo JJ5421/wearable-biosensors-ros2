@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservations.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "cdcl_umd_msgs/msg/Resnet18ClassifierObservation.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    module Resnet18ClassifierObservations_Constants {
+      const string RESNET18_SEVERE_HEMORRHAGE = "RESNET18_SEVERE_HEMORRHAGE";
+      const string RESNET18_TRAUMA_HEAD = "RESNET18_TRAUMA_HEAD";
+      const string RESNET18_TRAUMA_TORSO = "RESNET18_TRAUMA_TORSO";
+      const string RESNET18_TRAUMA_UPPER_EXTREMITY = "RESNET18_TRAUMA_UPPER_EXTREMITY";
+      const string RESNET18_TRAUMA_LOWER_EXTREMITY = "RESNET18_TRAUMA_LOWER_EXTREMITY";
+      const string RESNET18_ALERTNESS_OCULAR = "RESNET18_ALERTNESS_OCULAR";
+    };
+    @verbatim (language="comment", text=
+      "the time at which the image containing the classification was captured")
+    struct Resnet18ClassifierObservations {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "output of classification for each resnset 18 classifier")
+      sequence<cdcl_umd_msgs::msg::Resnet18ClassifierObservation> classifier_observations;
+    };
+  };
+};

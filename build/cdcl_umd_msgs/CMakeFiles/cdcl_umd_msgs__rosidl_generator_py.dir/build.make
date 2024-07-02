@@ -69,10 +69,402 @@ include CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
 
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.s
+
 CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o: rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c
 CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c
 
 CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.i: cmake_force
@@ -83,29 +475,177 @@ CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.s
 
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o: rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o: rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o: rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o: rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.s
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o: rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o -MF CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o.d -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o -c /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c > CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.i
+
+CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c -o CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.s
+
 # Object files for target cdcl_umd_msgs__rosidl_generator_py
 cdcl_umd_msgs__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o"
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o" \
+"CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o"
 
 # External object files for target cdcl_umd_msgs__rosidl_generator_py
 cdcl_umd_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: libcdcl_umd_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: libcdcl_umd_msgs__rosidl_generator_c.so
-rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C shared library rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

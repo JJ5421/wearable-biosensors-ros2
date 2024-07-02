@@ -325,14 +325,14 @@ ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_um
 # install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.cpp")
 ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.h")
-
 # install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.hpp")
 ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.hpp")
 
 # install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.cpp")
 ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_c/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.h")
 
 # install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.hpp")
 ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/" "DESTINATION" "include/cdcl_umd_msgs/cdcl_umd_msgs" "PATTERN" "*.hpp")
@@ -343,8 +343,8 @@ ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_um
 # install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/cdcl_umd_msgs/environment")
 ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/cdcl_umd_msgs/environment")
 
-# install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_python/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_python/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_python/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.1-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_python/cdcl_umd_msgs/cdcl_umd_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs-0.0.1-py3.10.egg-info")
 
 # install(DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" DIRECTORY "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
@@ -358,11 +358,233 @@ include("/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_symli
 # install("TARGETS" "cdcl_umd_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/cdcl_umd_msgs")
 include("/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Resnet18ClassifierObservations.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Resnet18ClassifierObservations.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Resnet18ClassifierObservation.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Resnet18ClassifierObservation.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/BackgroundSubtraction.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/BackgroundSubtraction.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpeechActivity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpeechActivity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CasualtyReport.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CasualtyReport.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CasualtyReportField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CasualtyReportField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CategoricalField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CategoricalField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/NumericalField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/NumericalField.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/RespiratoryDistress.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/RespiratoryDistress.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SevereHemorrhage.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SevereHemorrhage.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/HeartRate.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/HeartRate.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/RespiratoryRate.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/RespiratoryRate.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaHead.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaHead.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaTorso.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaTorso.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaUpperExtremity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaUpperExtremity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaLowerExtremity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TraumaLowerExtremity.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessMotor.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessMotor.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessOcular.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessOcular.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessVerbal.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AlertnessVerbal.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/LatitudeLongitude.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/LatitudeLongitude.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpotStatus.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpotStatus.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Point2D.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Point2D.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Target.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Target.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TargetList.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/TargetList.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AprilTagDetection.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AprilTagDetection.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AprilTagDetectionArray.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AprilTagDetectionArray.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/NavSatFixArray.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/NavSatFixArray.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Speech.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Speech.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
 # install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Vitals.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
 ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Vitals.idl" "DESTINATION" "share/cdcl_umd_msgs/msg")
 
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/PlaySound.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/PlaySound.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/SetArenaGain.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/SetArenaGain.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/SetArenaOperatingMode.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/SetArenaOperatingMode.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/InjuryReport.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/srv/InjuryReport.idl" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/action/WaypointNavigation.idl" "DESTINATION" "share/cdcl_umd_msgs/action")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/action/WaypointNavigation.idl" "DESTINATION" "share/cdcl_umd_msgs/action")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservations.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservations.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservation.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/Resnet18ClassifierObservation.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/BackgroundSubtraction.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/BackgroundSubtraction.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/SpeechActivity.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/SpeechActivity.msg" "DESTINATION" "share/cdcl_umd_msgs/classifiers")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CasualtyReport.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CasualtyReport.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CasualtyReportField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CasualtyReportField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CategoricalField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CategoricalField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/NumericalField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/NumericalField.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/RespiratoryDistress.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/RespiratoryDistress.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/SevereHemorrhage.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/SevereHemorrhage.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/HeartRate.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/HeartRate.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/RespiratoryRate.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/RespiratoryRate.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaHead.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaHead.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaTorso.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaTorso.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaUpperExtremity.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaUpperExtremity.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaLowerExtremity.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/TraumaLowerExtremity.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessMotor.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessMotor.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessOcular.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessOcular.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessVerbal.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/AlertnessVerbal.msg" "DESTINATION" "share/cdcl_umd_msgs/casualty_report")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/navigation/LatitudeLongitude.msg" "DESTINATION" "share/cdcl_umd_msgs/navigation")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/navigation/LatitudeLongitude.msg" "DESTINATION" "share/cdcl_umd_msgs/navigation")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/navigation/SpotStatus.msg" "DESTINATION" "share/cdcl_umd_msgs/navigation")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/navigation/SpotStatus.msg" "DESTINATION" "share/cdcl_umd_msgs/navigation")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/Point2D.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/Point2D.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/Target.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/Target.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/TargetList.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/TargetList.msg" "DESTINATION" "share/cdcl_umd_msgs/target_tracking")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/AprilTagDetection.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/AprilTagDetection.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/AprilTagDetectionArray.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/AprilTagDetectionArray.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/NavSatFixArray.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/NavSatFixArray.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/Speech.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/Speech.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
 # install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/Vitals.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
 ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/Vitals.msg" "DESTINATION" "share/cdcl_umd_msgs/msg")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/PlaySound.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/PlaySound.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/PlaySound_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/PlaySound_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/PlaySound_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/PlaySound_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/SetArenaGain.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/SetArenaGain.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaGain_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaGain_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaGain_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaGain_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/SetArenaOperatingMode.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/SetArenaOperatingMode.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaOperatingMode_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaOperatingMode_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaOperatingMode_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaOperatingMode_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/InjuryReport.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/InjuryReport.srv" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/InjuryReport_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/InjuryReport_Request.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/InjuryReport_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/InjuryReport_Response.msg" "DESTINATION" "share/cdcl_umd_msgs/srv")
+
+# install(FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/action/WaypointNavigation.action" "DESTINATION" "share/cdcl_umd_msgs/action")
+ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/action/WaypointNavigation.action" "DESTINATION" "share/cdcl_umd_msgs/action")
 
 # install(FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cdcl_umd_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs" FILES "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cdcl_umd_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

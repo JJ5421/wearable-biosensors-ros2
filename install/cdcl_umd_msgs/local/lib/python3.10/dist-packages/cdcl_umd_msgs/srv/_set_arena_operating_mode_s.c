@@ -1,0 +1,1 @@
+/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c

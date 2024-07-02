@@ -16,7 +16,7 @@ set(_cdcl_umd_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT cdcl_umd_msgs_FIND_QUIETLY)
-  message(STATUS "Found cdcl_umd_msgs: 0.0.0 (${cdcl_umd_msgs_DIR})")
+  message(STATUS "Found cdcl_umd_msgs: 0.0.1 (${cdcl_umd_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package

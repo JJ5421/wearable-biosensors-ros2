@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cdcl_umd_msgs/srv/PlaySound.srv
+// generated code does not contain a copyright notice
+
+
+module cdcl_umd_msgs {
+  module srv {
+    struct PlaySound_Request {
+      string file_name;
+    };
+    struct PlaySound_Response {
+      boolean success;
+
+      string msg;
+    };
+  };
+};

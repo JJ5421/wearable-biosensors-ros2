@@ -4,6 +4,3 @@ source;share/vernier_respiration_belt/hook/pythonpath.sh
 source;share/vernier_respiration_belt/hook/ament_prefix_path.ps1
 source;share/vernier_respiration_belt/hook/ament_prefix_path.dsv
 source;share/vernier_respiration_belt/hook/ament_prefix_path.sh
-source;../../build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.ps1
-source;../../build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.dsv
-source;../../build/vernier_respiration_belt/share/vernier_respiration_belt/hook/pythonpath_develop.sh

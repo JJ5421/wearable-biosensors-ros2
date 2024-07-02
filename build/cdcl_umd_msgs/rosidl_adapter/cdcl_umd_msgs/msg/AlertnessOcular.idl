@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/AlertnessOcular.msg
+// generated code does not contain a copyright notice
+
+
+module cdcl_umd_msgs {
+  module msg {
+    module AlertnessOcular_Constants {
+      const string NAME = "alertness_ocular";
+      const string TYPE = "injury";
+      const int64 NUM_HYPOTHESES = 3;
+      const int64 MAX_POSTERIOR_INDEX = 0;
+    };
+    struct AlertnessOcular {
+      @default (value="(0.34, 0.33, 0.33)")
+      sequence<double> posteriors;
+
+      @default (value="('open', 'closed', 'NT')")
+      sequence<string> hypothesis_names;
+    };
+  };
+};
