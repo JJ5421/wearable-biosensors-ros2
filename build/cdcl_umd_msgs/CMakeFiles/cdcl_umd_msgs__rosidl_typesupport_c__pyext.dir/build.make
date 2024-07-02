@@ -121,8 +121,8 @@ rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: libcdcl_umd_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 rosidl_generator_py/cdcl_umd_msgs/cdcl_umd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so

@@ -635,7 +635,6 @@ rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -644,6 +643,7 @@ rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
+rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C shared library rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)

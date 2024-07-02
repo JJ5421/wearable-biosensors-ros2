@@ -1,0 +1,22 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing emotiv_insight.egg-info/PKG-INFO
+writing dependency_links to emotiv_insight.egg-info/dependency_links.txt
+writing entry points to emotiv_insight.egg-info/entry_points.txt
+writing requirements to emotiv_insight.egg-info/requires.txt
+writing top-level names to emotiv_insight.egg-info/top_level.txt
+reading manifest file 'emotiv_insight.egg-info/SOURCES.txt'
+writing manifest file 'emotiv_insight.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages/emotiv-insight.egg-link (link to .)
+Installing emotiv_insight_node script to /home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/emotiv_insight
+
+Installed /home/jj/wearable-biosensors-ros2/build/emotiv_insight
+running symlink_data
+symbolically linking /home/jj/wearable-biosensors-ros2/build/emotiv_insight/resource/emotiv_insight -> /home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/ament_index/resource_index/packages
+symbolically linking /home/jj/wearable-biosensors-ros2/build/emotiv_insight/package.xml -> /home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight
+symbolically linking /home/jj/wearable-biosensors-ros2/build/emotiv_insight/launch/ros2-emotiv_insight.launch.py -> /home/jj/wearable-biosensors-ros2/install/emotiv_insight/share/emotiv_insight

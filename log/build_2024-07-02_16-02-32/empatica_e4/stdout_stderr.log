@@ -1,0 +1,22 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing empatica_e4.egg-info/PKG-INFO
+writing dependency_links to empatica_e4.egg-info/dependency_links.txt
+writing entry points to empatica_e4.egg-info/entry_points.txt
+writing requirements to empatica_e4.egg-info/requires.txt
+writing top-level names to empatica_e4.egg-info/top_level.txt
+reading manifest file 'empatica_e4.egg-info/SOURCES.txt'
+writing manifest file 'empatica_e4.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages/empatica-e4.egg-link (link to .)
+Installing empatica_e4_node script to /home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/empatica_e4
+
+Installed /home/jj/wearable-biosensors-ros2/build/empatica_e4
+running symlink_data
+symbolically linking /home/jj/wearable-biosensors-ros2/build/empatica_e4/resource/empatica_e4 -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/ament_index/resource_index/packages
+symbolically linking /home/jj/wearable-biosensors-ros2/build/empatica_e4/package.xml -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4
+symbolically linking /home/jj/wearable-biosensors-ros2/build/empatica_e4/launch/ros2-empatica_E4.launch.py -> /home/jj/wearable-biosensors-ros2/install/empatica_e4/share/empatica_e4
