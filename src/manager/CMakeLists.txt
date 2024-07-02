@@ -11,9 +11,19 @@ find_package(ament_cmake REQUIRED)
 #find_package(polar_h10 REQUIRED)
 #find_package(ros2bag REQUIRED)
 
+# Install the Python package
+ament_python_install_package(${PROJECT_NAME})
 
+# Install launch scripts
 install(DIRECTORY
   launch
   DESTINATION share/${PROJECT_NAME}
+)
+
+# Install Python scripts
+install(
+  PROGRAMS
+  vital_logger.py.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
