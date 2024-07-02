@@ -12,6 +12,8 @@ class VitalLogger(Node):
         super().__init__('vital_logger')
         self.subscription_resp = self.create_subscription(Vitals,'biosensors/vernier_respiration_belt/bpm', self.listener_callback_resp, 10)
         self.subscription_hr = self.create_subscription(Vitals,'biosensors/polar_h10/hr', self.listener_callback_hr, 10)
+
+        # Two log files
         self.file_handle_resp = open('~/wearable-biosensors-ros2/VitalLogs/respiration.txt', 'w')
         self.file_handle_hr = open('~/wearable-biosensors-ros2/VitalLogs/heartrate.txt', 'w')
 

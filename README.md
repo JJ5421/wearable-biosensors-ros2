@@ -14,6 +14,8 @@ Installation:
 1. Install ROS2 and all relevant packages on the Rpi. Necessary packages are listed below:
 - crontab
 - gdx
+- pexpect
+- godirect
 - etc. (will figure it out by seeing what is missing when I run through this process again)
 2. Change relevant device name variables in polar_h10 and vernier_respiration_belt nodes
 - The vernier says its ID in the necessary format on the hardware

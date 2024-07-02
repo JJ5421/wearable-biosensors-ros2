@@ -1,0 +1,410 @@
+[0.263s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs
+[4.800s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.813s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.814s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[4.814s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.819s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.819s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.821s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.822s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.822s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.830s] [33mCMake Warning at /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+[4.831s]   Package 'rcutils' exports library 'dl' which couldn't be found
+[4.832s] Call Stack (most recent call first):
+[4.833s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[4.834s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.834s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[4.836s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.837s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[4.840s]   /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.840s]   /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[4.841s]   CMakeLists.txt:10 (find_package)
+[4.841s] 
+[4.841s] [0m
+[7.203s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[14.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.607s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[18.004s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.005s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[18.005s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[18.904s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.165s] -- Added test 'lint_cmake' to check CMake code style
+[19.229s] -- Added test 'xmllint' to check XML markup files
+[19.268s] -- Configuring done
+[19.833s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[19.834s]   Cannot generate a safe runtime search path for target
+[19.834s]   cdcl_umd_msgs__rosidl_generator_py because files in some directories may
+[19.835s]   conflict with libraries in implicit directories:
+[19.835s] 
+[19.836s]     runtime library [libpython3.10.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[19.837s]       /usr/lib/aarch64-linux-gnu
+[19.837s] 
+[19.838s]   Some of these libraries may not be found correctly.
+[19.843s] Call Stack (most recent call first):
+[19.844s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.844s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.845s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[19.845s] 
+[19.846s] [0m
+[19.871s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[19.872s]   Cannot generate a safe runtime search path for target
+[19.872s]   cdcl_umd_msgs__rosidl_typesupport_fastrtps_c__pyext because files in some
+[19.873s]   directories may conflict with libraries in implicit directories:
+[19.873s] 
+[19.874s]     runtime library [libpython3.10.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[19.874s]       /usr/lib/aarch64-linux-gnu
+[19.875s] 
+[19.875s]   Some of these libraries may not be found correctly.
+[19.876s] Call Stack (most recent call first):
+[19.876s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.877s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.877s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[19.877s] 
+[19.884s] [0m
+[19.898s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[19.899s]   Cannot generate a safe runtime search path for target
+[19.899s]   cdcl_umd_msgs__rosidl_typesupport_introspection_c__pyext because files in
+[19.900s]   some directories may conflict with libraries in implicit directories:
+[19.900s] 
+[19.901s]     runtime library [libpython3.10.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[19.902s]       /usr/lib/aarch64-linux-gnu
+[19.902s] 
+[19.903s]   Some of these libraries may not be found correctly.
+[19.908s] Call Stack (most recent call first):
+[19.908s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.910s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.916s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[19.916s] 
+[19.917s] [0m
+[19.926s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[19.927s]   Cannot generate a safe runtime search path for target
+[19.927s]   cdcl_umd_msgs__rosidl_typesupport_c__pyext because files in some
+[19.928s]   directories may conflict with libraries in implicit directories:
+[19.930s] 
+[19.931s]     runtime library [libpython3.10.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[19.933s]       /usr/lib/aarch64-linux-gnu
+[19.933s] 
+[19.934s]   Some of these libraries may not be found correctly.
+[19.934s] Call Stack (most recent call first):
+[19.935s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.936s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.936s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[19.937s] 
+[19.937s] [0m
+[20.052s] -- Generating done
+[20.082s] -- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs
+[20.146s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs
+[20.157s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4
+[20.691s] [  0%] Built target ament_cmake_python_symlink_cdcl_umd_msgs
+[23.984s] running egg_info
+[23.990s] writing cdcl_umd_msgs.egg-info/PKG-INFO
+[23.992s] writing dependency_links to cdcl_umd_msgs.egg-info/dependency_links.txt
+[23.993s] writing top-level names to cdcl_umd_msgs.egg-info/top_level.txt
+[24.011s] reading manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'
+[24.022s] writing manifest file 'cdcl_umd_msgs.egg-info/SOURCES.txt'
+[24.220s] [  0%] Built target ament_cmake_python_build_cdcl_umd_msgs_egg
+[25.894s] [  0%] Built target cdcl_umd_msgs__cpp
+[26.262s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_cpp[0m
+[26.832s] [  1%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/resnet18_classifier_observations__type_support.cpp.o[0m
+[26.890s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_generator_c[0m
+[27.124s] [  1%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observations__functions.c.o[0m
+[27.532s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[27.966s] [  1%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/resnet18_classifier_observations__type_support.cpp.o[0m
+[28.561s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_introspection_cpp[0m
+[28.614s] [  1%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observation__functions.c.o[0m
+[29.063s] [  2%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/background_subtraction__functions.c.o[0m
+[29.092s] [  2%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/resnet18_classifier_observations__type_support.cpp.o[0m
+[29.604s] [  2%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/speech_activity__functions.c.o[0m
+[30.098s] [  2%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/casualty_report__functions.c.o[0m
+[30.964s] [  3%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/casualty_report_field__functions.c.o[0m
+[31.735s] [  3%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/categorical_field__functions.c.o[0m
+[32.419s] [  3%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/numerical_field__functions.c.o[0m
+[32.494s] [  3%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/resnet18_classifier_observation__type_support.cpp.o[0m
+[33.255s] [  4%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/respiratory_distress__functions.c.o[0m
+[33.710s] [  4%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/resnet18_classifier_observation__type_support.cpp.o[0m
+[33.858s] [  4%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/resnet18_classifier_observation__type_support.cpp.o[0m
+[34.153s] [  4%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/severe_hemorrhage__functions.c.o[0m
+[35.006s] [  4%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/heart_rate__functions.c.o[0m
+[35.520s] [  5%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/respiratory_rate__functions.c.o[0m
+[35.579s] [  5%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/background_subtraction__type_support.cpp.o[0m
+[36.368s] [  5%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/trauma_head__functions.c.o[0m
+[37.064s] [  5%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/trauma_torso__functions.c.o[0m
+[37.440s] [  6%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/background_subtraction__type_support.cpp.o[0m
+[37.854s] [  7%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/trauma_upper_extremity__functions.c.o[0m
+[38.394s] [  7%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/trauma_lower_extremity__functions.c.o[0m
+[38.763s] [  8%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/background_subtraction__type_support.cpp.o[0m
+[39.014s] [  8%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/alertness_motor__functions.c.o[0m
+[39.335s] [  9%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/speech_activity__type_support.cpp.o[0m
+[39.751s] [ 10%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/alertness_ocular__functions.c.o[0m
+[40.572s] [ 10%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/alertness_verbal__functions.c.o[0m
+[41.324s] [ 10%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/latitude_longitude__functions.c.o[0m
+[41.351s] [ 10%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/speech_activity__type_support.cpp.o[0m
+[42.109s] [ 11%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/spot_status__functions.c.o[0m
+[42.314s] [ 11%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/casualty_report__type_support.cpp.o[0m
+[43.046s] [ 11%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/point2_d__functions.c.o[0m
+[43.372s] [ 11%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/speech_activity__type_support.cpp.o[0m
+[43.806s] [ 11%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/target__functions.c.o[0m
+[44.742s] [ 12%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/target_list__functions.c.o[0m
+[45.190s] [ 13%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/casualty_report_field__type_support.cpp.o[0m
+[45.535s] [ 13%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[46.120s] [ 13%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/casualty_report__type_support.cpp.o[0m
+[46.180s] [ 13%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[46.815s] [ 14%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/nav_sat_fix_array__functions.c.o[0m
+[47.610s] [ 14%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/speech__functions.c.o[0m
+[48.085s] [ 14%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/casualty_report__type_support.cpp.o[0m
+[48.147s] [ 14%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/categorical_field__type_support.cpp.o[0m
+[48.416s] [ 14%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/msg/detail/vitals__functions.c.o[0m
+[49.102s] [ 15%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/srv/detail/play_sound__functions.c.o[0m
+[49.804s] [ 15%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/srv/detail/set_arena_gain__functions.c.o[0m
+[50.452s] [ 16%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/casualty_report_field__type_support.cpp.o[0m
+[50.612s] [ 16%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/srv/detail/set_arena_operating_mode__functions.c.o[0m
+[51.506s] [ 17%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/srv/detail/injury_report__functions.c.o[0m
+[51.886s] [ 17%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/numerical_field__type_support.cpp.o[0m
+[52.345s] [ 17%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_c.dir/rosidl_generator_c/cdcl_umd_msgs/action/detail/waypoint_navigation__functions.c.o[0m
+[52.988s] [ 18%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/casualty_report_field__type_support.cpp.o[0m
+[54.140s] [ 18%] [32m[1mLinking C shared library libcdcl_umd_msgs__rosidl_generator_c.so[0m
+[54.880s] [ 19%] Built target cdcl_umd_msgs__rosidl_generator_c
+[55.048s] [ 19%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/categorical_field__type_support.cpp.o[0m
+[55.557s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/respiratory_distress__type_support.cpp.o[0m
+[57.420s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/categorical_field__type_support.cpp.o[0m
+[58.430s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/severe_hemorrhage__type_support.cpp.o[0m
+[59.511s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/numerical_field__type_support.cpp.o[0m
+[61.537s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/heart_rate__type_support.cpp.o[0m
+[61.552s] [ 20%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/numerical_field__type_support.cpp.o[0m
+[62.852s] [ 21%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/respiratory_distress__type_support.cpp.o[0m
+[64.284s] [ 22%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/respiratory_rate__type_support.cpp.o[0m
+[65.023s] [ 23%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/respiratory_distress__type_support.cpp.o[0m
+[67.012s] [ 23%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/trauma_head__type_support.cpp.o[0m
+[67.140s] [ 23%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/severe_hemorrhage__type_support.cpp.o[0m
+[69.311s] [ 23%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/severe_hemorrhage__type_support.cpp.o[0m
+[69.576s] [ 23%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/trauma_torso__type_support.cpp.o[0m
+[71.847s] [ 24%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/trauma_upper_extremity__type_support.cpp.o[0m
+[72.228s] [ 24%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/heart_rate__type_support.cpp.o[0m
+[73.606s] [ 24%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/heart_rate__type_support.cpp.o[0m
+[74.181s] [ 24%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/trauma_lower_extremity__type_support.cpp.o[0m
+[76.210s] [ 25%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/respiratory_rate__type_support.cpp.o[0m
+[76.467s] [ 25%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/alertness_motor__type_support.cpp.o[0m
+[77.196s] [ 26%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/respiratory_rate__type_support.cpp.o[0m
+[79.228s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/alertness_ocular__type_support.cpp.o[0m
+[79.540s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/trauma_head__type_support.cpp.o[0m
+[81.013s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/trauma_head__type_support.cpp.o[0m
+[82.128s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/alertness_verbal__type_support.cpp.o[0m
+[83.860s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/trauma_torso__type_support.cpp.o[0m
+[84.551s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/latitude_longitude__type_support.cpp.o[0m
+[85.723s] [ 27%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/trauma_torso__type_support.cpp.o[0m
+[87.018s] [ 28%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/spot_status__type_support.cpp.o[0m
+[88.369s] [ 29%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/trauma_upper_extremity__type_support.cpp.o[0m
+[89.390s] [ 29%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/point2_d__type_support.cpp.o[0m
+[90.257s] [ 30%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/trauma_upper_extremity__type_support.cpp.o[0m
+[91.814s] [ 30%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/target__type_support.cpp.o[0m
+[92.806s] [ 30%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/trauma_lower_extremity__type_support.cpp.o[0m
+[94.420s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/target_list__type_support.cpp.o[0m
+[94.962s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/trauma_lower_extremity__type_support.cpp.o[0m
+[97.052s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[97.309s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/alertness_motor__type_support.cpp.o[0m
+[99.549s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[99.559s] [ 31%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/alertness_motor__type_support.cpp.o[0m
+[101.815s] [ 32%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/nav_sat_fix_array__type_support.cpp.o[0m
+[101.864s] [ 33%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/alertness_ocular__type_support.cpp.o[0m
+[104.242s] [ 34%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/alertness_ocular__type_support.cpp.o[0m
+[104.360s] [ 34%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/speech__type_support.cpp.o[0m
+[106.412s] [ 34%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/alertness_verbal__type_support.cpp.o[0m
+[107.217s] [ 34%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/msg/vitals__type_support.cpp.o[0m
+[108.475s] [ 34%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/alertness_verbal__type_support.cpp.o[0m
+[109.794s] [ 35%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/srv/play_sound__type_support.cpp.o[0m
+[110.394s] [ 35%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/latitude_longitude__type_support.cpp.o[0m
+[112.492s] [ 35%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/srv/set_arena_gain__type_support.cpp.o[0m
+[113.110s] [ 35%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/latitude_longitude__type_support.cpp.o[0m
+[113.762s] [ 36%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/spot_status__type_support.cpp.o[0m
+[114.932s] [ 36%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/srv/set_arena_operating_mode__type_support.cpp.o[0m
+[116.502s] [ 37%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/spot_status__type_support.cpp.o[0m
+[117.181s] [ 38%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/srv/injury_report__type_support.cpp.o[0m
+[117.715s] [ 38%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[119.875s] [ 38%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cdcl_umd_msgs/action/waypoint_navigation__type_support.cpp.o[0m
+[121.194s] [ 38%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[121.224s] [ 38%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[124.736s] [ 38%] [32m[1mLinking CXX shared library libcdcl_umd_msgs__rosidl_typesupport_cpp.so[0m
+[125.266s] [ 39%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/target_list__type_support.cpp.o[0m
+[125.267s] [ 39%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/target__type_support.cpp.o[0m
+[125.324s] [ 39%] Built target cdcl_umd_msgs__rosidl_typesupport_cpp
+[128.397s] [ 40%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/target_list__type_support.cpp.o[0m
+[128.506s] [ 40%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[131.186s] [ 40%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[131.976s] [ 40%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[134.207s] [ 41%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/nav_sat_fix_array__type_support.cpp.o[0m
+[134.695s] [ 41%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[137.260s] [ 41%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/speech__type_support.cpp.o[0m
+[137.633s] [ 42%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/nav_sat_fix_array__type_support.cpp.o[0m
+[140.486s] [ 42%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/msg/detail/dds_fastrtps/vitals__type_support.cpp.o[0m
+[140.608s] [ 42%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/speech__type_support.cpp.o[0m
+[143.162s] [ 43%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/srv/detail/dds_fastrtps/play_sound__type_support.cpp.o[0m
+[143.590s] [ 43%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/vitals__type_support.cpp.o[0m
+[146.144s] [ 43%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/srv/detail/dds_fastrtps/set_arena_gain__type_support.cpp.o[0m
+[146.243s] [ 44%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/srv/detail/play_sound__type_support.cpp.o[0m
+[148.978s] [ 44%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/srv/detail/set_arena_gain__type_support.cpp.o[0m
+[149.195s] [ 44%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/srv/detail/dds_fastrtps/set_arena_operating_mode__type_support.cpp.o[0m
+[151.853s] [ 44%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/srv/detail/set_arena_operating_mode__type_support.cpp.o[0m
+[152.143s] [ 45%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/srv/detail/dds_fastrtps/injury_report__type_support.cpp.o[0m
+[154.665s] [ 46%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/srv/detail/injury_report__type_support.cpp.o[0m
+[155.096s] [ 46%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cdcl_umd_msgs/action/detail/dds_fastrtps/waypoint_navigation__type_support.cpp.o[0m
+[157.456s] [ 46%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/action/detail/waypoint_navigation__type_support.cpp.o[0m
+[159.112s] [ 46%] [32m[1mLinking CXX shared library libcdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[159.900s] [ 47%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_cpp
+[161.525s] [ 48%] [32m[1mLinking CXX shared library libcdcl_umd_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[162.239s] [ 49%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_cpp
+[162.948s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_c[0m
+[163.051s] [ 49%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/resnet18_classifier_observations__type_support.cpp.o[0m
+[163.274s] [ 49%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/resnet18_classifier_observation__type_support.cpp.o[0m
+[163.478s] [ 50%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/background_subtraction__type_support.cpp.o[0m
+[163.691s] [ 50%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/speech_activity__type_support.cpp.o[0m
+[163.914s] [ 50%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/casualty_report__type_support.cpp.o[0m
+[164.130s] [ 51%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/casualty_report_field__type_support.cpp.o[0m
+[164.337s] [ 51%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/categorical_field__type_support.cpp.o[0m
+[164.548s] [ 51%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/numerical_field__type_support.cpp.o[0m
+[164.763s] [ 52%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/respiratory_distress__type_support.cpp.o[0m
+[164.982s] [ 52%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/severe_hemorrhage__type_support.cpp.o[0m
+[165.186s] [ 52%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/heart_rate__type_support.cpp.o[0m
+[165.415s] [ 53%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/respiratory_rate__type_support.cpp.o[0m
+[165.637s] [ 53%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/trauma_head__type_support.cpp.o[0m
+[165.854s] [ 53%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/trauma_torso__type_support.cpp.o[0m
+[166.069s] [ 54%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/trauma_upper_extremity__type_support.cpp.o[0m
+[166.286s] [ 54%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/trauma_lower_extremity__type_support.cpp.o[0m
+[166.530s] [ 54%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/alertness_motor__type_support.cpp.o[0m
+[166.740s] [ 55%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/alertness_ocular__type_support.cpp.o[0m
+[166.953s] [ 55%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/alertness_verbal__type_support.cpp.o[0m
+[167.158s] [ 55%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/latitude_longitude__type_support.cpp.o[0m
+[167.373s] [ 56%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/spot_status__type_support.cpp.o[0m
+[167.591s] [ 56%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/point2_d__type_support.cpp.o[0m
+[167.799s] [ 56%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/target__type_support.cpp.o[0m
+[168.027s] [ 57%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/target_list__type_support.cpp.o[0m
+[168.252s] [ 57%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[168.476s] [ 57%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[168.758s] [ 58%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/nav_sat_fix_array__type_support.cpp.o[0m
+[168.988s] [ 58%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/speech__type_support.cpp.o[0m
+[169.208s] [ 58%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/msg/vitals__type_support.cpp.o[0m
+[169.424s] [ 59%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/srv/play_sound__type_support.cpp.o[0m
+[169.665s] [ 59%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/srv/set_arena_gain__type_support.cpp.o[0m
+[169.890s] [ 59%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/srv/set_arena_operating_mode__type_support.cpp.o[0m
+[170.118s] [ 60%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/srv/injury_report__type_support.cpp.o[0m
+[170.344s] [ 60%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cdcl_umd_msgs/action/waypoint_navigation__type_support.cpp.o[0m
+[170.712s] [ 60%] [32m[1mLinking CXX shared library libcdcl_umd_msgs__rosidl_typesupport_c.so[0m
+[171.041s] [ 61%] Built target cdcl_umd_msgs__rosidl_typesupport_c
+[172.027s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_introspection_c[0m
+[172.172s] [ 61%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observations__type_support.c.o[0m
+[172.453s] [ 62%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/background_subtraction__type_support.c.o[0m
+[172.745s] [ 62%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/speech_activity__type_support.c.o[0m
+[173.011s] [ 62%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/casualty_report__type_support.c.o[0m
+[173.308s] [ 63%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/casualty_report_field__type_support.c.o[0m
+[173.572s] [ 63%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/categorical_field__type_support.c.o[0m
+[173.874s] [ 63%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/numerical_field__type_support.c.o[0m
+[174.128s] [ 64%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/respiratory_distress__type_support.c.o[0m
+[174.427s] [ 64%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/severe_hemorrhage__type_support.c.o[0m
+[174.716s] [ 64%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/heart_rate__type_support.c.o[0m
+[174.958s] [ 65%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/respiratory_rate__type_support.c.o[0m
+[175.203s] [ 65%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/trauma_head__type_support.c.o[0m
+[175.492s] [ 66%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/trauma_torso__type_support.c.o[0m
+[175.775s] [ 66%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/trauma_upper_extremity__type_support.c.o[0m
+[176.058s] [ 66%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/trauma_lower_extremity__type_support.c.o[0m
+[176.349s] [ 67%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/alertness_motor__type_support.c.o[0m
+[176.638s] [ 67%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/alertness_ocular__type_support.c.o[0m
+[176.929s] [ 67%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/alertness_verbal__type_support.c.o[0m
+[177.220s] [ 68%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/latitude_longitude__type_support.c.o[0m
+[177.466s] [ 68%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/spot_status__type_support.c.o[0m
+[177.755s] [ 68%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/point2_d__type_support.c.o[0m
+[178.010s] [ 69%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/target__type_support.c.o[0m
+[178.341s] [ 69%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/target_list__type_support.c.o[0m
+[178.651s] [ 69%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[178.900s] [ 70%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[179.169s] [ 70%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/nav_sat_fix_array__type_support.c.o[0m
+[179.459s] [ 70%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/speech__type_support.c.o[0m
+[179.759s] [ 71%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/vitals__type_support.c.o[0m
+[180.009s] [ 71%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/srv/detail/play_sound__type_support.c.o[0m
+[180.277s] [ 71%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/srv/detail/set_arena_gain__type_support.c.o[0m
+[180.551s] [ 72%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/srv/detail/set_arena_operating_mode__type_support.c.o[0m
+[180.814s] [ 72%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/srv/detail/injury_report__type_support.c.o[0m
+[181.085s] [ 72%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/action/detail/waypoint_navigation__type_support.c.o[0m
+[181.455s] [ 72%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observation__type_support.c.o[0m
+[181.708s] [ 73%] [32m[1mLinking C shared library libcdcl_umd_msgs__rosidl_typesupport_introspection_c.so[0m
+[182.013s] [ 74%] Built target cdcl_umd_msgs__rosidl_typesupport_introspection_c
+[182.912s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c[0m
+[183.185s] [ 74%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observations__type_support_c.cpp.o[0m
+[185.307s] [ 74%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/speech_activity__type_support_c.cpp.o[0m
+[187.355s] [ 74%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/casualty_report__type_support_c.cpp.o[0m
+[189.479s] [ 75%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/casualty_report_field__type_support_c.cpp.o[0m
+[191.545s] [ 75%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/categorical_field__type_support_c.cpp.o[0m
+[193.727s] [ 75%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/numerical_field__type_support_c.cpp.o[0m
+[195.789s] [ 76%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/respiratory_distress__type_support_c.cpp.o[0m
+[197.941s] [ 76%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/severe_hemorrhage__type_support_c.cpp.o[0m
+[200.056s] [ 76%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/heart_rate__type_support_c.cpp.o[0m
+[202.037s] [ 77%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/respiratory_rate__type_support_c.cpp.o[0m
+[204.060s] [ 77%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/trauma_head__type_support_c.cpp.o[0m
+[206.164s] [ 77%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/trauma_torso__type_support_c.cpp.o[0m
+[208.257s] [ 78%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/trauma_upper_extremity__type_support_c.cpp.o[0m
+[210.356s] [ 78%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/trauma_lower_extremity__type_support_c.cpp.o[0m
+[212.466s] [ 78%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/alertness_motor__type_support_c.cpp.o[0m
+[214.540s] [ 79%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/alertness_ocular__type_support_c.cpp.o[0m
+[216.626s] [ 79%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/alertness_verbal__type_support_c.cpp.o[0m
+[218.699s] [ 79%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/latitude_longitude__type_support_c.cpp.o[0m
+[220.702s] [ 80%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/spot_status__type_support_c.cpp.o[0m
+[222.857s] [ 80%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[224.972s] [ 80%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/target__type_support_c.cpp.o[0m
+[227.030s] [ 81%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/target_list__type_support_c.cpp.o[0m
+[229.230s] [ 81%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[231.336s] [ 81%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[233.373s] [ 82%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/nav_sat_fix_array__type_support_c.cpp.o[0m
+[235.568s] [ 82%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/speech__type_support_c.cpp.o[0m
+[237.719s] [ 83%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/vitals__type_support_c.cpp.o[0m
+[239.950s] [ 83%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/srv/detail/play_sound__type_support_c.cpp.o[0m
+[242.073s] [ 83%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/srv/detail/set_arena_gain__type_support_c.cpp.o[0m
+[244.257s] [ 84%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/srv/detail/set_arena_operating_mode__type_support_c.cpp.o[0m
+[246.627s] [ 84%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/srv/detail/injury_report__type_support_c.cpp.o[0m
+[249.321s] [ 84%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/action/detail/waypoint_navigation__type_support_c.cpp.o[0m
+[251.753s] [ 85%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/background_subtraction__type_support_c.cpp.o[0m
+[253.541s] [ 85%] [32mBuilding CXX object CMakeFiles/cdcl_umd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cdcl_umd_msgs/msg/detail/resnet18_classifier_observation__type_support_c.cpp.o[0m
+[255.325s] [ 86%] [32m[1mLinking CXX shared library libcdcl_umd_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[255.815s] [ 87%] Built target cdcl_umd_msgs__rosidl_typesupport_fastrtps_c
+[255.927s] [ 87%] Built target cdcl_umd_msgs
+[256.153s] [ 87%] Built target cdcl_umd_msgs__py
+[256.235s] [35m[1mConsolidate compiler generated dependencies of target cdcl_umd_msgs__rosidl_generator_py[0m
+[256.496s] [ 88%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observations_s.c.o[0m
+[257.258s] [ 89%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_activity_s.c.o[0m
+[257.845s] [ 89%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_s.c.o[0m
+[258.464s] [ 89%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_casualty_report_field_s.c.o[0m
+[259.073s] [ 90%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_categorical_field_s.c.o[0m
+[259.731s] [ 90%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_numerical_field_s.c.o[0m
+[260.324s] [ 90%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_distress_s.c.o[0m
+[260.971s] [ 91%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_severe_hemorrhage_s.c.o[0m
+[261.614s] [ 91%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_heart_rate_s.c.o[0m
+[262.190s] [ 91%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_respiratory_rate_s.c.o[0m
+[262.775s] [ 92%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_head_s.c.o[0m
+[263.423s] [ 92%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_torso_s.c.o[0m
+[264.071s] [ 92%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_upper_extremity_s.c.o[0m
+[264.718s] [ 93%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_trauma_lower_extremity_s.c.o[0m
+[265.382s] [ 93%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_motor_s.c.o[0m
+[265.384s] [ 93%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_background_subtraction_s.c.o[0m
+[265.996s] [ 93%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_ocular_s.c.o[0m
+[266.059s] [ 94%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_alertness_verbal_s.c.o[0m
+[266.109s] [ 94%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_latitude_longitude_s.c.o[0m
+[266.743s] [ 94%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_resnet18_classifier_observation_s.c.o[0m
+[266.883s] [ 95%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_spot_status_s.c.o[0m
+[266.941s] [ 95%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_point2_d_s.c.o[0m
+[267.434s] [ 95%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_s.c.o[0m
+[267.618s] [ 96%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_target_list_s.c.o[0m
+[267.676s] [ 96%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_s.c.o[0m
+[268.377s] [ 96%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[268.432s] [ 97%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_nav_sat_fix_array_s.c.o[0m
+[268.502s] [ 97%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_speech_s.c.o[0m
+[269.056s] [ 97%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/msg/_vitals_s.c.o[0m
+[269.117s] [ 98%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_play_sound_s.c.o[0m
+[269.159s] [ 98%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_gain_s.c.o[0m
+[269.221s] [ 98%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_set_arena_operating_mode_s.c.o[0m
+[269.795s] [ 99%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/srv/_injury_report_s.c.o[0m
+[269.869s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.10.so', needed by 'rosidl_generator_py/cdcl_umd_msgs/libcdcl_umd_msgs__rosidl_generator_py.so'.  Stop.
+[269.870s] gmake[2]: *** Waiting for unfinished jobs....
+[269.916s] [ 99%] [32mBuilding C object CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/rosidl_generator_py/cdcl_umd_msgs/action/_waypoint_navigation_s.c.o[0m
+[270.715s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/cdcl_umd_msgs__rosidl_generator_py.dir/all] Error 2
+[270.719s] gmake: *** [Makefile:146: all] Error 2
+[270.725s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs -- -j4 -l4

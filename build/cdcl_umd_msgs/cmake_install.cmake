@@ -227,7 +227,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcdcl_umd_msgs__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcdcl_umd_msgs__rosidl_generator_py.so"
-         OLD_RPATH "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcdcl_umd_msgs__rosidl_generator_py.so")
