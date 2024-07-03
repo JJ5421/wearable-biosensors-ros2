@@ -1,1 +1,13 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/AprilTagDetectionArray.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/AprilTagDetectionArray.msg
+// generated code does not contain a copyright notice
+
+#include "cdcl_umd_msgs/msg/AprilTagDetection.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    struct AprilTagDetectionArray {
+      sequence<cdcl_umd_msgs::msg::AprilTagDetection> april_tags;
+    };
+  };
+};

@@ -1,1 +1,6 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/SpeechActivity.msg
+builtin_interfaces/Time stamp
+
+# is either 0 or 1
+int64 observation
+
+string SPEECH_ACTIVITY='SPEECH_ACTIVITY'

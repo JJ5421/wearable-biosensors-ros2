@@ -1,1 +1,17 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpotStatus.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/navigation/SpotStatus.msg
+// generated code does not contain a copyright notice
+
+
+module cdcl_umd_msgs {
+  module msg {
+    struct SpotStatus {
+      string state;
+
+      sequence<boolean> working_nodes;
+
+      @default (value="('RESNET18_CLASSIFIERS', 'BACKGROUND_SUBTRACTION', 'SPEECH_ACTIVITY', 'APRILTAG_DETECTIONS', 'TARGET_DETECTION')")
+      sequence<string> working_nodes_strings;
+    };
+  };
+};

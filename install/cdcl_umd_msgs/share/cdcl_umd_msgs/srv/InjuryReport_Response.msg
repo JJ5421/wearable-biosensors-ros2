@@ -1,1 +1,5 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/InjuryReport_Response.msg
+
+# Whether or not the POST request sucessfully went through
+bool success
+# Any messages returned by the DARPA command post
+string message

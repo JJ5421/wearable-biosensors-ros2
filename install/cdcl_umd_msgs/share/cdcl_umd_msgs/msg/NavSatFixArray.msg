@@ -1,1 +1,1 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/NavSatFixArray.msg
+sensor_msgs/NavSatFix[] fixes

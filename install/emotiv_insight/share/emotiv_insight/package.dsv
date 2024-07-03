@@ -4,6 +4,3 @@ source;share/emotiv_insight/hook/pythonpath.sh
 source;share/emotiv_insight/hook/ament_prefix_path.ps1
 source;share/emotiv_insight/hook/ament_prefix_path.dsv
 source;share/emotiv_insight/hook/ament_prefix_path.sh
-source;../../build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.ps1
-source;../../build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.dsv
-source;../../build/emotiv_insight/share/emotiv_insight/hook/pythonpath_develop.sh

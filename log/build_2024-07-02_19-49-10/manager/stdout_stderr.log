@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/manager
+Built target ament_cmake_python_copy_manager
+running egg_info
+creating manager.egg-info
+writing manager.egg-info/PKG-INFO
+writing dependency_links to manager.egg-info/dependency_links.txt
+writing top-level names to manager.egg-info/top_level.txt
+writing manifest file 'manager.egg-info/SOURCES.txt'
+reading manifest file 'manager.egg-info/SOURCES.txt'
+writing manifest file 'manager.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_manager_egg
+-- Install configuration: ""
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/pythonpath.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/pythonpath.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager-0.0.0-py3.10.egg-info
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager/vital_logger.py
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager/__init__.py
+Listing '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager'...
+Compiling '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager/__init__.py'...
+Compiling '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages/manager/vital_logger.py'...
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/launch
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/launch/collector.launch.py
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/lib/manager/vital_logger.py
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/package_run_dependencies/manager
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/parent_prefix_path/manager
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/ament_prefix_path.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/environment/path.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.bash
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.zsh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/local_setup.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/ament_index/resource_index/packages/manager
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/cmake/managerConfig-version.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/manager/share/manager/package.xml

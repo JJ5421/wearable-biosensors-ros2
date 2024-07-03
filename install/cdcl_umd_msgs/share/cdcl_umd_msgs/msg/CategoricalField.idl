@@ -1,1 +1,21 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CategoricalField.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/CategoricalField.msg
+// generated code does not contain a copyright notice
+
+#include "cdcl_umd_msgs/msg/CasualtyReportField.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    struct CategoricalField {
+      cdcl_umd_msgs::msg::CasualtyReportField field;
+
+      int64 num_hypotheses;
+
+      int64 max_posterior_index;
+
+      sequence<double> posteriors;
+
+      sequence<string> hypothesis_names;
+    };
+  };
+};

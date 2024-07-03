@@ -1,1 +1,4 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/srv/SetArenaOperatingMode.srv
+string operating_mode
+---
+bool success
+string msg

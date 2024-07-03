@@ -1,1 +1,3 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/NumericalField.msg
+CasualtyReportField field
+float64 estimate
+float64 covariance

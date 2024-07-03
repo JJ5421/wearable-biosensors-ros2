@@ -1,1 +1,2 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/navigation/LatitudeLongitude.msg
+int64 LATITUDE=0
+int64 LONGITUDE=1

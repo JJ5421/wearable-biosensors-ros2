@@ -1,1 +1,1 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

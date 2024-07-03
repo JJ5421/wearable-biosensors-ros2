@@ -1,0 +1,40 @@
+[11.032s] Invoking command in '/home/jj/wearable-biosensors-ros2/src/polar_h10': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/polar_h10 build --build-base /home/jj/wearable-biosensors-ros2/build/polar_h10/build install --record /home/jj/wearable-biosensors-ros2/build/polar_h10/install.log --install-scripts $base/lib/polar_h10 --single-version-externally-managed install_data
+[14.662s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.668s]   warnings.warn(
+[14.751s] running egg_info
+[14.762s] creating ../../build/polar_h10/polar_h10.egg-info
+[14.770s] writing ../../build/polar_h10/polar_h10.egg-info/PKG-INFO
+[14.779s] writing dependency_links to ../../build/polar_h10/polar_h10.egg-info/dependency_links.txt
+[14.785s] writing entry points to ../../build/polar_h10/polar_h10.egg-info/entry_points.txt
+[14.790s] writing requirements to ../../build/polar_h10/polar_h10.egg-info/requires.txt
+[14.793s] writing top-level names to ../../build/polar_h10/polar_h10.egg-info/top_level.txt
+[14.804s] writing manifest file '../../build/polar_h10/polar_h10.egg-info/SOURCES.txt'
+[14.829s] reading manifest file '../../build/polar_h10/polar_h10.egg-info/SOURCES.txt'
+[14.839s] writing manifest file '../../build/polar_h10/polar_h10.egg-info/SOURCES.txt'
+[14.847s] running build
+[14.852s] running build_py
+[14.854s] creating /home/jj/wearable-biosensors-ros2/build/polar_h10/build
+[14.855s] creating /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib
+[14.857s] creating /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib/polar_h10
+[14.872s] copying polar_h10/polar_h10_node.py -> /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib/polar_h10
+[14.874s] copying polar_h10/__init__.py -> /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib/polar_h10
+[14.879s] running install
+[14.882s] running install_lib
+[14.894s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10
+[14.896s] copying /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib/polar_h10/polar_h10_node.py -> /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10
+[14.903s] copying /home/jj/wearable-biosensors-ros2/build/polar_h10/build/lib/polar_h10/__init__.py -> /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10
+[14.909s] byte-compiling /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10/polar_h10_node.py to polar_h10_node.cpython-310.pyc
+[14.924s] byte-compiling /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10/__init__.py to __init__.cpython-310.pyc
+[14.928s] running install_data
+[14.933s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index
+[14.935s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index
+[14.940s] creating /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index/packages
+[14.941s] copying resource/polar_h10 -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/ament_index/resource_index/packages
+[14.942s] copying package.xml -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10
+[14.943s] copying launch/ros2-polar_h10.launch.py -> /home/jj/wearable-biosensors-ros2/install/polar_h10/share/polar_h10
+[14.944s] running install_egg_info
+[14.985s] Copying ../../build/polar_h10/polar_h10.egg-info to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages/polar_h10-0.0.1-py3.10.egg-info
+[15.010s] running install_scripts
+[15.270s] Installing polar_h10_node script to /home/jj/wearable-biosensors-ros2/install/polar_h10/lib/polar_h10
+[15.271s] writing list of installed files to '/home/jj/wearable-biosensors-ros2/build/polar_h10/install.log'
+[15.555s] Invoked command in '/home/jj/wearable-biosensors-ros2/src/polar_h10' returned '0': CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/manager PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/polar_h10/prefix_override:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/polar_h10 build --build-base /home/jj/wearable-biosensors-ros2/build/polar_h10/build install --record /home/jj/wearable-biosensors-ros2/build/polar_h10/install.log --install-scripts $base/lib/polar_h10 --single-version-externally-managed install_data

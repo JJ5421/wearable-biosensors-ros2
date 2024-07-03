@@ -1,1 +1,3 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_cmake/srv/SetArenaGain_Response.msg
+
+bool success
+string msg

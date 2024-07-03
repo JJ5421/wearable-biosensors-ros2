@@ -1,1 +1,2 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/Vitals.msg
+builtin_interfaces/Time stamp
+float32 data

@@ -1,5 +1,7 @@
 /home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/uninstall.dir
 /home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/manager_uninstall.dir
+/home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/ament_cmake_python_copy_manager.dir
+/home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/ament_cmake_python_build_manager_egg.dir
 /home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/test.dir
 /home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/edit_cache.dir
 /home/jj/wearable-biosensors-ros2/build/manager/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,11 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/CasualtyReportField.msg
+# timestamp
+builtin_interfaces/Time stamp
+
+# name of the field e.g. severe hemorrhage
+string name
+
+# type
+string type
+
+# name of the platform taking the measurement e.g. Apollo
+string platform_name

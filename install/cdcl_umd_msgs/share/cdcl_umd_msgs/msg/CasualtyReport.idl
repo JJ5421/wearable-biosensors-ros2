@@ -1,1 +1,38 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/CasualtyReport.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/CasualtyReport.msg
+// generated code does not contain a copyright notice
+
+#include "cdcl_umd_msgs/msg/CategoricalField.idl"
+#include "cdcl_umd_msgs/msg/NumericalField.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "the AprilTag ID of the casualty")
+    struct CasualtyReport {
+      int64 casualty_id;
+
+      cdcl_umd_msgs::msg::CategoricalField severe_hemorrhage;
+
+      cdcl_umd_msgs::msg::CategoricalField respiratory_distress;
+
+      cdcl_umd_msgs::msg::NumericalField heart_rate;
+
+      cdcl_umd_msgs::msg::NumericalField respiratory_rate;
+
+      cdcl_umd_msgs::msg::CategoricalField trauma_head;
+
+      cdcl_umd_msgs::msg::CategoricalField trauma_torso;
+
+      cdcl_umd_msgs::msg::CategoricalField trauma_upper_extremity;
+
+      cdcl_umd_msgs::msg::CategoricalField trauma_lower_extremity;
+
+      cdcl_umd_msgs::msg::CategoricalField alertness_ocular;
+
+      cdcl_umd_msgs::msg::CategoricalField alertness_motor;
+
+      cdcl_umd_msgs::msg::CategoricalField alertness_verbal;
+    };
+  };
+};

@@ -1,1 +1,1 @@
-/home/jj/wearable-biosensors-ros2/build/manager/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/manager
+rclpy;ros2bag;cdcl_umd_msgs;vernier_respiration_belt;polar_h10;ament_lint_auto;ament_lint_common

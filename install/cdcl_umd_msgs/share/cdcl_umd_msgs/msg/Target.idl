@@ -1,1 +1,62 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/Target.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/target_tracking/Target.msg
+// generated code does not contain a copyright notice
+
+#include "cdcl_umd_msgs/msg/Point2D.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    module Target_Constants {
+      const int64 NOSE = 0;
+      const int64 LEFT_EYE = 1;
+      const int64 RIGHT_EYE = 2;
+      const int64 LEFT_EAR = 3;
+      const int64 RIGHT_EAR = 4;
+      const int64 LEFT_SHOULDER = 5;
+      const int64 RIGHT_SHOULDER = 6;
+      const int64 LEFT_ELBOW = 7;
+      const int64 RIGHT_ELBOW = 8;
+      const int64 LEFT_WRIST = 9;
+      const int64 RIGHT_WRIST = 10;
+      const int64 LEFT_HIP = 11;
+      const int64 RIGHT_HIP = 12;
+      const int64 LEFT_KNEE = 13;
+      const int64 RIGHT_KNEE = 14;
+      const int64 LEFT_ANKLE = 15;
+      const int64 RIGHT_ANKLE = 16;
+    };
+    @verbatim (language="comment", text=
+      "everyone that the spot sees has one of these messages" "\n"
+      "- we measure the position of the person in the color camera frame" "\n"
+      "- we measure the distance to their chest in the color camera frame")
+    struct Target {
+      @verbatim (language="comment", text=
+        "don't need a custom msg for this")
+      geometry_msgs::msg::Vector3 position;
+
+      @verbatim (language="comment", text=
+        "distance to the targets's left and right lungs in meters in color camera frame" "\n"
+        "distnace in meters")
+      double left_lung;
+
+      @verbatim (language="comment", text=
+        "distance in meters")
+      double right_lung;
+
+      @verbatim (language="comment", text=
+        "intensity in W/m^2")
+      double face;
+
+      @verbatim (language="comment", text=
+        "position of \"keypoints\" from YOLOv8 pose in camera optical frame (pixel coordinates)")
+      sequence<cdcl_umd_msgs::msg::Point2D> keypoints;
+
+      @verbatim (language="comment", text=
+        "features and feature descriptors for helping with data association")
+      sequence<double> features;
+
+      sequence<double> feature_descriptors;
+    };
+  };
+};

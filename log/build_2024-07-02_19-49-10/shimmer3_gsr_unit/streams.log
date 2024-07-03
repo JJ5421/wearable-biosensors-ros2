@@ -1,0 +1,40 @@
+[11.527s] Invoking command in '/home/jj/wearable-biosensors-ros2/src/shimmer3_gsr_unit': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/shimmer3_gsr_unit build --build-base /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build install --record /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/install.log --install-scripts $base/lib/shimmer3_gsr_unit --single-version-externally-managed install_data
+[14.797s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.808s]   warnings.warn(
+[14.917s] running egg_info
+[14.920s] creating ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info
+[14.922s] writing ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/PKG-INFO
+[14.925s] writing dependency_links to ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/dependency_links.txt
+[14.926s] writing entry points to ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/entry_points.txt
+[14.930s] writing requirements to ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/requires.txt
+[14.930s] writing top-level names to ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/top_level.txt
+[14.931s] writing manifest file '../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/SOURCES.txt'
+[14.940s] reading manifest file '../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/SOURCES.txt'
+[14.946s] writing manifest file '../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info/SOURCES.txt'
+[14.948s] running build
+[14.950s] running build_py
+[14.954s] creating /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build
+[14.957s] creating /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib
+[14.960s] creating /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib/shimmer3_gsr_unit
+[14.967s] copying shimmer3_gsr_unit/shimmer_gsr_ppg_node.py -> /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib/shimmer3_gsr_unit
+[14.968s] copying shimmer3_gsr_unit/__init__.py -> /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib/shimmer3_gsr_unit
+[14.972s] running install
+[14.973s] running install_lib
+[14.979s] creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit
+[14.980s] copying /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib/shimmer3_gsr_unit/shimmer_gsr_ppg_node.py -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit
+[14.981s] copying /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build/lib/shimmer3_gsr_unit/__init__.py -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit
+[14.981s] byte-compiling /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit/shimmer_gsr_ppg_node.py to shimmer_gsr_ppg_node.cpython-310.pyc
+[14.986s] byte-compiling /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit/__init__.py to __init__.cpython-310.pyc
+[14.988s] running install_data
+[15.003s] creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index
+[15.004s] creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index
+[15.005s] creating /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index/packages
+[15.006s] copying resource/shimmer3_gsr_unit -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/ament_index/resource_index/packages
+[15.007s] copying package.xml -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit
+[15.008s] copying launch/ros2-shimmer3_gsr.launch.py -> /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/share/shimmer3_gsr_unit
+[15.008s] running install_egg_info
+[15.024s] Copying ../../build/shimmer3_gsr_unit/shimmer3_gsr_unit.egg-info to /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages/shimmer3_gsr_unit-0.0.1-py3.10.egg-info
+[15.043s] running install_scripts
+[15.237s] Installing shimmer_gsr_ppg_node script to /home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/shimmer3_gsr_unit
+[15.238s] writing list of installed files to '/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/install.log'
+[15.638s] Invoked command in '/home/jj/wearable-biosensors-ros2/src/shimmer3_gsr_unit' returned '0': PYTHONPATH=/home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/prefix_override:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/shimmer3_gsr_unit build --build-base /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/build install --record /home/jj/wearable-biosensors-ros2/build/shimmer3_gsr_unit/install.log --install-scripts $base/lib/shimmer3_gsr_unit --single-version-externally-managed install_data

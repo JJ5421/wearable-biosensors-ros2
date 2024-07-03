@@ -1,1 +1,20 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_adapter/cdcl_umd_msgs/msg/SpeechActivity.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cdcl_umd_msgs/msg/casualty_report/classifiers/SpeechActivity.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module cdcl_umd_msgs {
+  module msg {
+    module SpeechActivity_Constants {
+      const string SPEECH_ACTIVITY = "SPEECH_ACTIVITY";
+    };
+    struct SpeechActivity {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "is either 0 or 1")
+      int64 observation;
+    };
+  };
+};

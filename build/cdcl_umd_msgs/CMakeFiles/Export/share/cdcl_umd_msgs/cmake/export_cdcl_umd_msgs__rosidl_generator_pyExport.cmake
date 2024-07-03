@@ -54,7 +54,7 @@ endif()
 add_library(cdcl_umd_msgs::cdcl_umd_msgs__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(cdcl_umd_msgs::cdcl_umd_msgs__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "cdcl_umd_msgs::cdcl_umd_msgs__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;cdcl_umd_msgs::cdcl_umd_msgs__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;sensor_msgs::sensor_msgs__rosidl_generator_py;action_msgs::action_msgs__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
+  INTERFACE_LINK_LIBRARIES "cdcl_umd_msgs::cdcl_umd_msgs__rosidl_generator_c;/usr/lib/aarch64-linux-gnu/libpython3.10.so;cdcl_umd_msgs::cdcl_umd_msgs__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;sensor_msgs::sensor_msgs__rosidl_generator_py;action_msgs::action_msgs__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

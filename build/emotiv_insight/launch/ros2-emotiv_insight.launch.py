@@ -1,1 +1,0 @@
-/home/jj/wearable-biosensors-ros2/src/emotiv_insight/launch/ros2-emotiv_insight.launch.py

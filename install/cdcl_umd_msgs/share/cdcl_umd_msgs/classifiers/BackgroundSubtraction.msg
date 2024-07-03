@@ -1,1 +1,5 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/casualty_report/classifiers/BackgroundSubtraction.msg
+builtin_interfaces/Time stamp
+
+float64 observation
+
+string BACKGROUND_SUBTRACTION='BACKGROUND_SUBTRACTION'

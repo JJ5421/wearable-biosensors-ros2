@@ -197,6 +197,32 @@ manager_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_uninstall.dir/build.make CMakeFiles/manager_uninstall.dir/build
 .PHONY : manager_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_manager
+
+# Build rule for target.
+ament_cmake_python_copy_manager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_manager
+.PHONY : ament_cmake_python_copy_manager
+
+# fast build rule for target.
+ament_cmake_python_copy_manager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_manager.dir/build.make CMakeFiles/ament_cmake_python_copy_manager.dir/build
+.PHONY : ament_cmake_python_copy_manager/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_manager_egg
+
+# Build rule for target.
+ament_cmake_python_build_manager_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_manager_egg
+.PHONY : ament_cmake_python_build_manager_egg
+
+# fast build rule for target.
+ament_cmake_python_build_manager_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_manager_egg.dir/build.make CMakeFiles/ament_cmake_python_build_manager_egg.dir/build
+.PHONY : ament_cmake_python_build_manager_egg/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +236,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_manager_egg"
+	@echo "... ament_cmake_python_copy_manager"
 	@echo "... manager_uninstall"
 	@echo "... uninstall"
 .PHONY : help

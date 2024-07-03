@@ -4,6 +4,3 @@ source;share/empatica_e4/hook/pythonpath.sh
 source;share/empatica_e4/hook/ament_prefix_path.ps1
 source;share/empatica_e4/hook/ament_prefix_path.dsv
 source;share/empatica_e4/hook/ament_prefix_path.sh
-source;../../build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.ps1
-source;../../build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.dsv
-source;../../build/empatica_e4/share/empatica_e4/hook/pythonpath_develop.sh

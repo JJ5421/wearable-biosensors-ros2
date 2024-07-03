@@ -1,1 +1,27 @@
-/home/jj/wearable-biosensors-ros2/build/cdcl_umd_msgs/rosidl_typesupport_introspection_cpp/cdcl_umd_msgs/msg/detail/alertness_ocular__rosidl_typesupport_introspection_cpp.hpp
+// generated from rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.h.em
+// with input from cdcl_umd_msgs:msg/AlertnessOcular.idl
+// generated code does not contain a copyright notice
+
+#ifndef CDCL_UMD_MSGS__MSG__DETAIL__ALERTNESS_OCULAR__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_
+#define CDCL_UMD_MSGS__MSG__DETAIL__ALERTNESS_OCULAR__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "rosidl_typesupport_introspection_cpp/visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+// TODO(dirk-thomas) these visibility macros should be message package specific
+ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, cdcl_umd_msgs, msg, AlertnessOcular)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CDCL_UMD_MSGS__MSG__DETAIL__ALERTNESS_OCULAR__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_

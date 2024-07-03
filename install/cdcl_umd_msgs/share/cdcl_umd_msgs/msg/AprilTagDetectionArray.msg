@@ -1,1 +1,1 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/AprilTagDetectionArray.msg
+cdcl_umd_msgs/AprilTagDetection[] april_tags

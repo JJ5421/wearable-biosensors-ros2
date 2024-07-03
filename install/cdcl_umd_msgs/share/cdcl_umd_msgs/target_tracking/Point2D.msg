@@ -1,1 +1,2 @@
-/home/jj/wearable-biosensors-ros2/src/cdcl_umd_msgs/msg/target_tracking/Point2D.msg
+float64 x
+float64 y
