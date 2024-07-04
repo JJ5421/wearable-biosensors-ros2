@@ -1,0 +1,37 @@
+[0.322s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/zstd_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/zstd_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/zstd_vendor
+[2.649s] -- The C compiler identification is GNU 11.4.0
+[4.715s] -- The CXX compiler identification is GNU 11.4.0
+[4.890s] -- Detecting C compiler ABI info
+[6.841s] -- Detecting C compiler ABI info - done
+[7.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.100s] -- Detecting C compile features
+[7.137s] -- Detecting C compile features - done
+[7.238s] -- Detecting CXX compiler ABI info
+[9.645s] -- Detecting CXX compiler ABI info - done
+[9.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.855s] -- Detecting CXX compile features
+[9.857s] -- Detecting CXX compile features - done
+[10.106s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.417s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[19.214s] -- Configuring incomplete, errors occurred!
+[19.216s] See also "/home/jj/wearable-biosensors-ros2/build/zstd_vendor/CMakeFiles/CMakeOutput.log".
+[19.221s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[19.222s]   By not providing "Findament_cmake_vendor_package.cmake" in
+[19.223s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[19.239s]   configuration file provided by "ament_cmake_vendor_package", but CMake did
+[19.241s]   not find one.
+[19.242s] 
+[19.244s]   Could not find a package configuration file provided by
+[19.245s]   "ament_cmake_vendor_package" with any of the following names:
+[19.246s] 
+[19.263s]     ament_cmake_vendor_packageConfig.cmake
+[19.264s]     ament_cmake_vendor_package-config.cmake
+[19.265s] 
+[19.266s]   Add the installation prefix of "ament_cmake_vendor_package" to
+[19.292s]   CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory
+[19.293s]   containing one of the above files.  If "ament_cmake_vendor_package"
+[19.294s]   provides a separate development package or SDK, be sure it has been
+[19.295s]   installed.
+[19.296s] 
+[19.298s] [0m
+[19.368s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/zstd_vendor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/zstd_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/zstd_vendor

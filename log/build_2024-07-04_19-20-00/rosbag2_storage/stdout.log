@@ -1,0 +1,137 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gmock: 1.3.9 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found rosbag2_test_common: 0.15.11 (/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common/share/rosbag2_test_common/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/rosbag2_storage
+[  4%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/default_storage_id.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/metadata_io.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/ros_helper.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/storage_factory.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/storage_options.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rosbag2_storage.dir/src/rosbag2_storage/base_io_interface.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library librosbag2_storage.so[0m
+[ 30%] Built target rosbag2_storage
+[ 34%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 39%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 43%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 43%] Built target gmock
+[ 47%] [32mBuilding CXX object CMakeFiles/test_plugin.dir/test/rosbag2_storage/test_plugin.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/test_plugin.dir/test/rosbag2_storage/test_read_only_plugin.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libtest_plugin.so[0m
+[ 56%] Built target test_plugin
+[ 60%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 65%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 65%] Built target gmock_main
+[ 69%] [32mBuilding CXX object CMakeFiles/test_storage_factory.dir/test/rosbag2_storage/test_storage_factory.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_storage_factory[0m
+[ 73%] Built target test_storage_factory
+[ 78%] [32mBuilding CXX object CMakeFiles/test_storage_options.dir/test/rosbag2_storage/test_storage_options.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_storage_options[0m
+[ 82%] Built target test_storage_options
+[ 86%] [32mBuilding CXX object CMakeFiles/test_metadata_serialization.dir/test/rosbag2_storage/test_metadata_serialization.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_metadata_serialization[0m
+[ 91%] Built target test_metadata_serialization
+[ 95%] [32mBuilding CXX object CMakeFiles/test_ros_helper.dir/test/rosbag2_storage/test_ros_helper.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_ros_helper[0m
+[100%] Built target test_ros_helper
+-- Install configuration: ""
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/logging.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/ros_helper.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/yaml.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_options.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/include/rosbag2_storage/rosbag2_storage/default_storage_id.hpp
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/lib/librosbag2_storage.so
+-- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage/lib/librosbag2_storage.so" to ""
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/library_path.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/library_path.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/lib/libtest_plugin.so
+-- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage/lib/libtest_plugin.so" to ""
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/test/rosbag2_storage/test_plugin.xml
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/ament_index/resource_index/package_run_dependencies/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/ament_index/resource_index/parent_prefix_path/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/ament_prefix_path.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/ament_prefix_path.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/path.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/environment/path.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/local_setup.bash
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/local_setup.sh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/local_setup.zsh
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/local_setup.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/package.dsv
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/ament_index/resource_index/packages/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/ament_index/resource_index/rosbag2_storage__pluginlib__plugin/rosbag2_storage
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/export_rosbag2_storageExport.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/export_rosbag2_storageExport-noconfig.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/rosbag2_storageConfig.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/cmake/rosbag2_storageConfig-version.cmake
+-- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/package.xml

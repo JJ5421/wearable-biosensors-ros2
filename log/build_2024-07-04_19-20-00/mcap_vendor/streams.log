@@ -1,0 +1,68 @@
+[0.753s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/mcap_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/mcap_vendor
+[2.858s] -- The C compiler identification is GNU 11.4.0
+[5.487s] -- The CXX compiler identification is GNU 11.4.0
+[5.869s] -- The ASM compiler identification is GNU
+[5.936s] -- Found assembler: /usr/bin/cc
+[6.142s] -- Detecting C compiler ABI info
+[9.446s] -- Detecting C compiler ABI info - done
+[9.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.623s] -- Detecting C compile features
+[9.638s] -- Detecting C compile features - done
+[9.758s] -- Detecting CXX compiler ABI info
+[12.934s] -- Detecting CXX compiler ABI info - done
+[13.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.279s] -- Detecting CXX compile features
+[13.293s] -- Detecting CXX compile features - done
+[13.638s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.713s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.150s] -- Found zstd_vendor: 0.15.11 (/home/jj/wearable-biosensors-ros2/install/zstd_vendor/share/zstd_vendor/cmake)
+[28.813s] -- Found zstd: /usr/lib/aarch64-linux-gnu/libzstd.so (found version "1.4.8") 
+[87.732s] -- Configuring done
+[88.285s] -- Generating done
+[88.350s] -- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/mcap_vendor
+[88.577s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/mcap_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/mcap_vendor
+[88.626s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/mcap_vendor -- -j4 -l4
+[90.515s] [ 16%] [32mBuilding CXX object CMakeFiles/mcap.dir/src/main.cpp.o[0m
+[267.629s] [ 33%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4hc.c.o[0m
+[281.405s] [ 50%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/xxhash.c.o[0m
+[287.152s] [ 66%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4frame.c.o[0m
+[291.886s] [ 83%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4.c.o[0m
+[331.304s] [100%] [32m[1mLinking CXX shared library libmcap.so[0m
+[336.885s] [100%] Built target mcap
+[337.098s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/mcap_vendor -- -j4 -l4
+[339.424s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/mcap_vendor
+[339.732s] -- Install configuration: ""
+[339.734s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/crc32.hpp
+[339.765s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/errors.hpp
+[339.769s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/internal.hpp
+[339.780s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/intervaltree.hpp
+[339.782s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/mcap.hpp
+[339.808s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/read_job_queue.hpp
+[339.810s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/reader.hpp
+[339.811s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/types.hpp
+[339.827s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/visibility.hpp
+[339.831s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/include/mcap_vendor/mcap/writer.hpp
+[339.854s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/lib/libmcap.so
+[340.041s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/library_path.sh
+[340.051s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/library_path.dsv
+[340.085s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/ament_index/resource_index/package_run_dependencies/mcap_vendor
+[340.110s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/ament_index/resource_index/parent_prefix_path/mcap_vendor
+[340.134s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/ament_prefix_path.sh
+[340.136s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/ament_prefix_path.dsv
+[340.158s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/path.sh
+[340.181s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/environment/path.dsv
+[340.184s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/local_setup.bash
+[340.205s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/local_setup.sh
+[340.237s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/local_setup.zsh
+[340.257s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/local_setup.dsv
+[340.275s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/package.dsv
+[340.288s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/ament_index/resource_index/packages/mcap_vendor
+[340.303s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/mcapExport.cmake
+[340.309s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/mcapExport-noconfig.cmake
+[340.325s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+[340.345s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/ament_cmake_export_targets-extras.cmake
+[340.365s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[340.371s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/mcap_vendorConfig.cmake
+[340.386s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/cmake/mcap_vendorConfig-version.cmake
+[340.395s] -- Installing: /home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/package.xml
+[340.479s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/mcap_vendor' returned '0': AMENT_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/wearable-biosensors-ros2/install/zstd_vendor:/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/mcap_vendor

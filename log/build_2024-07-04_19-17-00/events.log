@@ -1,0 +1,569 @@
+[0.000000] (-) TimerEvent: {}
+[0.003569] (-) JobUnselected: {'identifier': 'cdcl_umd_msgs'}
+[0.005174] (-) JobUnselected: {'identifier': 'empatica_e4'}
+[0.005834] (-) JobUnselected: {'identifier': 'manager'}
+[0.006327] (-) JobUnselected: {'identifier': 'polar_h10'}
+[0.006755] (-) JobUnselected: {'identifier': 'ros2bag'}
+[0.007959] (-) JobUnselected: {'identifier': 'rosbag2'}
+[0.008476] (-) JobUnselected: {'identifier': 'rosbag2_examples_cpp'}
+[0.008761] (-) JobUnselected: {'identifier': 'rosbag2_examples_py'}
+[0.009074] (-) JobUnselected: {'identifier': 'rosbag2_performance_benchmarking'}
+[0.010496] (-) JobUnselected: {'identifier': 'rosbag2_performance_benchmarking_msgs'}
+[0.010879] (-) JobUnselected: {'identifier': 'rosbag2_tests'}
+[0.011635] (-) JobUnselected: {'identifier': 'shimmer3_gsr_unit'}
+[0.012086] (-) JobUnselected: {'identifier': 'vernier_respiration_belt'}
+[0.012568] (liblz4_vendor) JobQueued: {'identifier': 'liblz4_vendor', 'dependencies': OrderedDict()}
+[0.015660] (rosbag2_interfaces) JobQueued: {'identifier': 'rosbag2_interfaces', 'dependencies': OrderedDict()}
+[0.016114] (rosbag2_test_common) JobQueued: {'identifier': 'rosbag2_test_common', 'dependencies': OrderedDict()}
+[0.017181] (rosbag2_test_msgdefs) JobQueued: {'identifier': 'rosbag2_test_msgdefs', 'dependencies': OrderedDict()}
+[0.019387] (shared_queues_vendor) JobQueued: {'identifier': 'shared_queues_vendor', 'dependencies': OrderedDict()}
+[0.019846] (sqlite3_vendor) JobQueued: {'identifier': 'sqlite3_vendor', 'dependencies': OrderedDict()}
+[0.020161] (zstd_vendor) JobQueued: {'identifier': 'zstd_vendor', 'dependencies': OrderedDict()}
+[0.020433] (mcap_vendor) JobQueued: {'identifier': 'mcap_vendor', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor')])}
+[0.020779] (rosbag2_storage) JobQueued: {'identifier': 'rosbag2_storage', 'dependencies': OrderedDict([('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common')])}
+[0.021092] (rosbag2_storage_mcap) JobQueued: {'identifier': 'rosbag2_storage_mcap', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage')])}
+[0.023745] (rosbag2_storage_sqlite3) JobQueued: {'identifier': 'rosbag2_storage_sqlite3', 'dependencies': OrderedDict([('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage')])}
+[0.024482] (rosbag2_storage_default_plugins) JobQueued: {'identifier': 'rosbag2_storage_default_plugins', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3')])}
+[0.025945] (rosbag2_cpp) JobQueued: {'identifier': 'rosbag2_cpp', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('rosbag2_test_msgdefs', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_msgdefs'), ('shared_queues_vendor', '/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3'), ('rosbag2_storage_default_plugins', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins')])}
+[0.026663] (rosbag2_compression) JobQueued: {'identifier': 'rosbag2_compression', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('rosbag2_test_msgdefs', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_msgdefs'), ('shared_queues_vendor', '/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3'), ('rosbag2_storage_default_plugins', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins'), ('rosbag2_cpp', '/home/jj/wearable-biosensors-ros2/install/rosbag2_cpp')])}
+[0.027089] (rosbag2_compression_zstd) JobQueued: {'identifier': 'rosbag2_compression_zstd', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('rosbag2_test_msgdefs', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_msgdefs'), ('shared_queues_vendor', '/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3'), ('rosbag2_storage_default_plugins', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins'), ('rosbag2_cpp', '/home/jj/wearable-biosensors-ros2/install/rosbag2_cpp'), ('rosbag2_compression', '/home/jj/wearable-biosensors-ros2/install/rosbag2_compression')])}
+[0.027471] (rosbag2_transport) JobQueued: {'identifier': 'rosbag2_transport', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_interfaces', '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('rosbag2_test_msgdefs', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_msgdefs'), ('shared_queues_vendor', '/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3'), ('rosbag2_storage_default_plugins', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins'), ('rosbag2_cpp', '/home/jj/wearable-biosensors-ros2/install/rosbag2_cpp'), ('rosbag2_compression', '/home/jj/wearable-biosensors-ros2/install/rosbag2_compression'), ('rosbag2_compression_zstd', '/home/jj/wearable-biosensors-ros2/install/rosbag2_compression_zstd')])}
+[0.027927] (rosbag2_py) JobQueued: {'identifier': 'rosbag2_py', 'dependencies': OrderedDict([('liblz4_vendor', '/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'), ('rosbag2_interfaces', '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces'), ('rosbag2_test_common', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'), ('rosbag2_test_msgdefs', '/home/jj/wearable-biosensors-ros2/install/rosbag2_test_msgdefs'), ('shared_queues_vendor', '/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor'), ('sqlite3_vendor', '/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'), ('zstd_vendor', '/home/jj/wearable-biosensors-ros2/install/zstd_vendor'), ('mcap_vendor', '/home/jj/wearable-biosensors-ros2/install/mcap_vendor'), ('rosbag2_storage', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage'), ('rosbag2_storage_mcap', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap'), ('rosbag2_storage_sqlite3', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_sqlite3'), ('rosbag2_storage_default_plugins', '/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins'), ('rosbag2_cpp', '/home/jj/wearable-biosensors-ros2/install/rosbag2_cpp'), ('rosbag2_compression', '/home/jj/wearable-biosensors-ros2/install/rosbag2_compression'), ('rosbag2_compression_zstd', '/home/jj/wearable-biosensors-ros2/install/rosbag2_compression_zstd'), ('rosbag2_transport', '/home/jj/wearable-biosensors-ros2/install/rosbag2_transport')])}
+[0.028325] (rosbag2_test_common) JobStarted: {'identifier': 'rosbag2_test_common'}
+[0.090277] (-) TimerEvent: {}
+[0.127660] (liblz4_vendor) JobStarted: {'identifier': 'liblz4_vendor'}
+[0.190610] (-) TimerEvent: {}
+[0.226747] (zstd_vendor) JobStarted: {'identifier': 'zstd_vendor'}
+[0.292277] (-) TimerEvent: {}
+[0.312818] (sqlite3_vendor) JobStarted: {'identifier': 'sqlite3_vendor'}
+[0.393282] (-) TimerEvent: {}
+[0.416648] (rosbag2_test_common) JobProgress: {'identifier': 'rosbag2_test_common', 'progress': 'cmake'}
+[0.423893] (rosbag2_test_common) Command: {'cmd': ['/usr/bin/cmake', '/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_test_common', '-DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/rosbag2_test_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1424'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1405,unix/jjpc:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6135473_998a_499c_a0ce_f1eb5e9155e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1INQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/rosbag2_test_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[0.480990] (liblz4_vendor) JobProgress: {'identifier': 'liblz4_vendor', 'progress': 'cmake'}
+[0.484669] (liblz4_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/jj/wearable-biosensors-ros2/src/rosbag2/liblz4_vendor', '-DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/liblz4_vendor'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/liblz4_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1424'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1405,unix/jjpc:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6135473_998a_499c_a0ce_f1eb5e9155e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1INQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/liblz4_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[0.494322] (-) TimerEvent: {}
+[0.532827] (zstd_vendor) JobProgress: {'identifier': 'zstd_vendor', 'progress': 'cmake'}
+[0.537216] (zstd_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/jj/wearable-biosensors-ros2/src/rosbag2/zstd_vendor', '-DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/zstd_vendor'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/zstd_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1424'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1405,unix/jjpc:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6135473_998a_499c_a0ce_f1eb5e9155e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1INQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/zstd_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[0.599405] (-) TimerEvent: {}
+[0.683329] (sqlite3_vendor) JobProgress: {'identifier': 'sqlite3_vendor', 'progress': 'cmake'}
+[0.691497] (sqlite3_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/jj/wearable-biosensors-ros2/src/rosbag2/sqlite3_vendor', '-DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor'], 'cwd': '/home/jj/wearable-biosensors-ros2/build/sqlite3_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jj'), ('OLDPWD', '/home/jj/wearable-biosensors-ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1424'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jjpc:@/tmp/.ICE-unix/1405,unix/jjpc:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6135473_998a_499c_a0ce_f1eb5e9155e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1INQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jj/wearable-biosensors-ros2/build/sqlite3_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jj/wearable-biosensors-ros2/install/manager/local/lib/python3.10/dist-packages:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/polar_h10/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/empatica_e4/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/emotiv_insight/lib/python3.10/site-packages:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jj/wearable-biosensors-ros2/install/manager:/home/jj/wearable-biosensors-ros2/install/cdcl_umd_msgs:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble')]), 'shell': False}
+[0.706808] (-) TimerEvent: {}
+[0.834044] (-) TimerEvent: {}
+[0.935920] (-) TimerEvent: {}
+[1.043681] (-) TimerEvent: {}
+[1.146017] (-) TimerEvent: {}
+[1.248345] (-) TimerEvent: {}
+[1.350133] (-) TimerEvent: {}
+[1.458224] (-) TimerEvent: {}
+[1.562041] (-) TimerEvent: {}
+[1.665995] (-) TimerEvent: {}
+[1.774033] (-) TimerEvent: {}
+[1.877228] (-) TimerEvent: {}
+[1.981485] (-) TimerEvent: {}
+[2.088356] (-) TimerEvent: {}
+[2.191559] (-) TimerEvent: {}
+[2.299277] (-) TimerEvent: {}
+[2.404003] (-) TimerEvent: {}
+[2.508615] (-) TimerEvent: {}
+[2.614526] (-) TimerEvent: {}
+[2.719116] (-) TimerEvent: {}
+[2.823872] (-) TimerEvent: {}
+[2.869272] (zstd_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.924274] (-) TimerEvent: {}
+[2.948428] (liblz4_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.024727] (-) TimerEvent: {}
+[3.036281] (sqlite3_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.041808] (rosbag2_test_common) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.129902] (-) TimerEvent: {}
+[3.232702] (-) TimerEvent: {}
+[3.336420] (-) TimerEvent: {}
+[3.439024] (-) TimerEvent: {}
+[3.542612] (-) TimerEvent: {}
+[3.645031] (-) TimerEvent: {}
+[3.747115] (-) TimerEvent: {}
+[3.850239] (-) TimerEvent: {}
+[3.953173] (-) TimerEvent: {}
+[4.056291] (-) TimerEvent: {}
+[4.159033] (-) TimerEvent: {}
+[4.266035] (-) TimerEvent: {}
+[4.374065] (-) TimerEvent: {}
+[4.477533] (-) TimerEvent: {}
+[4.580713] (-) TimerEvent: {}
+[4.685745] (-) TimerEvent: {}
+[4.740855] (sqlite3_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.786021] (-) TimerEvent: {}
+[4.876192] (liblz4_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.886432] (-) TimerEvent: {}
+[4.930592] (rosbag2_test_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.937978] (zstd_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.986820] (-) TimerEvent: {}
+[5.040957] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.049325] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.084125] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.089134] (-) TimerEvent: {}
+[5.115808] (zstd_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.189526] (-) TimerEvent: {}
+[5.294939] (-) TimerEvent: {}
+[5.405995] (-) TimerEvent: {}
+[5.508384] (-) TimerEvent: {}
+[5.613143] (-) TimerEvent: {}
+[5.725750] (-) TimerEvent: {}
+[5.828861] (-) TimerEvent: {}
+[5.931708] (-) TimerEvent: {}
+[6.056254] (-) TimerEvent: {}
+[6.157939] (-) TimerEvent: {}
+[6.260103] (-) TimerEvent: {}
+[6.365711] (-) TimerEvent: {}
+[6.468759] (-) TimerEvent: {}
+[6.571865] (-) TimerEvent: {}
+[6.675778] (-) TimerEvent: {}
+[6.734473] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.776188] (-) TimerEvent: {}
+[6.878256] (-) TimerEvent: {}
+[6.897552] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.967016] (sqlite3_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.976680] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.978434] (-) TimerEvent: {}
+[7.000874] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.066619] (zstd_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.071941] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.078868] (-) TimerEvent: {}
+[7.153374] (liblz4_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.158165] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.164200] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.181964] (-) TimerEvent: {}
+[7.202334] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.278364] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.282312] (-) TimerEvent: {}
+[7.309844] (zstd_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.325365] (zstd_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.332663] (rosbag2_test_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.335707] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.349961] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.362604] (zstd_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.385950] (-) TimerEvent: {}
+[7.419108] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.463962] (zstd_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.486311] (-) TimerEvent: {}
+[7.592377] (-) TimerEvent: {}
+[7.695448] (-) TimerEvent: {}
+[7.798636] (-) TimerEvent: {}
+[7.902428] (-) TimerEvent: {}
+[8.006848] (-) TimerEvent: {}
+[8.111241] (-) TimerEvent: {}
+[8.216175] (-) TimerEvent: {}
+[8.319215] (-) TimerEvent: {}
+[8.429992] (-) TimerEvent: {}
+[8.537929] (-) TimerEvent: {}
+[8.650002] (-) TimerEvent: {}
+[8.752517] (-) TimerEvent: {}
+[8.859082] (-) TimerEvent: {}
+[8.962021] (-) TimerEvent: {}
+[9.068273] (-) TimerEvent: {}
+[9.174051] (-) TimerEvent: {}
+[9.230485] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.277999] (-) TimerEvent: {}
+[9.380358] (-) TimerEvent: {}
+[9.439508] (sqlite3_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.447516] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.452805] (sqlite3_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.486062] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.487513] (-) TimerEvent: {}
+[9.498459] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.587916] (-) TimerEvent: {}
+[9.641962] (liblz4_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.646152] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.658403] (sqlite3_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.659959] (liblz4_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.692074] (-) TimerEvent: {}
+[9.715465] (rosbag2_test_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.720671] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.762035] (liblz4_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.763619] (rosbag2_test_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.798004] (-) TimerEvent: {}
+[9.870997] (zstd_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.898319] (-) TimerEvent: {}
+[9.978044] (rosbag2_test_common) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.998672] (-) TimerEvent: {}
+[10.054113] (zstd_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.080996] (zstd_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.082796] (zstd_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.102031] (-) TimerEvent: {}
+[10.204203] (-) TimerEvent: {}
+[10.309500] (-) TimerEvent: {}
+[10.332009] (zstd_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.409913] (-) TimerEvent: {}
+[10.513119] (-) TimerEvent: {}
+[10.616066] (-) TimerEvent: {}
+[10.719405] (-) TimerEvent: {}
+[10.822493] (-) TimerEvent: {}
+[10.925341] (-) TimerEvent: {}
+[11.028411] (-) TimerEvent: {}
+[11.146197] (-) TimerEvent: {}
+[11.273980] (-) TimerEvent: {}
+[11.377910] (-) TimerEvent: {}
+[11.481927] (-) TimerEvent: {}
+[11.583878] (-) TimerEvent: {}
+[11.687563] (-) TimerEvent: {}
+[11.791460] (-) TimerEvent: {}
+[11.893110] (-) TimerEvent: {}
+[11.994929] (-) TimerEvent: {}
+[12.096767] (-) TimerEvent: {}
+[12.205746] (-) TimerEvent: {}
+[12.310042] (-) TimerEvent: {}
+[12.413230] (-) TimerEvent: {}
+[12.515851] (-) TimerEvent: {}
+[12.621941] (-) TimerEvent: {}
+[12.724001] (-) TimerEvent: {}
+[12.829903] (-) TimerEvent: {}
+[12.933990] (-) TimerEvent: {}
+[13.038103] (-) TimerEvent: {}
+[13.153086] (-) TimerEvent: {}
+[13.257655] (-) TimerEvent: {}
+[13.361472] (-) TimerEvent: {}
+[13.466043] (-) TimerEvent: {}
+[13.569828] (-) TimerEvent: {}
+[13.671443] (-) TimerEvent: {}
+[13.774468] (-) TimerEvent: {}
+[13.878322] (-) TimerEvent: {}
+[13.981832] (-) TimerEvent: {}
+[14.084937] (-) TimerEvent: {}
+[14.187080] (-) TimerEvent: {}
+[14.291328] (-) TimerEvent: {}
+[14.393022] (-) TimerEvent: {}
+[14.506016] (-) TimerEvent: {}
+[14.610014] (-) TimerEvent: {}
+[14.642602] (zstd_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.713892] (-) TimerEvent: {}
+[14.816125] (-) TimerEvent: {}
+[14.852634] (sqlite3_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.916577] (-) TimerEvent: {}
+[15.019874] (-) TimerEvent: {}
+[15.038842] (rosbag2_test_common) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.121033] (-) TimerEvent: {}
+[15.197164] (liblz4_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.221412] (-) TimerEvent: {}
+[15.323781] (-) TimerEvent: {}
+[15.426514] (-) TimerEvent: {}
+[15.528077] (-) TimerEvent: {}
+[15.629993] (-) TimerEvent: {}
+[15.731832] (-) TimerEvent: {}
+[15.833549] (-) TimerEvent: {}
+[15.935628] (-) TimerEvent: {}
+[16.037333] (-) TimerEvent: {}
+[16.147111] (-) TimerEvent: {}
+[16.250284] (-) TimerEvent: {}
+[16.353064] (-) TimerEvent: {}
+[16.455348] (-) TimerEvent: {}
+[16.557003] (-) TimerEvent: {}
+[16.658859] (-) TimerEvent: {}
+[16.760050] (-) TimerEvent: {}
+[16.861957] (-) TimerEvent: {}
+[16.964313] (-) TimerEvent: {}
+[17.066864] (-) TimerEvent: {}
+[17.169775] (-) TimerEvent: {}
+[17.275383] (-) TimerEvent: {}
+[17.377115] (-) TimerEvent: {}
+[17.479945] (-) TimerEvent: {}
+[17.582982] (-) TimerEvent: {}
+[17.686410] (-) TimerEvent: {}
+[17.789305] (-) TimerEvent: {}
+[17.892569] (-) TimerEvent: {}
+[17.995386] (-) TimerEvent: {}
+[18.097135] (-) TimerEvent: {}
+[18.200244] (-) TimerEvent: {}
+[18.302061] (-) TimerEvent: {}
+[18.404053] (-) TimerEvent: {}
+[18.506908] (-) TimerEvent: {}
+[18.608744] (-) TimerEvent: {}
+[18.710724] (-) TimerEvent: {}
+[18.812620] (-) TimerEvent: {}
+[18.914346] (-) TimerEvent: {}
+[19.016308] (-) TimerEvent: {}
+[19.118248] (-) TimerEvent: {}
+[19.220021] (-) TimerEvent: {}
+[19.321884] (-) TimerEvent: {}
+[19.331080] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[19.422194] (-) TimerEvent: {}
+[19.439766] (zstd_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.442094] (zstd_vendor) StdoutLine: {'line': b'See also "/home/jj/wearable-biosensors-ros2/build/zstd_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[19.446817] (zstd_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[19.448284] (zstd_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake_vendor_package.cmake" in\n'}
+[19.449354] (zstd_vendor) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[19.450431] (zstd_vendor) StderrLine: {'line': b'  configuration file provided by "ament_cmake_vendor_package", but CMake did\n'}
+[19.466706] (zstd_vendor) StderrLine: {'line': b'  not find one.\n'}
+[19.468251] (zstd_vendor) StderrLine: {'line': b'\n'}
+[19.469660] (zstd_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[19.471001] (zstd_vendor) StderrLine: {'line': b'  "ament_cmake_vendor_package" with any of the following names:\n'}
+[19.472214] (zstd_vendor) StderrLine: {'line': b'\n'}
+[19.473455] (zstd_vendor) StderrLine: {'line': b'    ament_cmake_vendor_packageConfig.cmake\n'}
+[19.490268] (zstd_vendor) StderrLine: {'line': b'    ament_cmake_vendor_package-config.cmake\n'}
+[19.491466] (zstd_vendor) StderrLine: {'line': b'\n'}
+[19.492424] (zstd_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_vendor_package" to\n'}
+[19.493346] (zstd_vendor) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory\n'}
+[19.519138] (zstd_vendor) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_vendor_package"\n'}
+[19.520096] (zstd_vendor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[19.520946] (zstd_vendor) StderrLine: {'line': b'  installed.\n'}
+[19.521851] (zstd_vendor) StderrLine: {'line': b'\n'}
+[19.522823] (-) TimerEvent: {}
+[19.523932] (zstd_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[19.593148] (zstd_vendor) CommandEnded: {'returncode': 1}
+[19.629939] (-) TimerEvent: {}
+[19.737983] (-) TimerEvent: {}
+[19.777992] (sqlite3_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[19.779447] (sqlite3_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake_vendor_package.cmake" in\n'}
+[19.780295] (sqlite3_vendor) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[19.781125] (sqlite3_vendor) StderrLine: {'line': b'  configuration file provided by "ament_cmake_vendor_package", but CMake did\n'}
+[19.792982] (sqlite3_vendor) StderrLine: {'line': b'  not find one.\n'}
+[19.794552] (sqlite3_vendor) StderrLine: {'line': b'\n'}
+[19.795844] (sqlite3_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[19.796891] (sqlite3_vendor) StderrLine: {'line': b'  "ament_cmake_vendor_package" with any of the following names:\n'}
+[19.822354] (sqlite3_vendor) StderrLine: {'line': b'\n'}
+[19.834451] (sqlite3_vendor) StderrLine: {'line': b'    ament_cmake_vendor_packageConfig.cmake\n'}
+[19.835576] (sqlite3_vendor) StderrLine: {'line': b'    ament_cmake_vendor_package-config.cmake\n'}
+[19.836514] (sqlite3_vendor) StderrLine: {'line': b'\n'}
+[19.837422] (sqlite3_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_vendor_package" to\n'}
+[19.838491] (-) TimerEvent: {}
+[19.852611] (sqlite3_vendor) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory\n'}
+[19.854161] (sqlite3_vendor) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_vendor_package"\n'}
+[19.855179] (sqlite3_vendor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[19.856152] (sqlite3_vendor) StderrLine: {'line': b'  installed.\n'}
+[19.857091] (sqlite3_vendor) StderrLine: {'line': b'\n'}
+[19.858260] (sqlite3_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[19.859521] (sqlite3_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.863085] (sqlite3_vendor) StdoutLine: {'line': b'See also "/home/jj/wearable-biosensors-ros2/build/sqlite3_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[19.883228] (liblz4_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.884764] (liblz4_vendor) StdoutLine: {'line': b'See also "/home/jj/wearable-biosensors-ros2/build/liblz4_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[19.886004] (liblz4_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[19.888171] (liblz4_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake_vendor_package.cmake" in\n'}
+[19.889548] (liblz4_vendor) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[19.907247] (liblz4_vendor) StderrLine: {'line': b'  configuration file provided by "ament_cmake_vendor_package", but CMake did\n'}
+[19.908585] (liblz4_vendor) StderrLine: {'line': b'  not find one.\n'}
+[19.910210] (liblz4_vendor) StderrLine: {'line': b'\n'}
+[19.911857] (liblz4_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[19.913924] (liblz4_vendor) StderrLine: {'line': b'  "ament_cmake_vendor_package" with any of the following names:\n'}
+[19.916777] (liblz4_vendor) StderrLine: {'line': b'\n'}
+[19.934830] (liblz4_vendor) StderrLine: {'line': b'    ament_cmake_vendor_packageConfig.cmake\n'}
+[19.936408] (liblz4_vendor) StderrLine: {'line': b'    ament_cmake_vendor_package-config.cmake\n'}
+[19.939319] (-) TimerEvent: {}
+[19.940732] (liblz4_vendor) StderrLine: {'line': b'\n'}
+[19.946117] (liblz4_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_vendor_package" to\n'}
+[19.947339] (liblz4_vendor) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory\n'}
+[19.948241] (liblz4_vendor) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_vendor_package"\n'}
+[19.949169] (liblz4_vendor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[19.950474] (liblz4_vendor) StderrLine: {'line': b'  installed.\n'}
+[19.951659] (liblz4_vendor) StderrLine: {'line': b'\n'}
+[19.952943] (liblz4_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[20.046183] (zstd_vendor) JobEnded: {'identifier': 'zstd_vendor', 'rc': 1}
+[20.069268] (-) TimerEvent: {}
+[20.077559] (sqlite3_vendor) JobEnded: {'identifier': 'sqlite3_vendor', 'rc': 'SIGINT'}
+[20.082437] (liblz4_vendor) JobEnded: {'identifier': 'liblz4_vendor', 'rc': 'SIGINT'}
+[20.170175] (-) TimerEvent: {}
+[20.278680] (-) TimerEvent: {}
+[20.381316] (-) TimerEvent: {}
+[20.484106] (-) TimerEvent: {}
+[20.585521] (-) TimerEvent: {}
+[20.687070] (-) TimerEvent: {}
+[20.790662] (-) TimerEvent: {}
+[20.893443] (-) TimerEvent: {}
+[20.995066] (-) TimerEvent: {}
+[21.098083] (-) TimerEvent: {}
+[21.200875] (-) TimerEvent: {}
+[21.302732] (-) TimerEvent: {}
+[21.313548] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[21.403662] (-) TimerEvent: {}
+[21.513809] (-) TimerEvent: {}
+[21.575019] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[21.614148] (-) TimerEvent: {}
+[21.715660] (-) TimerEvent: {}
+[21.817303] (-) TimerEvent: {}
+[21.846606] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[21.917787] (-) TimerEvent: {}
+[22.019374] (-) TimerEvent: {}
+[22.122745] (-) TimerEvent: {}
+[22.210944] (rosbag2_test_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.223160] (-) TimerEvent: {}
+[22.324663] (-) TimerEvent: {}
+[22.425950] (-) TimerEvent: {}
+[22.527244] (-) TimerEvent: {}
+[22.628606] (-) TimerEvent: {}
+[22.695020] (rosbag2_test_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.728965] (-) TimerEvent: {}
+[22.832741] (-) TimerEvent: {}
+[22.934305] (-) TimerEvent: {}
+[23.035754] (-) TimerEvent: {}
+[23.137342] (-) TimerEvent: {}
+[23.238954] (-) TimerEvent: {}
+[23.340536] (-) TimerEvent: {}
+[23.441940] (-) TimerEvent: {}
+[23.543119] (-) TimerEvent: {}
+[23.644631] (-) TimerEvent: {}
+[23.746274] (-) TimerEvent: {}
+[23.847812] (-) TimerEvent: {}
+[23.949337] (-) TimerEvent: {}
+[24.050988] (-) TimerEvent: {}
+[24.152440] (-) TimerEvent: {}
+[24.253987] (-) TimerEvent: {}
+[24.279277] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[24.354290] (-) TimerEvent: {}
+[24.394395] (rosbag2_test_common) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[24.454785] (-) TimerEvent: {}
+[24.556472] (-) TimerEvent: {}
+[24.658298] (-) TimerEvent: {}
+[24.759936] (-) TimerEvent: {}
+[24.861378] (-) TimerEvent: {}
+[24.962752] (-) TimerEvent: {}
+[25.064226] (-) TimerEvent: {}
+[25.165913] (-) TimerEvent: {}
+[25.267453] (-) TimerEvent: {}
+[25.369150] (-) TimerEvent: {}
+[25.470883] (-) TimerEvent: {}
+[25.572292] (-) TimerEvent: {}
+[25.673980] (-) TimerEvent: {}
+[25.775416] (-) TimerEvent: {}
+[25.876949] (-) TimerEvent: {}
+[25.979710] (-) TimerEvent: {}
+[26.082445] (-) TimerEvent: {}
+[26.199215] (-) TimerEvent: {}
+[26.302950] (-) TimerEvent: {}
+[26.408367] (-) TimerEvent: {}
+[26.513492] (-) TimerEvent: {}
+[26.594937] (rosbag2_test_common) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[26.613911] (-) TimerEvent: {}
+[26.715530] (-) TimerEvent: {}
+[26.817068] (-) TimerEvent: {}
+[26.919003] (-) TimerEvent: {}
+[27.020461] (-) TimerEvent: {}
+[27.121932] (-) TimerEvent: {}
+[27.223328] (-) TimerEvent: {}
+[27.326290] (-) TimerEvent: {}
+[27.389380] (rosbag2_test_common) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[27.426601] (-) TimerEvent: {}
+[27.528121] (-) TimerEvent: {}
+[27.631165] (-) TimerEvent: {}
+[27.732716] (-) TimerEvent: {}
+[27.834322] (-) TimerEvent: {}
+[27.935781] (-) TimerEvent: {}
+[28.037315] (-) TimerEvent: {}
+[28.138924] (-) TimerEvent: {}
+[28.242197] (-) TimerEvent: {}
+[28.343850] (-) TimerEvent: {}
+[28.446764] (-) TimerEvent: {}
+[28.548205] (-) TimerEvent: {}
+[28.649678] (-) TimerEvent: {}
+[28.751258] (-) TimerEvent: {}
+[28.805951] (rosbag2_test_common) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[28.851611] (-) TimerEvent: {}
+[28.953069] (-) TimerEvent: {}
+[29.054597] (-) TimerEvent: {}
+[29.146056] (rosbag2_test_common) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[29.154903] (-) TimerEvent: {}
+[29.257940] (-) TimerEvent: {}
+[29.359432] (-) TimerEvent: {}
+[29.462419] (-) TimerEvent: {}
+[29.563949] (-) TimerEvent: {}
+[29.665502] (-) TimerEvent: {}
+[29.769246] (-) TimerEvent: {}
+[29.871741] (-) TimerEvent: {}
+[29.973398] (-) TimerEvent: {}
+[30.075221] (-) TimerEvent: {}
+[30.177009] (-) TimerEvent: {}
+[30.198022] (rosbag2_test_common) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[30.203757] (rosbag2_test_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[30.277415] (-) TimerEvent: {}
+[30.379075] (-) TimerEvent: {}
+[30.482733] (-) TimerEvent: {}
+[30.584259] (-) TimerEvent: {}
+[30.685786] (-) TimerEvent: {}
+[30.787309] (-) TimerEvent: {}
+[30.890154] (-) TimerEvent: {}
+[30.991814] (-) TimerEvent: {}
+[31.093693] (-) TimerEvent: {}
+[31.208811] (-) TimerEvent: {}
+[31.228944] (rosbag2_test_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[31.240568] (rosbag2_test_common) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[31.309236] (-) TimerEvent: {}
+[31.411051] (-) TimerEvent: {}
+[31.512776] (-) TimerEvent: {}
+[31.614372] (-) TimerEvent: {}
+[31.716507] (-) TimerEvent: {}
+[31.818739] (-) TimerEvent: {}
+[31.920379] (-) TimerEvent: {}
+[32.022074] (-) TimerEvent: {}
+[32.124167] (-) TimerEvent: {}
+[32.227866] (-) TimerEvent: {}
+[32.329382] (-) TimerEvent: {}
+[32.433255] (-) TimerEvent: {}
+[32.535276] (-) TimerEvent: {}
+[32.637026] (-) TimerEvent: {}
+[32.738695] (-) TimerEvent: {}
+[32.840224] (-) TimerEvent: {}
+[32.942042] (-) TimerEvent: {}
+[33.047034] (-) TimerEvent: {}
+[33.150065] (-) TimerEvent: {}
+[33.253166] (-) TimerEvent: {}
+[33.354555] (-) TimerEvent: {}
+[33.456140] (-) TimerEvent: {}
+[33.557699] (-) TimerEvent: {}
+[33.659166] (-) TimerEvent: {}
+[33.760475] (-) TimerEvent: {}
+[33.861772] (-) TimerEvent: {}
+[33.963396] (-) TimerEvent: {}
+[34.011289] (rosbag2_test_common) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[34.063573] (-) TimerEvent: {}
+[34.166694] (-) TimerEvent: {}
+[34.268302] (-) TimerEvent: {}
+[34.369970] (-) TimerEvent: {}
+[34.471489] (-) TimerEvent: {}
+[34.572980] (-) TimerEvent: {}
+[34.674523] (-) TimerEvent: {}
+[34.776079] (-) TimerEvent: {}
+[34.877436] (-) TimerEvent: {}
+[34.978838] (-) TimerEvent: {}
+[35.080536] (-) TimerEvent: {}
+[35.182054] (-) TimerEvent: {}
+[35.283663] (-) TimerEvent: {}
+[35.385178] (-) TimerEvent: {}
+[35.486812] (-) TimerEvent: {}
+[35.588265] (-) TimerEvent: {}
+[35.689848] (-) TimerEvent: {}
+[35.792552] (-) TimerEvent: {}
+[35.895344] (-) TimerEvent: {}
+[35.996826] (-) TimerEvent: {}
+[36.098515] (-) TimerEvent: {}
+[36.200309] (-) TimerEvent: {}
+[36.224145] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[36.271881] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[36.274456] (rosbag2_test_common) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_test_common/include>\n'}
+[36.275780] (rosbag2_test_common) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[36.300658] (-) TimerEvent: {}
+[36.316090] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[36.318014] (rosbag2_test_common) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[36.330598] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[36.349434] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[36.364485] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[36.401042] (-) TimerEvent: {}
+[36.406934] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[36.408728] (rosbag2_test_common) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[36.421544] (rosbag2_test_common) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.499083] (rosbag2_test_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.501330] (-) TimerEvent: {}
+[36.604143] (-) TimerEvent: {}
+[36.646399] (rosbag2_test_common) StdoutLine: {'line': b'-- Generating done\n'}
+[36.674310] (rosbag2_test_common) StdoutLine: {'line': b'-- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/rosbag2_test_common\n'}
+[36.704609] (-) TimerEvent: {}
+[36.762803] (rosbag2_test_common) JobEnded: {'identifier': 'rosbag2_test_common', 'rc': 'SIGINT'}
+[36.786543] (rosbag2_interfaces) JobSkipped: {'identifier': 'rosbag2_interfaces'}
+[36.786982] (rosbag2_test_msgdefs) JobSkipped: {'identifier': 'rosbag2_test_msgdefs'}
+[36.787254] (shared_queues_vendor) JobSkipped: {'identifier': 'shared_queues_vendor'}
+[36.787518] (mcap_vendor) JobSkipped: {'identifier': 'mcap_vendor'}
+[36.787770] (rosbag2_storage) JobSkipped: {'identifier': 'rosbag2_storage'}
+[36.788024] (rosbag2_storage_mcap) JobSkipped: {'identifier': 'rosbag2_storage_mcap'}
+[36.788316] (rosbag2_storage_sqlite3) JobSkipped: {'identifier': 'rosbag2_storage_sqlite3'}
+[36.788816] (rosbag2_storage_default_plugins) JobSkipped: {'identifier': 'rosbag2_storage_default_plugins'}
+[36.789178] (rosbag2_cpp) JobSkipped: {'identifier': 'rosbag2_cpp'}
+[36.789516] (rosbag2_compression) JobSkipped: {'identifier': 'rosbag2_compression'}
+[36.790154] (rosbag2_compression_zstd) JobSkipped: {'identifier': 'rosbag2_compression_zstd'}
+[36.790463] (rosbag2_transport) JobSkipped: {'identifier': 'rosbag2_transport'}
+[36.790736] (rosbag2_py) JobSkipped: {'identifier': 'rosbag2_py'}
+[36.790968] (-) EventReactorShutdown: {}

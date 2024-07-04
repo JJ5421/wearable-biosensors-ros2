@@ -30,19 +30,19 @@ def generate_launch_description():
 
     bag_directory = os.path.expanduser('~/wearable-biosensors-ros2/ros_bags')
 
-    bagprocess = ExecuteProcess(
-        cmd=['ros2', 'bag', 'record',
-             '/biosensors/vernier_respiration_belt/force', '/biosensors/vernier_respiration_belt/bpm',
-             '/biosensors/polar_h10/hr'],
-        cwd=bag_directory,
-        output='screen'
-    )
+    # bagprocess = ExecuteProcess(
+    #     cmd=['ros2', 'bag', 'record',
+    #          '/biosensors/vernier_respiration_belt/force', '/biosensors/vernier_respiration_belt/bpm',
+    #          '/biosensors/polar_h10/hr'],
+    #     cwd=bag_directory,
+    #     output='screen'
+    # )
 
 
 
     ld.add_action(bnode)
     ld.add_action(hrnode)
-    ld.add_action(bagprocess)
+    # ld.add_action(bagprocess)
 
     return ld
 

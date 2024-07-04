@@ -1,0 +1,96 @@
+[0.467s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/shared_queues_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor
+[2.844s] -- The C compiler identification is GNU 11.4.0
+[5.205s] -- The CXX compiler identification is GNU 11.4.0
+[5.562s] -- Detecting C compiler ABI info
+[8.627s] -- Detecting C compiler ABI info - done
+[8.924s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.928s] -- Detecting C compile features
+[8.951s] -- Detecting C compile features - done
+[9.076s] -- Detecting CXX compiler ABI info
+[12.366s] -- Detecting CXX compiler ABI info - done
+[12.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.640s] -- Detecting CXX compile features
+[12.643s] -- Detecting CXX compile features - done
+[12.947s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[31.989s] -- Configuring done
+[32.466s] -- Generating done
+[32.557s] -- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/shared_queues_vendor
+[32.768s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/shared_queues_vendor -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor
+[32.782s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/shared_queues_vendor -- -j4 -l4
+[34.952s] [  6%] [34m[1mCreating directories for 'ext-singleproducerconsumer'[0m
+[37.468s] [ 12%] [34m[1mPerforming download step (download, verify and extract) for 'ext-singleproducerconsumer'[0m
+[37.758s] -- Downloading...
+[37.771s]    dst='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[37.790s]    timeout='60 seconds'
+[37.791s]    inactivity timeout='none'
+[37.792s] -- Using src='https://github.com/cameron314/readerwriterqueue/archive/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[38.455s] -- verifying file...
+[38.457s]        file='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[38.459s] -- Downloading... done
+[39.178s] -- extracting...
+[39.182s]      src='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[39.190s]      dst='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/singleproducerconsumer/src/ext-singleproducerconsumer'
+[39.201s] -- extracting... [tar xfz]
+[39.683s] -- extracting... [analysis]
+[39.691s] -- extracting... [rename]
+[39.715s] -- extracting... [clean up]
+[39.747s] -- extracting... done
+[40.214s] [ 18%] [34m[1mNo update step for 'ext-singleproducerconsumer'[0m
+[41.122s] [ 25%] [34m[1mNo patch step for 'ext-singleproducerconsumer'[0m
+[42.125s] [ 31%] [34m[1mNo configure step for 'ext-singleproducerconsumer'[0m
+[43.213s] [ 37%] [34m[1mNo build step for 'ext-singleproducerconsumer'[0m
+[44.282s] [ 43%] [34m[1mNo install step for 'ext-singleproducerconsumer'[0m
+[45.450s] [ 50%] [34m[1mCompleted 'ext-singleproducerconsumer'[0m
+[46.753s] [ 50%] Built target ext-singleproducerconsumer
+[47.587s] [ 56%] [34m[1mCreating directories for 'ext-concurrentqueue'[0m
+[50.664s] [ 62%] [34m[1mPerforming download step (download, verify and extract) for 'ext-concurrentqueue'[0m
+[51.050s] -- Downloading...
+[51.065s]    dst='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[51.067s]    timeout='60 seconds'
+[51.068s]    inactivity timeout='none'
+[51.086s] -- Using src='https://github.com/cameron314/concurrentqueue/archive/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[53.514s] -- verifying file...
+[53.522s]        file='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[53.596s] -- Downloading... done
+[54.257s] -- extracting...
+[54.260s]      src='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[54.263s]      dst='/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor/concurrentqueue/src/ext-concurrentqueue'
+[54.271s] -- extracting... [tar xfz]
+[60.988s] -- extracting... [analysis]
+[61.017s] -- extracting... [rename]
+[61.035s] -- extracting... [clean up]
+[61.054s] -- extracting... done
+[61.835s] [ 68%] [34m[1mNo update step for 'ext-concurrentqueue'[0m
+[63.347s] [ 75%] [34m[1mNo patch step for 'ext-concurrentqueue'[0m
+[64.835s] [ 81%] [34m[1mNo configure step for 'ext-concurrentqueue'[0m
+[66.406s] [ 87%] [34m[1mNo build step for 'ext-concurrentqueue'[0m
+[67.668s] [ 93%] [34m[1mNo install step for 'ext-concurrentqueue'[0m
+[68.380s] [100%] [34m[1mCompleted 'ext-concurrentqueue'[0m
+[69.391s] [100%] Built target ext-concurrentqueue
+[69.681s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/shared_queues_vendor -- -j4 -l4
+[70.958s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/shared_queues_vendor
+[71.279s] -- Install configuration: ""
+[71.324s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/include/moodycamel/atomicops.h
+[71.327s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/include/moodycamel/readerwriterqueue.h
+[71.414s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/include/moodycamel/concurrentqueue.h
+[71.430s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/include/moodycamel/blockingconcurrentqueue.h
+[71.452s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/ament_index/resource_index/package_run_dependencies/shared_queues_vendor
+[71.455s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/ament_index/resource_index/parent_prefix_path/shared_queues_vendor
+[71.489s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.sh
+[71.491s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.dsv
+[71.497s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.sh
+[71.499s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.dsv
+[71.538s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.bash
+[71.544s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.sh
+[71.572s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.zsh
+[71.610s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.dsv
+[71.611s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/package.dsv
+[71.612s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/ament_index/resource_index/packages/shared_queues_vendor
+[71.618s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/cmake/export_shared_queues_vendorExport.cmake
+[71.619s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.621s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_targets-extras.cmake
+[71.622s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig.cmake
+[71.623s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig-version.cmake
+[71.640s] -- Installing: /home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/package.xml
+[71.687s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/shared_queues_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/shared_queues_vendor

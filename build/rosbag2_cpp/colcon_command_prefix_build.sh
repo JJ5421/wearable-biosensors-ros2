@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap_testdata/share/rosbag2_storage_mcap_testdata/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/rosbag2_test_common/share/rosbag2_test_common/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/shared_queues_vendor/share/shared_queues_vendor/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/sqlite3_vendor/share/sqlite3_vendor/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/zstd_vendor/share/zstd_vendor/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/mcap_vendor/share/mcap_vendor/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage/share/rosbag2_storage/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/package.sh"
+. "/home/jj/wearable-biosensors-ros2/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/package.sh"

@@ -1,0 +1,579 @@
+[0.345s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces
+[2.863s] -- The C compiler identification is GNU 11.4.0
+[5.609s] -- The CXX compiler identification is GNU 11.4.0
+[5.981s] -- Detecting C compiler ABI info
+[9.509s] -- Detecting C compiler ABI info - done
+[9.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.785s] -- Detecting C compile features
+[9.806s] -- Detecting C compile features - done
+[9.922s] -- Detecting CXX compiler ABI info
+[12.596s] -- Detecting CXX compiler ABI info - done
+[12.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.939s] -- Detecting CXX compile features
+[12.952s] -- Detecting CXX compile features - done
+[13.313s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.151s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.312s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[31.461s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[31.912s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.729s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[33.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.078s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[54.953s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[55.234s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[55.500s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[55.788s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[74.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[79.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[80.640s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[80.843s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[81.878s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[81.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[81.922s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[81.944s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[82.695s] -- Found PythonExtra: .so  
+[84.299s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[84.484s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[84.693s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[86.157s] -- Added test 'copyright' to check source files copyright and LICENSE
+[86.183s] -- Added test 'lint_cmake' to check CMake code style
+[86.257s] -- Added test 'xmllint' to check XML markup files
+[86.559s] -- Configuring done
+[89.960s] -- Generating done
+[90.179s] -- Build files have been written to: /home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces
+[90.422s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake /home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces
+[90.452s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces -- -j4 -l4
+[92.168s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[152.347s] [  0%] Built target rosbag2_interfaces__cpp
+[153.182s] [  0%] Built target ament_cmake_python_copy_rosbag2_interfaces
+[153.808s] [  0%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[203.553s] [  1%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/msg/detail/dds_fastrtps/read_split_event__type_support.cpp.o[0m
+[223.287s] [  2%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/msg/detail/dds_fastrtps/write_split_event__type_support.cpp.o[0m
+[244.975s] [  3%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/burst__type_support.cpp.o[0m
+[265.963s] [  4%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/get_rate__type_support.cpp.o[0m
+[283.415s] [  5%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/is_paused__type_support.cpp.o[0m
+[301.496s] [  5%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[317.881s] [  6%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/play_next__type_support.cpp.o[0m
+[333.853s] [  7%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/resume__type_support.cpp.o[0m
+[350.428s] [  8%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/seek__type_support.cpp.o[0m
+[368.090s] [  9%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/set_rate__type_support.cpp.o[0m
+[383.516s] [ 10%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/snapshot__type_support.cpp.o[0m
+[400.424s] [ 10%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/toggle_paused__type_support.cpp.o[0m
+[417.678s] [ 11%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[420.264s] [ 11%] Built target rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp
+[420.494s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[453.296s] [ 12%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/msg/detail/read_split_event__type_support.cpp.o[0m
+[469.537s] [ 13%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/msg/detail/write_split_event__type_support.cpp.o[0m
+[483.473s] [ 14%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/burst__type_support.cpp.o[0m
+[498.999s] [ 15%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/get_rate__type_support.cpp.o[0m
+[513.775s] [ 16%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/is_paused__type_support.cpp.o[0m
+[528.391s] [ 17%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/pause__type_support.cpp.o[0m
+[545.006s] [ 17%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/play_next__type_support.cpp.o[0m
+[560.763s] [ 18%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/resume__type_support.cpp.o[0m
+[575.434s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/seek__type_support.cpp.o[0m
+[591.123s] [ 20%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/set_rate__type_support.cpp.o[0m
+[606.896s] [ 21%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/snapshot__type_support.cpp.o[0m
+[621.854s] [ 22%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/toggle_paused__type_support.cpp.o[0m
+[636.978s] [ 23%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[639.392s] [ 23%] Built target rosbag2_interfaces__rosidl_typesupport_introspection_cpp
+[652.501s] running egg_info
+[652.534s] creating rosbag2_interfaces.egg-info
+[652.544s] writing rosbag2_interfaces.egg-info/PKG-INFO
+[652.553s] writing dependency_links to rosbag2_interfaces.egg-info/dependency_links.txt
+[652.565s] writing top-level names to rosbag2_interfaces.egg-info/top_level.txt
+[652.570s] writing manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+[652.664s] reading manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+[652.680s] writing manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+[653.657s] [ 23%] Built target ament_cmake_python_build_rosbag2_interfaces_egg
+[654.069s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[679.152s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/msg/read_split_event__type_support.cpp.o[0m
+[689.968s] [ 26%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/burst__type_support.cpp.o[0m
+[701.736s] [ 27%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/get_rate__type_support.cpp.o[0m
+[713.304s] [ 27%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/is_paused__type_support.cpp.o[0m
+[725.626s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/pause__type_support.cpp.o[0m
+[736.604s] [ 29%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/play_next__type_support.cpp.o[0m
+[748.323s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/resume__type_support.cpp.o[0m
+[760.086s] [ 31%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/seek__type_support.cpp.o[0m
+[769.646s] [ 32%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/set_rate__type_support.cpp.o[0m
+[779.473s] [ 32%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/snapshot__type_support.cpp.o[0m
+[790.636s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/toggle_paused__type_support.cpp.o[0m
+[804.332s] [ 34%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/msg/write_split_event__type_support.cpp.o[0m
+[815.642s] [ 35%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_cpp.so[0m
+[816.930s] [ 35%] Built target rosbag2_interfaces__rosidl_typesupport_cpp
+[817.114s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[867.244s] [ 37%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/read_split_event__functions.c.o[0m
+[868.849s] [ 37%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/get_rate__functions.c.o[0m
+[871.125s] [ 38%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/is_paused__functions.c.o[0m
+[873.093s] [ 39%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/pause__functions.c.o[0m
+[874.755s] [ 40%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play_next__functions.c.o[0m
+[876.328s] [ 41%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/resume__functions.c.o[0m
+[878.150s] [ 42%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/seek__functions.c.o[0m
+[879.965s] [ 42%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/set_rate__functions.c.o[0m
+[881.368s] [ 43%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/snapshot__functions.c.o[0m
+[882.816s] [ 44%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/toggle_paused__functions.c.o[0m
+[884.245s] [ 45%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/burst__functions.c.o[0m
+[885.876s] [ 46%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/write_split_event__functions.c.o[0m
+[887.216s] [ 47%] [32m[1mLinking C shared library librosbag2_interfaces__rosidl_generator_c.so[0m
+[888.455s] [ 47%] Built target rosbag2_interfaces__rosidl_generator_c
+[888.718s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[921.029s] [ 49%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/msg/detail/read_split_event__type_support_c.cpp.o[0m
+[927.416s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/msg/detail/write_split_event__type_support_c.cpp.o[0m
+[934.970s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/burst__type_support_c.cpp.o[0m
+[941.964s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/get_rate__type_support_c.cpp.o[0m
+[949.020s] [ 52%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/is_paused__type_support_c.cpp.o[0m
+[955.988s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/pause__type_support_c.cpp.o[0m
+[969.253s] [ 54%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/play_next__type_support_c.cpp.o[0m
+[981.559s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/resume__type_support_c.cpp.o[0m
+[995.692s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/seek__type_support_c.cpp.o[0m
+[1009.829s] [ 56%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/set_rate__type_support_c.cpp.o[0m
+[1025.272s] [ 57%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/snapshot__type_support_c.cpp.o[0m
+[1040.515s] [ 58%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/toggle_paused__type_support_c.cpp.o[0m
+[1054.502s] [ 59%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1056.990s] [ 59%] Built target rosbag2_interfaces__rosidl_typesupport_fastrtps_c
+[1057.361s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1082.061s] [ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/msg/read_split_event__type_support.cpp.o[0m
+[1083.089s] [ 62%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/burst__type_support.cpp.o[0m
+[1084.231s] [ 63%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/get_rate__type_support.cpp.o[0m
+[1085.618s] [ 64%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/is_paused__type_support.cpp.o[0m
+[1086.679s] [ 65%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/pause__type_support.cpp.o[0m
+[1087.751s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/play_next__type_support.cpp.o[0m
+[1088.797s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/resume__type_support.cpp.o[0m
+[1089.992s] [ 67%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/seek__type_support.cpp.o[0m
+[1091.136s] [ 68%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/set_rate__type_support.cpp.o[0m
+[1092.714s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/snapshot__type_support.cpp.o[0m
+[1094.139s] [ 70%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/toggle_paused__type_support.cpp.o[0m
+[1095.426s] [ 70%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/msg/write_split_event__type_support.cpp.o[0m
+[1096.701s] [ 71%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_c.so[0m
+[1098.101s] [ 71%] Built target rosbag2_interfaces__rosidl_typesupport_c
+[1098.356s] [ 72%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1134.412s] [ 73%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/msg/detail/read_split_event__type_support.c.o[0m
+[1135.839s] [ 73%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/get_rate__type_support.c.o[0m
+[1137.129s] [ 74%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/is_paused__type_support.c.o[0m
+[1138.643s] [ 75%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/pause__type_support.c.o[0m
+[1140.252s] [ 76%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/play_next__type_support.c.o[0m
+[1141.673s] [ 77%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/resume__type_support.c.o[0m
+[1143.196s] [ 78%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/seek__type_support.c.o[0m
+[1144.603s] [ 79%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/set_rate__type_support.c.o[0m
+[1145.442s] [ 79%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/snapshot__type_support.c.o[0m
+[1146.740s] [ 80%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/toggle_paused__type_support.c.o[0m
+[1147.779s] [ 81%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/burst__type_support.c.o[0m
+[1148.938s] [ 82%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/msg/detail/write_split_event__type_support.c.o[0m
+[1150.195s] [ 83%] [32m[1mLinking C shared library librosbag2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1151.193s] [ 83%] Built target rosbag2_interfaces__rosidl_typesupport_introspection_c
+[1151.672s] [ 83%] Built target rosbag2_interfaces
+[1152.404s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1223.223s] [ 84%] Built target rosbag2_interfaces__py
+[1223.943s] [ 85%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/msg/_read_split_event_s.c.o[0m
+[1227.809s] [ 86%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_get_rate_s.c.o[0m
+[1230.893s] [ 87%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_is_paused_s.c.o[0m
+[1234.797s] [ 88%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_pause_s.c.o[0m
+[1238.513s] [ 89%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_play_next_s.c.o[0m
+[1242.350s] [ 90%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_resume_s.c.o[0m
+[1246.374s] [ 91%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_seek_s.c.o[0m
+[1249.959s] [ 91%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_set_rate_s.c.o[0m
+[1253.906s] [ 92%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_snapshot_s.c.o[0m
+[1257.951s] [ 93%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_toggle_paused_s.c.o[0m
+[1261.360s] [ 93%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_burst_s.c.o[0m
+[1265.475s] [ 94%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/msg/_write_split_event_s.c.o[0m
+[1268.740s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/rosbag2_interfaces/librosbag2_interfaces__rosidl_generator_py.so[0m
+[1270.240s] [ 95%] Built target rosbag2_interfaces__rosidl_generator_py
+[1270.989s] [ 96%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1276.630s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[1278.296s] [ 97%] Built target rosbag2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1279.042s] [ 97%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1285.091s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[1286.455s] [ 98%] Built target rosbag2_interfaces__rosidl_typesupport_c__pyext
+[1287.383s] [ 99%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1294.347s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[1295.357s] [100%] Built target rosbag2_interfaces__rosidl_typesupport_introspection_c__pyext
+[1295.720s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --build /home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces -- -j4 -l4
+[1310.226s] Invoking command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces
+[1310.500s] -- Install configuration: ""
+[1310.549s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/ament_index/resource_index/rosidl_interfaces/rosbag2_interfaces
+[1310.578s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1310.607s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1310.663s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1310.687s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__struct.h
+[1310.688s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__struct.h
+[1310.722s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__type_support.h
+[1310.753s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__type_support.h
+[1310.764s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__type_support.h
+[1310.787s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__type_support.h
+[1310.789s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__type_support.h
+[1310.801s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__functions.c
+[1310.805s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__functions.c
+[1310.829s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__struct.h
+[1310.861s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__functions.c
+[1310.862s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__functions.h
+[1310.871s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__functions.h
+[1310.894s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__type_support.h
+[1310.897s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__functions.h
+[1310.913s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__struct.h
+[1310.938s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__functions.c
+[1310.946s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__functions.h
+[1310.955s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__type_support.h
+[1310.984s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__functions.c
+[1311.004s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__type_support.h
+[1311.015s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__functions.h
+[1311.020s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__functions.c
+[1311.037s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__functions.h
+[1311.055s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__struct.h
+[1311.057s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__functions.c
+[1311.071s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__functions.h
+[1311.072s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__functions.h
+[1311.079s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__struct.h
+[1311.080s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__functions.c
+[1311.088s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__struct.h
+[1311.108s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__functions.h
+[1311.128s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__struct.h
+[1311.147s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__struct.h
+[1311.150s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__functions.h
+[1311.184s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__functions.c
+[1311.185s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__struct.h
+[1311.192s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__type_support.h
+[1311.200s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__type_support.h
+[1311.209s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__functions.c
+[1311.219s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/toggle_paused.h
+[1311.239s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/burst.h
+[1311.241s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/resume.h
+[1311.256s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/set_rate.h
+[1311.260s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/seek.h
+[1311.283s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/pause.h
+[1311.284s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/is_paused.h
+[1311.285s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/snapshot.h
+[1311.294s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play_next.h
+[1311.305s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/get_rate.h
+[1311.311s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1311.314s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1311.325s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__functions.c
+[1311.336s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__struct.h
+[1311.338s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__functions.c
+[1311.339s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__functions.h
+[1311.340s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__functions.h
+[1311.341s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__struct.h
+[1311.342s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__type_support.h
+[1311.358s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__type_support.h
+[1311.362s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/write_split_event.h
+[1311.367s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/read_split_event.h
+[1311.369s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1311.379s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/library_path.sh
+[1311.387s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/library_path.dsv
+[1311.408s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_c.so
+[1311.424s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_c.so" to ""
+[1311.432s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1311.447s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1311.471s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1311.477s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[1311.496s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_fastrtps_c.h
+[1311.498s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_fastrtps_c.h
+[1311.500s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_fastrtps_c.h
+[1311.511s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_fastrtps_c.h
+[1311.530s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_fastrtps_c.h
+[1311.535s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_fastrtps_c.h
+[1311.538s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_fastrtps_c.h
+[1311.560s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_fastrtps_c.h
+[1311.568s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_fastrtps_c.h
+[1311.590s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1311.603s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1311.606s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_fastrtps_c.h
+[1311.614s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_fastrtps_c.h
+[1311.615s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1311.616s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so
+[1311.617s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[1311.632s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1311.645s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1311.671s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1311.674s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__traits.hpp
+[1311.688s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__traits.hpp
+[1311.708s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__struct.hpp
+[1311.720s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__builder.hpp
+[1311.722s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__traits.hpp
+[1311.739s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__builder.hpp
+[1311.759s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__builder.hpp
+[1311.768s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__traits.hpp
+[1311.781s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__struct.hpp
+[1311.784s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__builder.hpp
+[1311.786s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__builder.hpp
+[1311.825s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__traits.hpp
+[1311.831s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__traits.hpp
+[1311.845s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__traits.hpp
+[1311.854s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__struct.hpp
+[1311.866s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__builder.hpp
+[1311.870s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__struct.hpp
+[1311.907s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__traits.hpp
+[1311.934s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__struct.hpp
+[1311.956s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__struct.hpp
+[1311.968s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__builder.hpp
+[1311.981s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__struct.hpp
+[1311.989s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__builder.hpp
+[1312.003s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__struct.hpp
+[1312.005s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__traits.hpp
+[1312.007s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__builder.hpp
+[1312.010s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__struct.hpp
+[1312.032s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__struct.hpp
+[1312.044s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__builder.hpp
+[1312.084s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__traits.hpp
+[1312.091s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/seek.hpp
+[1312.092s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/snapshot.hpp
+[1312.093s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/is_paused.hpp
+[1312.099s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/set_rate.hpp
+[1312.101s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/toggle_paused.hpp
+[1312.109s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/resume.hpp
+[1312.127s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play_next.hpp
+[1312.130s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/get_rate.hpp
+[1312.144s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/pause.hpp
+[1312.180s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/burst.hpp
+[1312.184s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1312.190s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1312.191s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__traits.hpp
+[1312.193s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__builder.hpp
+[1312.207s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__struct.hpp
+[1312.213s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__builder.hpp
+[1312.220s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__struct.hpp
+[1312.234s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__traits.hpp
+[1312.246s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/read_split_event.hpp
+[1312.270s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/write_split_event.hpp
+[1312.274s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1312.292s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1312.298s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1312.327s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.339s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.361s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.378s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.380s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.390s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/dds_fastrtps
+[1312.400s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.416s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.431s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.454s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.479s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.488s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1312.497s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1312.517s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/dds_fastrtps
+[1312.520s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.522s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_fastrtps_cpp.hpp
+[1312.535s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1312.537s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1312.541s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1312.545s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1312.555s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1312.556s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1312.567s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__type_support.c
+[1312.584s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_introspection_c.h
+[1312.596s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__type_support.c
+[1312.599s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_introspection_c.h
+[1312.618s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__type_support.c
+[1312.621s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_introspection_c.h
+[1312.629s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_introspection_c.h
+[1312.639s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_introspection_c.h
+[1312.664s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__type_support.c
+[1312.684s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__type_support.c
+[1312.688s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__type_support.c
+[1312.704s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__type_support.c
+[1312.707s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__type_support.c
+[1312.709s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_introspection_c.h
+[1312.722s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_introspection_c.h
+[1312.741s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_introspection_c.h
+[1312.748s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[1312.751s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__type_support.c
+[1312.764s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__type_support.c
+[1312.777s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_introspection_c.h
+[1312.780s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1312.797s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1312.801s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__type_support.c
+[1312.822s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_introspection_c.h
+[1312.826s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_introspection_c.h
+[1312.837s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__type_support.c
+[1312.838s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1312.840s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_c.so
+[1312.842s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[1312.851s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_c.so
+[1312.853s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_c.so" to ""
+[1312.855s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces
+[1312.866s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv
+[1312.893s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail
+[1312.907s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__type_support.cpp
+[1312.915s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_introspection_cpp.hpp
+[1312.928s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_introspection_cpp.hpp
+[1312.938s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_introspection_cpp.hpp
+[1312.940s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_introspection_cpp.hpp
+[1312.957s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_introspection_cpp.hpp
+[1312.976s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__type_support.cpp
+[1312.988s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__type_support.cpp
+[1313.015s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_introspection_cpp.hpp
+[1313.017s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__type_support.cpp
+[1313.022s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__type_support.cpp
+[1313.024s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_introspection_cpp.hpp
+[1313.025s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__type_support.cpp
+[1313.036s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_introspection_cpp.hpp
+[1313.048s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__type_support.cpp
+[1313.060s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__type_support.cpp
+[1313.076s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__type_support.cpp
+[1313.079s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_introspection_cpp.hpp
+[1313.095s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[1313.106s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__type_support.cpp
+[1313.120s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg
+[1313.121s] -- Up-to-date: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail
+[1313.127s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__type_support.cpp
+[1313.130s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__type_support.cpp
+[1313.144s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_introspection_cpp.hpp
+[1313.160s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_introspection_cpp.hpp
+[1313.169s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so
+[1313.196s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[1313.214s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_cpp.so
+[1313.224s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_cpp.so" to ""
+[1313.226s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/pythonpath.sh
+[1313.234s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/pythonpath.dsv
+[1313.261s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces-0.15.11-py3.10.egg-info
+[1313.264s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces-0.15.11-py3.10.egg-info/dependency_links.txt
+[1313.281s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces-0.15.11-py3.10.egg-info/top_level.txt
+[1313.300s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces-0.15.11-py3.10.egg-info/SOURCES.txt
+[1313.312s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces-0.15.11-py3.10.egg-info/PKG-INFO
+[1313.321s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces
+[1313.323s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv
+[1313.325s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_burst_s.c
+[1313.326s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_seek.py
+[1313.337s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_play_next.py
+[1313.354s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_resume.py
+[1313.357s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_set_rate.py
+[1313.371s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_is_paused.py
+[1313.388s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_snapshot_s.c
+[1313.411s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_toggle_paused_s.c
+[1313.434s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_pause.py
+[1313.448s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_set_rate_s.c
+[1313.450s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_get_rate.py
+[1313.453s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_seek_s.c
+[1313.469s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_pause_s.c
+[1313.483s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_play_next_s.c
+[1313.485s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_resume_s.c
+[1313.486s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/__init__.py
+[1313.487s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_is_paused_s.c
+[1313.489s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_snapshot.py
+[1313.503s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_burst.py
+[1313.506s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_get_rate_s.c
+[1313.509s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_toggle_paused.py
+[1313.528s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1313.530s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg
+[1313.532s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_write_split_event.py
+[1313.535s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_read_split_event_s.c
+[1313.551s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/__init__.py
+[1313.553s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_read_split_event.py
+[1313.554s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_write_split_event_s.c
+[1313.558s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_c.c
+[1313.560s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1313.562s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1313.563s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1313.564s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/__init__.py
+[1313.566s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/librosbag2_interfaces__rosidl_generator_py.so
+[1313.579s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1315.269s] Listing '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces'...
+[1315.285s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/__init__.py'...
+[1315.295s] Listing '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg'...
+[1315.325s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/__init__.py'...
+[1315.348s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_read_split_event.py'...
+[1315.371s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/msg/_write_split_event.py'...
+[1315.373s] Listing '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv'...
+[1315.376s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/__init__.py'...
+[1315.395s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_burst.py'...
+[1315.414s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_get_rate.py'...
+[1315.417s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_is_paused.py'...
+[1315.421s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_pause.py'...
+[1315.460s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_play_next.py'...
+[1315.535s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_resume.py'...
+[1315.540s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_seek.py'...
+[1315.555s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_set_rate.py'...
+[1315.569s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_snapshot.py'...
+[1315.578s] Compiling '/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/srv/_toggle_paused.py'...
+[1315.602s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1315.623s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1315.639s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1315.669s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1315.696s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1315.725s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/local/lib/python3.10/dist-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1315.740s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_py.so
+[1315.770s] -- Set runtime path of "/home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_py.so" to ""
+[1315.794s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/ReadSplitEvent.idl
+[1315.827s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/WriteSplitEvent.idl
+[1315.858s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst.idl
+[1315.894s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate.idl
+[1315.912s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused.idl
+[1315.935s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause.idl
+[1315.948s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext.idl
+[1315.964s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume.idl
+[1315.973s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek.idl
+[1315.993s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate.idl
+[1316.010s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot.idl
+[1316.030s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused.idl
+[1316.053s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/ReadSplitEvent.msg
+[1316.061s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/WriteSplitEvent.msg
+[1316.080s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst.srv
+[1316.098s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst_Request.msg
+[1316.113s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst_Response.msg
+[1316.137s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate.srv
+[1316.159s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate_Request.msg
+[1316.168s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate_Response.msg
+[1316.185s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused.srv
+[1316.215s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused_Request.msg
+[1316.252s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused_Response.msg
+[1316.263s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause.srv
+[1316.269s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause_Request.msg
+[1316.293s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause_Response.msg
+[1316.298s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext.srv
+[1316.325s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext_Request.msg
+[1316.346s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext_Response.msg
+[1316.375s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume.srv
+[1316.388s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume_Request.msg
+[1316.410s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume_Response.msg
+[1316.430s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek.srv
+[1316.457s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek_Request.msg
+[1316.488s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek_Response.msg
+[1316.525s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate.srv
+[1316.537s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate_Request.msg
+[1316.560s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate_Response.msg
+[1316.577s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot.srv
+[1316.593s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot_Request.msg
+[1316.609s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot_Response.msg
+[1316.644s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused.srv
+[1316.656s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused_Request.msg
+[1316.677s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused_Response.msg
+[1316.705s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbag2_interfaces
+[1316.729s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbag2_interfaces
+[1316.744s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/ament_prefix_path.sh
+[1316.769s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/ament_prefix_path.dsv
+[1316.787s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/path.sh
+[1316.794s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/path.dsv
+[1316.800s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.bash
+[1316.813s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.sh
+[1316.847s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.zsh
+[1316.858s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.dsv
+[1316.861s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/package.dsv
+[1316.880s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/ament_index/resource_index/packages/rosbag2_interfaces
+[1316.888s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cExport.cmake
+[1316.906s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1316.910s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1316.947s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1316.965s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cppExport.cmake
+[1316.980s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1316.987s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1317.006s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1317.009s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1317.020s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cExport.cmake
+[1317.022s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1317.052s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1317.063s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1317.066s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cppExport.cmake
+[1317.078s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1317.109s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_pyExport.cmake
+[1317.129s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1317.149s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake-extras.cmake
+[1317.167s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1317.177s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1317.199s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1317.214s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1317.244s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1317.253s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1317.279s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfacesConfig.cmake
+[1317.297s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfacesConfig-version.cmake
+[1317.321s] -- Installing: /home/jj/wearable-biosensors-ros2/install/rosbag2_interfaces/share/rosbag2_interfaces/package.xml
+[1317.402s] Invoked command in '/home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jj/wearable-biosensors-ros2/install/vernier_respiration_belt:/home/jj/wearable-biosensors-ros2/install/shimmer3_gsr_unit:/home/jj/wearable-biosensors-ros2/install/polar_h10:/home/jj/wearable-biosensors-ros2/install/empatica_e4:/home/jj/wearable-biosensors-ros2/install/emotiv_insight:/opt/ros/humble /usr/bin/cmake --install /home/jj/wearable-biosensors-ros2/build/rosbag2_interfaces

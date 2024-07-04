@@ -1,0 +1,10 @@
+{
+  "package_name": "rosbag2_storage_mcap_testdata",
+  "non_idl_tuples": [
+    "/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage_mcap_testdata:msg/BasicMsg.msg",
+    "/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage_mcap_testdata:msg/ComplexMsg.msg",
+    "/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage_mcap_testdata:msg/ComplexMsgDependsOnIdl.msg",
+    "/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage_mcap_testdata:srv/BasicSrv.srv",
+    "/home/jj/wearable-biosensors-ros2/src/rosbag2/rosbag2_storage_mcap_testdata:action/BasicAction.action"
+  ]
+}

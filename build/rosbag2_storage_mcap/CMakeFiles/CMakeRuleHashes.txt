@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+04ed4ae1aec29c96e2564e8de09714a0 CMakeFiles/rosbag2_storage_mcap_uninstall

@@ -42,13 +42,13 @@ class VitalLogger(Node):
         data = vital_stamped.data
         ts = f"{vital_stamped.stamp.sec}.{vital_stamped.stamp.nanosec}"
 
-        self.file_handle_resp.write(f"{data},{ts}\n")
+        self.file_handle_resp.write(f"{ts},{data}\n")
 
     def listener_callback_hr(self, vital_stamped):
         data = vital_stamped.data
         ts = f"{vital_stamped.stamp.sec}.{vital_stamped.stamp.nanosec}"
 
-        self.file_handle_hr.write(f"{data},{ts}\n")
+        self.file_handle_hr.write(f"{ts},{data}\n")
 
 def main(args=None):
     rclpy.init(args=args)
