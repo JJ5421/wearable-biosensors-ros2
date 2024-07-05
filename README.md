@@ -16,7 +16,9 @@ Installation:
 - gdx
 - pexpect
 - godirect
-- etc. (will figure it out by seeing what is missing when I run through this process again)
+- pigpiod
+- Rpi.GPIO
+- Potential missing dependencies (pls notify me)
 2. Change relevant device name variables in polar_h10 and vernier_respiration_belt nodes
 - The vernier says its ID in the necessary format on the hardware
 - You must connect to the polarh10 to find its bluetooth address in the desired format (make sure to forget the device after this)
@@ -26,9 +28,21 @@ Installation:
 - $ crontab -e
 - Add the following line to the document (if prompted, just choose nano as your editor):
 @reboot /home/username/wearable-biosensors-ros2.script.sh
-6. Restart Rpi (with above usage information in action) and check ROS topics to ensure that your setup works
-7. Test bag output into the /wearable-biosensors-ros2/ros_bags folder if this is important to you
-8. Outstanding question of whether or not the bags are corrupted by a sudden power-off
+- might need to run: chmod +x ~/wearable-biosensors-ros2/startup_script.sh
+6. Setup pigpio w/ daemon
+- sudo apt-get update
+- sudo apt-get install -y gcc make python3-dev python3-setuptools
+- cd /tmp
+- git clone https://github.com/joan2937/pigpio.git
+- cd pigpio
+- make
+- sudo make install
+- sudo systemctl enable pigpiod
+- sudo systemctl start pigpiod
+- pip install pigpio
+7. Restart Rpi (with above usage information in action) and check ROS topics to ensure that your setup works
+8. Test bag output into the /wearable-biosensors-ros2/ros_bags folder if this is important to you
+9. Outstanding question of whether or not the bags are corrupted by a sudden power-off
 
 
 THE FOLLOWING IS OLD PACKAGE RELATED INFORMATION TO RUN BASIC ROS2 FUNCTIONALITY

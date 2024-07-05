@@ -1,30 +1,34 @@
-import RPi.GPIO as GPIO
+#!/usr/bin/env python3
+
 import subprocess
 import time
 import os
 import threading
 import signal
+import pigpio
 
-bag_directory = os.path.expanduser('~/wearable-biosensors-ros2/ros_bags/')
+bag_directory = os.path.expanduser('/home/jj/wearable-biosensors-ros2/ros_bags/')
 
-# Setup
-GPIO.setmode(GPIO.BCM)
+# Setup pigpio
+pi = pigpio.pi()
 
 # LED pins
 led_yellow = 4
 led_green = 9
 led_red = 5
 
-GPIO.setup(led_yellow, GPIO.OUT)
-GPIO.setup(led_green, GPIO.OUT)
-GPIO.setup(led_red, GPIO.OUT)
+pi.set_mode(led_yellow, pigpio.OUTPUT)
+pi.set_mode(led_green, pigpio.OUTPUT)
+pi.set_mode(led_red, pigpio.OUTPUT)
 
 # Button pins
 button_power = 27
 button_bag = 10
 
-GPIO.setup(button_power, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-GPIO.setup(button_bag, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+pi.set_mode(button_power, pigpio.INPUT)
+pi.set_pull_up_down(button_power, pigpio.PUD_DOWN)
+pi.set_mode(button_bag, pigpio.INPUT)
+pi.set_pull_up_down(button_bag, pigpio.PUD_DOWN)
 
 # State variables
 recording = False
@@ -40,7 +44,7 @@ proc = None
 
 # Function to control LEDs
 def set_led(led, state):
-    GPIO.output(led, state)
+    pi.write(led, state)
 
 # Function to execute a command
 def execute_command(command):
@@ -59,15 +63,15 @@ def button_10_hold():
     global proc
     if not recording:
         recording = True
-        set_led(led_green, GPIO.HIGH)
-        set_led(led_red, GPIO.LOW)
+        set_led(led_green, 1)
+        set_led(led_red, 0)
         proc = execute_command_r("ros2 bag record /biosensors/vernier_respiration_belt/force /biosensors/vernier_respiration_belt/bpm /biosensors/polar_h10/hr")
         print("Running ROS Bag\n")
     else:
         recording = False
-        set_led(led_green, GPIO.LOW)
-        set_led(led_red, GPIO.HIGH)
-        os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+        set_led(led_green, 0)
+        set_led(led_red, 1)
+        os.killpg(os.getpgid(proc.pid), signal.SIGINT)
         proc = None
         print("Ending ROS Bag\n")
 
@@ -75,23 +79,23 @@ def button_3_hold():
     global power_on
     if power_on:
         power_on = False
-        set_led(led_yellow, GPIO.LOW)
+        set_led(led_yellow, 0)
         execute_command("sudo shutdown -h now")
         print("Shutdown")
 
 # Event detection callbacks
-def button_10_callback(channel):
+def button_bag_pressed(gpio, level, tick):
     global button_bag_timer
-    if GPIO.input(button_bag) == GPIO.HIGH:
+    if level == 1:
         button_bag_timer = threading.Timer(hold_duration, button_10_hold)
         button_bag_timer.start()
     else:
         if button_bag_timer is not None:
             button_bag_timer.cancel()
 
-def button_3_callback(channel):
+def button_power_pressed(gpio, level, tick):
     global button_power_timer
-    if GPIO.input(button_power) == GPIO.HIGH:
+    if level == 1:
         button_power_timer = threading.Timer(hold_duration, button_3_hold)
         button_power_timer.start()
     else:
@@ -99,17 +103,17 @@ def button_3_callback(channel):
             button_power_timer.cancel()
 
 # Add event detection
-GPIO.add_event_detect(button_power, GPIO.BOTH, callback=button_3_callback, bouncetime=300)
-GPIO.add_event_detect(button_bag, GPIO.BOTH, callback=button_10_callback, bouncetime=300)
+pi.callback(button_bag, pigpio.EITHER_EDGE, button_bag_pressed)
+pi.callback(button_power, pigpio.EITHER_EDGE, button_power_pressed)
 
-set_led(led_yellow, GPIO.HIGH)
-set_led(led_green, GPIO.LOW)
-set_led(led_red, GPIO.HIGH)
+set_led(led_yellow, 1)
+set_led(led_green, 0)
+set_led(led_red, 1)
 
 try:
     while True:
-        pass
+        time.sleep(1)
 except KeyboardInterrupt:
     pass
 
-GPIO.cleanup()
+pi.stop()
