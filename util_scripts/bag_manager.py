@@ -46,6 +46,10 @@ proc = None
 def set_led(led, state):
     pi.write(led, state)
 
+def execute_command(command):
+    full_command = f"source /opt/ros/humble/setup.bash && source /home/jj/wearable-biosensors-ros2/install/setup.bash && {command}"
+    subprocess.Popen(full_command, shell=True, executable="/bin/bash", cwd=bag_directory)    
+
 # Function to execute a command
 def execute_command(command):
     full_command = f"source /opt/ros/humble/setup.bash && source /home/jj/wearable-biosensors-ros2/install/setup.bash && {command}"
@@ -80,6 +84,9 @@ def button_3_hold():
     if power_on:
         power_on = False
         set_led(led_yellow, 0)
+        set_led(led_green, 0)
+        set_led(led_red, 0)
+        pi.stop()
         execute_command("sudo shutdown -h now")
         print("Shutdown")
 
@@ -114,6 +121,12 @@ try:
     while True:
         time.sleep(1)
 except KeyboardInterrupt:
-    pass
+    set_led(led_yellow, 0)
+    set_led(led_green, 0)
+    set_led(led_red, 0)
+    pi.stop()
 
+set_led(led_yellow, 0)
+set_led(led_green, 0)
+set_led(led_red, 0)
 pi.stop()

@@ -40,9 +40,14 @@ Installation:
 - sudo systemctl enable pigpiod
 - sudo systemctl start pigpiod
 - pip install pigpio
-7. Restart Rpi (with above usage information in action) and check ROS topics to ensure that your setup works
-8. Test bag output into the /wearable-biosensors-ros2/ros_bags folder if this is important to you
-9. Outstanding question of whether or not the bags are corrupted by a sudden power-off
+7. Give sudo control to user to enable shutdown button and pigpiodaemon
+- sudo visudo
+- Below %sudo   ALL=(ALL:ALL) ALL, insert:
+- <your_username> ALL=(ALL) NOPASSWD: /sbin/shutdown
+- <your_username> ALL=(ALL) NOPASSWD: /usr/local/bin/pigpiod
+8. Restart Rpi (with above usage information in action) and check ROS topics to ensure that your setup works
+9. Test bag output into the /wearable-biosensors-ros2/ros_bags folder if this is important to you
+10. Outstanding question of whether or not the bags are corrupted by a sudden power-off
 
 
 THE FOLLOWING IS OLD PACKAGE RELATED INFORMATION TO RUN BASIC ROS2 FUNCTIONALITY

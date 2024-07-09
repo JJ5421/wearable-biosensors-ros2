@@ -2,31 +2,31 @@ rosbag2_bagfile_information:
   version: 5
   storage_identifier: sqlite3
   duration:
-    nanoseconds: 48052009832
+    nanoseconds: 206967540579
   starting_time:
-    nanoseconds_since_epoch: 1720203662677694303
-  message_count: 532
+    nanoseconds_since_epoch: 1720380833607566983
+  message_count: 2190
   topics_with_message_count:
-    - topic_metadata:
-        name: /biosensors/vernier_respiration_belt/force
-        type: cdcl_umd_msgs/msg/Vitals
-        serialization_format: cdr
-        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 266
     - topic_metadata:
         name: /biosensors/vernier_respiration_belt/bpm
         type: cdcl_umd_msgs/msg/Vitals
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 266
+      message_count: 1095
+    - topic_metadata:
+        name: /biosensors/vernier_respiration_belt/force
+        type: cdcl_umd_msgs/msg/Vitals
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 1095
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
-    - rosbag2_2024_07_05-14_21_02_0.db3
+    - rosbag2_2024_07_07-15_33_53_0.db3
   files:
-    - path: rosbag2_2024_07_05-14_21_02_0.db3
+    - path: rosbag2_2024_07_07-15_33_53_0.db3
       starting_time:
-        nanoseconds_since_epoch: 1720203662677694303
+        nanoseconds_since_epoch: 1720380833607566983
       duration:
-        nanoseconds: 48052009832
-      message_count: 532
+        nanoseconds: 206967540579
+      message_count: 2190
