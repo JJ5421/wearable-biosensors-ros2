@@ -1,3 +1,0 @@
-string classifier_name
-
-int64 observation

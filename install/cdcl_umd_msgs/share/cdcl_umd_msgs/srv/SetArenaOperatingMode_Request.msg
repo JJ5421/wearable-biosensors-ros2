@@ -1,1 +1,0 @@
-string operating_mode

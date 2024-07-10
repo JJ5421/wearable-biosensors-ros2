@@ -1,5 +1,0 @@
-/home/jj/wearable-biosensors-ros2/build/rosbag2_storage_mcap_testdata/rosidl_adapter/rosbag2_storage_mcap_testdata:msg/BasicMsg.idl
-/home/jj/wearable-biosensors-ros2/build/rosbag2_storage_mcap_testdata/rosidl_adapter/rosbag2_storage_mcap_testdata:msg/ComplexMsg.idl
-/home/jj/wearable-biosensors-ros2/build/rosbag2_storage_mcap_testdata/rosidl_adapter/rosbag2_storage_mcap_testdata:msg/ComplexMsgDependsOnIdl.idl
-/home/jj/wearable-biosensors-ros2/build/rosbag2_storage_mcap_testdata/rosidl_adapter/rosbag2_storage_mcap_testdata:srv/BasicSrv.idl
-/home/jj/wearable-biosensors-ros2/build/rosbag2_storage_mcap_testdata/rosidl_adapter/rosbag2_storage_mcap_testdata:action/BasicAction.idl

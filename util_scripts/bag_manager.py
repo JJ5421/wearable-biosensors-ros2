@@ -7,7 +7,7 @@ import threading
 import signal
 import pigpio
 
-bag_directory = os.path.expanduser('/home/jj/wearable-biosensors-ros2/ros_bags/')
+bag_directory = os.path.expanduser('~/wearable-biosensors-ros2/ros_bags/')
 
 # Setup pigpio
 pi = pigpio.pi()

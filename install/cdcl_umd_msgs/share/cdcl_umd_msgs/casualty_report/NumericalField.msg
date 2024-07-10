@@ -1,3 +1,0 @@
-CasualtyReportField field
-float64 estimate
-float64 covariance

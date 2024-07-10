@@ -77,6 +77,12 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-vcstool \
     ros-humble-tl-expected \
     bluez \
+    gcc \
+    make \
+    python3-dev \
+    python3-setuptools \
+    python3-rpi.gpio \
+    cron \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
 
@@ -88,18 +94,23 @@ RUN pip install \
     websocket-client && \
     pip install \
     godirect \
+    psutil \
     bleak
 
-USER cdcl
-ADD git@github.com:UMD-CDCL/cdcl_umd_msgs.git /home/cdcl/cdcl_ws/src/cdcl_umd_msgs
-
+# Manual install of pigpio to use pigpiodaemon
 USER root
+RUN cd /tmp && \
+    git clone https://github.com/joan2937/pigpio.git && \
+    cd pigpio && \
+    make && \
+    make install && \
+    pip install pigpio
+
 # build wearable biosensors ros2 packages
-RUN mkdir -p /home/cdcl/cdcl_ws/src && \
-    cd /home/cdcl/cdcl_ws/src/ && \
-    git clone https://github.com/UMD-CDCL/wearable-biosensors-ros2.git && \
+RUN cd /home/cdcl/ && \
+    git clone https://github.com/JJ5421/wearable-biosensors-ros2.git && \
     source /opt/ros/humble/setup.bash && \
-    cd /home/cdcl/cdcl_ws/ && \
+    cd /home/cdcl/wearable-biosensors-ros2/ && \
     colcon build --symlink-install
 
 # add scripts
@@ -107,12 +118,22 @@ RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
     echo "alias sr2='source /opt/ros/humble/setup.bash'">> /home/cdcl/.bashrc && \
     echo "alias sri='source install/setup.bash'">> /home/cdcl/.bashrc && \
     echo -e 'source /opt/ros/humble/setup.bash' >> /home/cdcl/.bashrc && \
-    echo "source /home/cdcl/cdcl_ws/install/setup.bash" >> /home/cdcl/.bashrc && \
+    echo "source /home/cdcl/wearable-biosensors-ros2/install/setup.bash" >> /home/cdcl/.bashrc && \
     echo "export ROS_DOMAIN_ID=0" >>/home/cdcl/.bashrc  
 
 # Make the "cdcl" user's working director "/home/cdcl"
 #RUN chown -R cdcl /home/cdcl/
-RUN cd /home/cdcl/cdcl_ws
+RUN cd /home/cdcl/wearable-biosensors-ros2
 USER cdcl
 
-WORKDIR //home/cdcl/cdcl_ws
+WORKDIR //home/cdcl/wearable-biosensors-ros2
+
+# Copy the startup and WiFi connection scripts into the image
+COPY startup_script.sh /home/cdcl/startup_script.sh
+COPY wifi_connect.sh /home/cdcl/wifi_connect.sh
+
+# Ensure the scripts have executable permissions
+RUN chmod +x /home/cdcl/startup_script.sh /home/cdcl/wifi_connect.sh
+
+# Set the startup script to run on container start
+ENTRYPOINT ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]
