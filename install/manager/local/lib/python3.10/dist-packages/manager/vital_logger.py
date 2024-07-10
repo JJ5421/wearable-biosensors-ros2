@@ -2,7 +2,6 @@
 
 import rclpy
 from rclpy.node import Node
-from rclpy.parameter import Parameter
 
 from std_msgs.msg import Int32, Float32, Float32MultiArray, MultiArrayDimension, MultiArrayLayout, Header
 from cdcl_umd_msgs.msg import Vitals
@@ -24,30 +23,27 @@ class VitalLogger(Node):
         self.respiration_log_path = os.path.join(log_dir, 'respiration.txt')
         self.heartrate_log_path = os.path.join(log_dir, 'heartrate.txt')
 
-        # Create log files if they do not exist
-        self.create_log_file(self.respiration_log_path)
-        self.create_log_file(self.heartrate_log_path)
+        # Create and clear log files if they are not empty, then add headers
+        self.clear_and_initialize_log_file(self.respiration_log_path, "Timestamp,BPM\n")
+        self.clear_and_initialize_log_file(self.heartrate_log_path, "Timestamp,BPM\n")
 
         # Open log files for writing
         self.file_handle_resp = open(self.respiration_log_path, 'a')
         self.file_handle_hr = open(self.heartrate_log_path, 'a')
     
-    def create_log_file(self, file_path):
-        try:
-            os.open(file_path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-        except FileExistsError:
-                pass
+    def clear_and_initialize_log_file(self, file_path, header):
+        # Clear the file if it exists and is not empty, then add the header
+        with open(file_path, 'w') as file:
+            file.write(header)
 
     def listener_callback_resp(self, vital_stamped):
         data = vital_stamped.data
         ts = f"{vital_stamped.stamp.sec}.{vital_stamped.stamp.nanosec}"
-
         self.file_handle_resp.write(f"{ts},{data}\n")
 
     def listener_callback_hr(self, vital_stamped):
         data = vital_stamped.data
         ts = f"{vital_stamped.stamp.sec}.{vital_stamped.stamp.nanosec}"
-
         self.file_handle_hr.write(f"{ts},{data}\n")
 
 def main(args=None):
@@ -62,5 +58,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-
