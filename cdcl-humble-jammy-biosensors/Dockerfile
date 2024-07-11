@@ -3,7 +3,7 @@
 
 FROM ros:humble-ros-base-jammy
 
-MAINTAINER Zach Bortoff "zbortoff@umd.edu"
+LABEL maintainer="Zach Bortoff <zbortoff@umd.edu>"
 
 # Before executing any `apt` commands, it is necessary to run this command to avoid `apt` from prompting the user for
 # inputs, thereby stalling the build.
@@ -36,9 +36,6 @@ RUN apt install -y iproute2 iperf3 net-tools iputils-ping openssh-server rsync
 # See: https://www.howtogeek.com/devops/how-to-ssh-into-a-docker-container/
 RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
-# this makes the entry point of this container /bin/bash (after starting the ssh service)
-ENTRYPOINT echo "cdcl" | sudo -S service ssh start && /bin/bash
-
 # add a user named "cdcl" and add it to the "sudo" group
 RUN useradd -ms /bin/bash cdcl && usermod -aG sudo cdcl
 
@@ -58,7 +55,7 @@ USER root
 SHELL ["/bin/bash", "-c"]
 
 ARG ROS_DISTRO=humble
-ENV ROS_DISTRO $ROS_DISTRO
+ENV ROS_DISTRO=$ROS_DISTRO
 ARG INSTALL_PACKAGE=base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -121,12 +118,9 @@ RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
     echo "source /home/cdcl/wearable-biosensors-ros2/install/setup.bash" >> /home/cdcl/.bashrc && \
     echo "export ROS_DOMAIN_ID=0" >>/home/cdcl/.bashrc  
 
-# Make the "cdcl" user's working director "/home/cdcl"
-#RUN chown -R cdcl /home/cdcl/
-RUN cd /home/cdcl/wearable-biosensors-ros2
-USER cdcl
-
-WORKDIR //home/cdcl/wearable-biosensors-ros2
+# Add the required sudo configurations for user jj
+RUN echo 'cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown' | tee -a /etc/sudoers \
+    && echo 'cdcl ALL=(ALL) NOPASSWD: /usr/local/bin/pigpiod' | tee -a /etc/sudoers
 
 # Copy the startup and WiFi connection scripts into the image
 COPY startup_script.sh /home/cdcl/startup_script.sh
@@ -135,5 +129,15 @@ COPY wifi_connect.sh /home/cdcl/wifi_connect.sh
 # Ensure the scripts have executable permissions
 RUN chmod +x /home/cdcl/startup_script.sh /home/cdcl/wifi_connect.sh
 
+# Make the "cdcl" user's working director "/home/cdcl"
+#RUN chown -R cdcl /home/cdcl/
+RUN cd /home/cdcl/wearable-biosensors-ros2
+USER cdcl
+
+WORKDIR //home/cdcl/wearable-biosensors-ros2
+
+# Set the initial ENTRYPOINT to start SSH service and then launch a shell
+ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh & /bin/bash"]
+
 # Set the startup script to run on container start
-ENTRYPOINT ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]
+#CMD ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]
