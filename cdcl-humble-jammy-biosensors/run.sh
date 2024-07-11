@@ -9,7 +9,7 @@
 docker run --rm \
     --privileged \
     -v /dev/bus/usb:/dev/bus/usb \
-    --device=/dev/hidraw1 \
+    --device=/dev/ttyUSB0 \
     --net=host \
     --cap-add=NET_ADMIN \
     -it \

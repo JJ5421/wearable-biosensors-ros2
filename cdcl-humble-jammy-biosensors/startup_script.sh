@@ -8,3 +8,7 @@ sleep 2
 python3 /home/cdcl/wearable-biosensors-ros2/util_scripts/bag_manager.py & 
 
 ros2 launch manager collector.launch.py &
+
+exec /home/cdcl/wifi_connect.sh &
+
+service dbus start &

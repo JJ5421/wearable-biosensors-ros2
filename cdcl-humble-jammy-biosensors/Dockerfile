@@ -90,6 +90,7 @@ RUN pip install \
     pexpect \
     websocket-client && \
     pip install \
+    gdx \
     godirect \
     psutil \
     bleak
