@@ -14,7 +14,7 @@ from std_msgs.msg import Float32, Float32MultiArray, Bool , Header
 from cdcl_umd_msgs.msg import Vitals
 
 # For Godirect libs.
-from .gdx import gdx
+from gdx import gdx
 # define information of Veriner sensors 
 
 class ros2_vernier_respiration_belt(Node):

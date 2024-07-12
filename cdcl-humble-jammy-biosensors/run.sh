@@ -9,6 +9,7 @@
 docker run --rm \
     --privileged \
     -v /dev/bus/usb:/dev/bus/usb \
+    -v /home/jj/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
     --device=/dev/hidraw1 \
     --net=host \
     --cap-add=NET_ADMIN \

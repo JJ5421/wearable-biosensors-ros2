@@ -81,6 +81,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-rpi.gpio \
     cron \
     wpasupplicant \
+    dbus \
     isc-dhcp-client \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
@@ -92,7 +93,6 @@ RUN pip install \
     pexpect \
     websocket-client && \
     pip install \
-    gdx \
     godirect \
     psutil \
     bleak
@@ -121,9 +121,11 @@ RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
     echo "source /home/cdcl/wearable-biosensors-ros2/install/setup.bash" >> /home/cdcl/.bashrc && \
     echo "export ROS_DOMAIN_ID=0" >>/home/cdcl/.bashrc  
 
-# Add the required sudo configurations for user jj
+# Add the required sudo configurations for user cdcl
 RUN echo 'cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown' | tee -a /etc/sudoers \
     && echo 'cdcl ALL=(ALL) NOPASSWD: /usr/local/bin/pigpiod' | tee -a /etc/sudoers
+RUN chmod -R 777 /home/cdcl/wearable-biosensors-ros2/ros_bags/
+RUN usermod -aG bluetooth cdcl
 
 # Copy the startup and WiFi connection scripts into the image
 COPY startup_script.sh /home/cdcl/startup_script.sh
