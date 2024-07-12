@@ -142,7 +142,7 @@ USER cdcl
 WORKDIR //home/cdcl/wearable-biosensors-ros2
 
 # Set the initial ENTRYPOINT to start SSH service and then launch a shell
-ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh & /bin/bash"]
+ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh && echo 'cdcl' | sudo -S service dbus start & /bin/bash"]
 
 # Set the startup script to run on container start
 #CMD ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]
