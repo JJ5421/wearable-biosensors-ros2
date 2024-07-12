@@ -12,6 +12,7 @@ docker run --rm \
     --device=/dev/hidraw1 \
     --net=host \
     --cap-add=NET_ADMIN \
-    -it \
+    -t \
     --name biosensors \
     cdcl:humble-jammy-biosensors
+

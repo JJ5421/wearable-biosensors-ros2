@@ -80,6 +80,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-setuptools \
     python3-rpi.gpio \
     cron \
+    wpasupplicant \
+    isc-dhcp-client \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
 
