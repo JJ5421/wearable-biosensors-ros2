@@ -6,7 +6,7 @@
 # "--cap-add=NET_ADMIN" allows us to use `tc`
 # "-it" makes container interactive
 #    -v /home/yashas/biosensors_ws:/home/cdcl/cdcl_ws \
-docker run --rm \
+docker run --restart=always \
     --privileged \
     -v /dev/bus/usb:/dev/bus/usb \
     -v /home/jj/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \

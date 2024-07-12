@@ -4893,3 +4893,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/cdcl/wearable-bio
 [ERROR] [vernier_respiration_belt_node-1]: process has died [pid 776, exit code 1, cmd '/home/cdcl/wearable-biosensors-ros2/install/vernier_respiration_belt/lib/vernier_respiration_belt/vernier_respiration_belt_node --ros-args --params-file /tmp/launch_params_ejle4q5u --params-file /tmp/launch_params_mb5ll12f --params-file /tmp/launch_params_gwq9_pc4 --params-file /tmp/launch_params_y6n9pgmd --params-file /tmp/launch_params_26rv44d8'].
 [INFO] [vernier_respiration_belt_node-1]: process started with pid [790]
 biosensors
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh: line 13: -v: command not found
+Error response from daemon: No such container: biosensors
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh: line 13: -v: command not found
+Error response from daemon: No such container: biosensors
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh: line 13: -v: command not found

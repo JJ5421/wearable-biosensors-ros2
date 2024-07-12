@@ -32,7 +32,7 @@ pi.set_pull_up_down(button_power, pigpio.PUD_DOWN)
 
 # State variables
 # recording = False
-power_on = False
+power_on = True
 
 # Timers and hold duration
 hold_duration = 3  # seconds
@@ -81,13 +81,14 @@ def button_3_hold():
         set_led(led_yellow, 0)
         # set_led(led_green, 0)
         # set_led(led_red, 0)
-        execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
+        #execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
+        execute_command("sudo shutdown -h now")
         power_on = False
     elif not power_on:
         set_led(led_yellow, 1)
         # set_led(led_green, 0)
         # set_led(led_red, 0)
-        execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh")
+        #execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh")
         power_on = True
 
 # # Event detection callbacks
@@ -113,7 +114,7 @@ def button_power_pressed(gpio, level, tick):
 # pi.callback(button_bag, pigpio.EITHER_EDGE, button_bag_pressed)
 pi.callback(button_power, pigpio.EITHER_EDGE, button_power_pressed)
 
-set_led(led_yellow, 0)
+set_led(led_yellow, 1)
 # set_led(led_green, 0)
 # set_led(led_red, 1)
 
