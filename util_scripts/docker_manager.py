@@ -41,14 +41,15 @@ def button_3_hold():
         set_led(led_yellow, False)
         # set_led(led_green, False)
         # set_led(led_red, False)
-        # execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
+        execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
+        time.sleep(10)
         execute_command("sudo shutdown -h now")
         power_on = False
     else:
         set_led(led_yellow, True)
         # set_led(led_green, False)
         # set_led(led_red, False)
-        # execute_command("/home/jj/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh")
+        # execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh")
         power_on = True
 
 # Event detection for button press
