@@ -42,7 +42,7 @@ def button_3_hold():
         # set_led(led_green, False)
         # set_led(led_red, False)
         execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
-        time.sleep(20)
+        time.sleep(15)
         execute_command("sudo shutdown -h now")
         power_on = False
     else:
