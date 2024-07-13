@@ -10,6 +10,7 @@ docker run --restart=always \
     --privileged \
     -v /dev/bus/usb:/dev/bus/usb \
     -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
+    -v /home/cdcl/wearable-biosensors-ros2/VitalLogs:/home/cdcl/wearable-biosensors-ros2/VitalLogs \
     -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
     -v /dev/mem:/dev/mem \
     -v /dev/gpiochip0:/dev/gpiochip0 \
