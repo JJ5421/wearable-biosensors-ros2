@@ -12,7 +12,7 @@ docker run --restart=always \
     -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
     -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
     -v /dev/mem:/dev/mem \
-    -v /dev/gpiomem:/dev/gpiomem \
+    -v /dev/gpiochip0:/dev/gpiochip0 \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     --device=/dev/hidraw1 \
     --device=/dev/mem \

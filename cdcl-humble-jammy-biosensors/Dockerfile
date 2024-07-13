@@ -79,6 +79,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-dev \
     python3-setuptools \
     python3-rpi.gpio \
+    pigpio \
+    lgpio \
     cron \
     wireless-tools \
     wpasupplicant \
