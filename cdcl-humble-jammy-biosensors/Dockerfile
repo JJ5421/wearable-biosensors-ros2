@@ -94,6 +94,7 @@ RUN pip install \
     websocket-client && \
     pip install \
     godirect \
+    gpiozero \
     psutil \
     bleak
 
