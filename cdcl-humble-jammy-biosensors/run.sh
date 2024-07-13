@@ -14,6 +14,7 @@ docker run --restart=always \
     -v /dev/mem:/dev/mem \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     --device=/dev/hidraw1 \
+    --device=/dev/mem \
     --net=host \
     --cap-add=NET_ADMIN \
     -it \
