@@ -79,8 +79,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-dev \
     python3-setuptools \
     python3-rpi.gpio \
-    pigpio \
-    lgpio \
     cron \
     wireless-tools \
     wpasupplicant \
@@ -100,6 +98,17 @@ RUN pip install \
     gpiozero \
     psutil \
     bleak
+
+# Install lgpio from source
+RUN git clone https://github.com/joan2937/lg \
+    && cd lg \
+    && make \
+    && make install
+
+# Clean up unnecessary files
+RUN rm -rf /var/lib/apt/lists/* /tmp/*
+
+RUN pip install lgpio
 
 # Manual install of pigpio to use pigpiodaemon
 USER root
