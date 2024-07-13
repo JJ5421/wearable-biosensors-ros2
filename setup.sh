@@ -32,7 +32,7 @@ apt-get install -y cron
 # Step 4: Add cron job for @reboot
 systemctl enable cron
 echo "Adding cron job for @reboot..."
-(crontab -l 2>/dev/null; echo "@reboot /home/cdcl/wearable-biosensors-ros2/pi_startup.sh") | crontab -
+(crontab -l 2>/dev/null; echo "@reboot echo 'cdcl' | sudo -S /home/cdcl/wearable-biosensors-ros2/pi_startup.sh") | crontab -
 
 # Step 5: Allow user cdcl to run shutdown without sudo
 echo "Updating sudoers file for user cdcl..."

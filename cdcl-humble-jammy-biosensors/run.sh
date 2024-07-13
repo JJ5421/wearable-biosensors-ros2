@@ -9,8 +9,9 @@
 docker run --restart=always \
     --privileged \
     -v /dev/bus/usb:/dev/bus/usb \
-    -v /home/jj/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
+    -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
     -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
+    -v /dev/mem:/dev/mem \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     --device=/dev/hidraw1 \
     --net=host \
