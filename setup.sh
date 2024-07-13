@@ -62,4 +62,9 @@ echo "Building the Docker image..."
 cd /home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors
 ./build.sh
 
+# Step 11: Setup auto wifi connection
+apt install -y wpasupplicant
+echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
+systemctl enable wpa_supplicant
+
 echo "Setup complete!"
