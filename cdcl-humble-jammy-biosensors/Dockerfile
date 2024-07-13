@@ -80,6 +80,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-setuptools \
     python3-rpi.gpio \
     cron \
+    wireless-tools \
     wpasupplicant \
     dbus \
     isc-dhcp-client \
@@ -137,7 +138,6 @@ RUN chmod +x /home/cdcl/startup_script.sh /home/cdcl/wifi_connect.sh
 
 # Enable WPA supplicant service
 RUN echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
-RUN systemctl start wpa_supplicant
 
 # Make the "cdcl" user's working director "/home/cdcl"
 #RUN chown -R cdcl /home/cdcl/
@@ -148,7 +148,11 @@ WORKDIR //home/cdcl/wearable-biosensors-ros2
 
 # Set the initial ENTRYPOINT to start SSH service and then launch a shell
 # ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh && echo 'cdcl' | sudo -S service dbus start & /bin/bash"]
-ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh & /bin/bash"]
+ENTRYPOINT ["bash", "-c", "\
+    echo 'cdcl' | sudo -S service ssh start && \
+    /bin/bash /home/cdcl/startup_script.sh && \
+    wpa_supplicant -B -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0 & \
+    /bin/bash"]
 
 
 # Set the startup script to run on container start
