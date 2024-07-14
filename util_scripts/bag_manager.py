@@ -28,12 +28,12 @@ proc = None
 
 # Function to execute a command
 def execute_command(command):
-    full_command = f"source /opt/ros/humble/setup.bash && source /home/cdcl/wearable-biosensors-ros2/install/setup.bash && {command}"
+    full_command = f"sudo -u cdcl bash -c 'source /opt/ros/humble/setup.bash && source /home/cdcl/wearable-biosensors-ros2/install/setup.bash && {command}'"
     subprocess.Popen(full_command, shell=True, executable="/bin/bash", cwd=bag_directory)
 
 # Function to execute a command and return the process
 def execute_command_r(command):
-    full_command = f"source /opt/ros/humble/setup.bash && source /home/cdcl/wearable-biosensors-ros2/install/setup.bash && {command}"
+    full_command = f"sudo -u cdcl bash -c 'source /opt/ros/humble/setup.bash && source /home/cdcl/wearable-biosensors-ros2/install/setup.bash && {command}'"
     proc = subprocess.Popen(full_command, stdout=subprocess.PIPE, shell=True, preexec_fn=os.setsid, executable="/bin/bash", cwd=bag_directory)
     return proc
 
