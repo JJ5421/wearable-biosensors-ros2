@@ -119,6 +119,14 @@ RUN cd /tmp && \
     make install && \
     pip install pigpio
 
+# Install/build keyboard from source
+RUN pip install cython
+RUN cd /tmp && \
+    git clone https://github.com/boppreh/keyboard.git && \
+    cd keyboard && \
+    python setup.py build && \
+    python setup.py install
+
 # build wearable biosensors ros2 packages
 RUN cd /home/cdcl/ && \
     git clone https://github.com/JJ5421/wearable-biosensors-ros2.git && \

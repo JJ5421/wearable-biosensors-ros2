@@ -2,38 +2,46 @@ import os
 import time
 import csv
 import keyboard
+import threading
 
 # Define the file path
-file_path = '~/home/jj/wearable-biosensors-ros2/VitalLogs/manual_button_press.txt'
+file_path = '/home/cdcl/wearable-biosensors-ros2/VitalLogs/manual_button_press.txt'
 
-# Create the directory if it doesn't exist
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
+# Truncate the file to wipe its contents when script starts
+with open(file_path, 'w', newline=''):
+    pass  # This opens and immediately closes the file, truncating it
 
-# Create or empty the file and add headers
-with open(file_path, 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(['Timestamp', 'PressCount'])
-
-# Function to log time and press count
-def log_button_press(press_count):
+# Function to get current time in Unix time format (seconds.nanoseconds)
+def get_unix_time():
     current_time = time.time()
-    current_time_ns = int((current_time - int(current_time)) * 1e9)  # Nanoseconds part
-    timestamp = f"{int(current_time)}.{current_time_ns}"
+    seconds = int(current_time)
+    microseconds = int((current_time - seconds) * 1e6)  # Get microseconds part
+    return f"{seconds}.{microseconds:06d}"
+
+# Function to log time and press count directly to file
+def log_button_press(press_count):
+    timestamp = get_unix_time()
+    
+    # Construct the log entry
+    log_entry = [timestamp, press_count]
+    
+    # Write the log entry to the file
     with open(file_path, 'a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow([timestamp, press_count])
+        writer.writerow(log_entry)
+    
     print(f"Logged: Time - {timestamp}, Press Count - {press_count}")
 
-# Initialize press count
+# Initialize press count and last press time
 press_count = 0
-last_press_time = time.time()  # Track the last press time
+last_press_time = 0
 
 # Register the event listener for 'j' key press
 def key_press_handler(event):
     global press_count, last_press_time
     if event.event_type == keyboard.KEY_DOWN:
-        current_time = time.time()
-        if current_time - last_press_time > 0.1:  # Debounce threshold of 0.1 seconds
+        current_time = time.monotonic()
+        if current_time - last_press_time > 0.2:  # Debounce threshold of 0.3 seconds
             press_count += 1
             log_button_press(press_count)
         last_press_time = current_time
