@@ -119,13 +119,6 @@ RUN cd /tmp && \
     make install && \
     pip install pigpio
 
-# Install/build keyboard from source
-RUN pip install cython
-RUN cd /tmp && \
-    git clone https://github.com/boppreh/keyboard.git && \
-    cd keyboard && \
-    python setup.py build && \
-    python setup.py install
 # Install required packages for keyboard module and other dependencies
 RUN apt-get update && apt-get install -y \
     libxtst-dev \
@@ -135,7 +128,14 @@ RUN apt-get update && apt-get install -y \
     libboost-python-dev \
     kbd \
     && rm -rf /var/lib/apt/lists/*
-    
+# Install/build keyboard from source
+RUN cd /tmp && \
+    git clone https://github.com/boppreh/keyboard.git && \
+    cd keyboard && \
+    python setup.py build && \
+    python setup.py install
+
+
 # build wearable biosensors ros2 packages
 RUN cd /home/cdcl/ && \
     git clone https://github.com/JJ5421/wearable-biosensors-ros2.git && \
