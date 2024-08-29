@@ -9,12 +9,12 @@ from gpiozero import LED, Button
 bag_directory = os.path.expanduser('/home/cdcl/wearable-biosensors-ros2/ros_bags/')
 
 # LED pins
-led_yellow = LED(4)
+led_yellow = LED(25)
 # led_green = LED(9)
 # led_red = LED(5)
 
 # Button pins
-button_power_pin = 27
+button_power_pin = 32
 
 # Initialize Button with pull-down resistor
 button_power = Button(button_power_pin, pull_up=False)

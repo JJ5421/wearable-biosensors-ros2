@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'cdcl_umd_msgs'}
+[0.000269] (-) JobUnselected: {'identifier': 'emotiv_insight'}
+[0.000315] (-) JobUnselected: {'identifier': 'empatica_e4'}
+[0.000359] (-) JobUnselected: {'identifier': 'manager'}
+[0.000403] (-) JobUnselected: {'identifier': 'polar_h10'}
+[0.000446] (-) JobUnselected: {'identifier': 'shimmer3_gsr_unit'}
+[0.000489] (-) JobUnselected: {'identifier': 'vernier_respiration_belt'}
+[0.001406] (-) EventReactorShutdown: {}
