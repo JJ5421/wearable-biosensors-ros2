@@ -14,7 +14,7 @@ led_yellow = LED(25)
 # led_red = LED(5)
 
 # Button pins
-button_power_pin = 32
+button_power_pin = 12
 
 # Initialize Button with pull-down resistor
 button_power = Button(button_power_pin, pull_up=False)
