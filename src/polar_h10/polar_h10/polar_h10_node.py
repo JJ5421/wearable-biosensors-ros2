@@ -9,6 +9,7 @@ from cdcl_umd_msgs.msg import Vitals
 
 
 import time, sys, math
+import os
 import pexpect # need to isntall pexpect; $pip install pexpect
 
 
@@ -25,7 +26,7 @@ class ros2_polar_h10(Node):
         self.Parm_Chunk_Length = self.get_parameter('Chunk_Length').value 
 
         # For the Polar H10 device.
-        self.declare_parameter('Device_Mac_Address', 'DF:10:D1:9F:9B:DF') # Should be replaced into your device ID.
+        self.declare_parameter('Device_Mac_Address', os.getenv('POLAR_MAC')) # Should be replaced into your device ID.
         self.Parm_Device_Mac_Address = self.get_parameter('Device_Mac_Address').value 
 
 
