@@ -56,8 +56,9 @@ class ros2_vernier_respiration_belt(Node):
         #############################################################
         # Publisher Parts
         #############################################################
-        self.pub_respiration_belt_bpm_data = self.create_publisher(Vitals, "biosensors/vernier_respiration_belt/bpm", 10) #raw Respiration Rate (bpm)
-        self.pub_respiration_belt_force_data = self.create_publisher(Vitals, "biosensors/vernier_respiration_belt/force", 10) #raw Force (N)
+        bionum = os.getenv('BIO_NUM')
+        self.pub_respiration_belt_bpm_data = self.create_publisher(Vitals, "biosensors-" + bionum + "/vernier_respiration_belt/bpm", 10) #raw Respiration Rate (bpm)
+        self.pub_respiration_belt_force_data = self.create_publisher(Vitals, "biosensors-" + bionum + "/vernier_respiration_belt/force", 10) #raw Force (N)
         
         if self.Parm_Chunk_Enable:
             #self.pub_respiration_belt_bpm_chunk_data = self.create_publisher(Float32MultiArray, "biosensors/veriner_respiration_belt/bpm_chunk", 10) #chunk Respiration Rate (bpm)

@@ -11,6 +11,7 @@ docker run --restart=always \
     -e ROS_DOMAIN_ID="0" \
     -e POLAR_MAC="DF:10:D1:9F:9B:DF" \
     -e VERNIER_SERIAL="GDX-RB 0K5016Q9" \
+    -e BIO_NUM="1" \
     -v /dev/bus/usb:/dev/bus/usb \
     -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
     -v /home/cdcl/wearable-biosensors-ros2/VitalLogs:/home/cdcl/wearable-biosensors-ros2/VitalLogs \
