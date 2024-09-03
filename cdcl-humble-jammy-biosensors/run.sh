@@ -12,13 +12,13 @@ docker run --restart=always \
     -e POLAR_MAC="DF:10:D1:9F:9B:DF" \
     -e VERNIER_SERIAL="GDX-RB 0K5016Q9" \
     -e BIO_NUM="1" \
+    -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     -v /dev/bus/usb:/dev/bus/usb \
     -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
     -v /home/cdcl/wearable-biosensors-ros2/VitalLogs:/home/cdcl/wearable-biosensors-ros2/VitalLogs \
     -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
     -v /dev/mem:/dev/mem \
     -v /dev/gpiochip0:/dev/gpiochip0 \
-    -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     --device=/dev/hidraw1 \
     --device=/dev/mem \
     --device /dev/gpiochip0:/dev/gpiochip0 \

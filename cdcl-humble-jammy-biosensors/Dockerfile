@@ -81,11 +81,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     python3-rpi.gpio \
     cron \
     wireless-tools \
-    wpasupplicant \
     dbus \
     isc-dhcp-client \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
+    #wpasupplicant \
 
 RUN source "/opt/ros/${ROS_DISTRO}/setup.bash"
 
@@ -157,15 +157,16 @@ RUN echo 'cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown' | tee -a /etc/sudoers \
 RUN chmod -R 777 /home/cdcl/wearable-biosensors-ros2/ros_bags/
 RUN usermod -aG bluetooth cdcl
 
-# Copy the startup and WiFi connection scripts into the image
+# Copy the startup script into the image
 COPY startup_script.sh /home/cdcl/startup_script.sh
-COPY wifi_connect.sh /home/cdcl/wifi_connect.sh
+#COPY wifi_connect.sh /home/cdcl/wifi_connect.sh
 
 # Ensure the scripts have executable permissions
-RUN chmod +x /home/cdcl/startup_script.sh /home/cdcl/wifi_connect.sh
+RUN chmod +x /home/cdcl/startup_script.sh 
+#/home/cdcl/wifi_connect.sh
 
 # Enable WPA supplicant service
-RUN echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
+#RUN echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
 
 # Make the "cdcl" user's working director "/home/cdcl"
 #RUN chown -R cdcl /home/cdcl/
@@ -175,13 +176,17 @@ USER cdcl
 WORKDIR //home/cdcl/wearable-biosensors-ros2
 
 # Set the initial ENTRYPOINT to start SSH service and then launch a shell
-# ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh && echo 'cdcl' | sudo -S service dbus start & /bin/bash"]
 ENTRYPOINT ["bash", "-c", "\
     echo 'cdcl' | sudo -S service ssh start && \
     /bin/bash /home/cdcl/startup_script.sh && \
-    wpa_supplicant -B -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0 & \
     /bin/bash"]
 
-
+# Deprecated startup sequences and content:
+# ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh && echo 'cdcl' | sudo -S service dbus start & /bin/bash"]
+# ENTRYPOINT ["bash", "-c", "\
+#     echo 'cdcl' | sudo -S service ssh start && \
+#     /bin/bash /home/cdcl/startup_script.sh && \
+#     wpa_supplicant -B -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0 & \
+#     /bin/bash"]
 # Set the startup script to run on container start
 #CMD ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]
