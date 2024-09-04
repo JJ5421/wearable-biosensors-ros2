@@ -82,10 +82,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     cron \
     wireless-tools \
     dbus \
+    wpasupplicant \
     isc-dhcp-client \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
-    #wpasupplicant \
+    
 
 RUN source "/opt/ros/${ROS_DISTRO}/setup.bash"
 
