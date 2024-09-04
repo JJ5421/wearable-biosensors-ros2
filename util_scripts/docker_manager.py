@@ -10,8 +10,6 @@ bag_directory = os.path.expanduser('/home/cdcl/wearable-biosensors-ros2/ros_bags
 
 # LED pins
 led_yellow = LED(25)
-# led_green = LED(9)
-# led_red = LED(5)
 
 # Button pins
 button_power_pin = 12
@@ -21,6 +19,7 @@ button_power = Button(button_power_pin, pull_up=False)
 
 # State variables
 power_on = True
+button_power_timer = None  # Timer variable to keep track of the timer
 
 # Function to control LEDs
 def set_led(led, state):
@@ -37,31 +36,36 @@ def execute_command(command):
 # Callback function for button hold
 def button_3_hold():
     global power_on
-    if power_on:
-        set_led(led_yellow, False)
-        # set_led(led_green, False)
-        # set_led(led_red, False)
-        execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
-        time.sleep(15)
-        execute_command("sudo shutdown -h now")
-        power_on = False
-    else:
-        set_led(led_yellow, True)
-        # set_led(led_green, False)
-        # set_led(led_red, False)
-        # execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/runterm.sh")
-        power_on = True
+    if button_power.is_pressed:  # Ensure the button is still being held
+        if power_on:
+            set_led(led_yellow, False)
+            execute_command("/home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/stop.sh")
+            time.sleep(15)
+            execute_command("sudo shutdown -h now")
+            power_on = False
+        else:
+            set_led(led_yellow, True)
+            power_on = True
 
 # Event detection for button press
 def button_power_pressed():
+    global button_power_timer
     if button_power.is_pressed:
-        threading.Timer(3, button_3_hold).start()
+        button_power_timer = threading.Timer(3, button_3_hold)
+        button_power_timer.start()
 
+# Event detection for button release
+def button_power_released():
+    global button_power_timer
+    if button_power_timer is not None:
+        button_power_timer.cancel()
+        button_power_timer = None
+
+# Attach event detection to the button
 button_power.when_pressed = button_power_pressed
+button_power.when_released = button_power_released
 
 set_led(led_yellow, True)
-# set_led(led_green, False)
-# set_led(led_red, True)
 
 print("Script is running. Press the button and hold for 3 seconds.")
 
@@ -70,6 +74,4 @@ try:
         time.sleep(1)
 except KeyboardInterrupt:
     set_led(led_yellow, False)
-    # set_led(led_green, False)
-    # set_led(led_red, False)
     print("Script ended.")
