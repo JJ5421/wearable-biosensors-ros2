@@ -27,6 +27,7 @@ class ros2_polar_h10(Node):
 
         # For the Polar H10 device.
         p_mac = os.getenv('POLAR_MAC')
+        print(p_mac)
         self.declare_parameter('Device_Mac_Address', p_mac) # Should be replaced into your device ID.
         self.Parm_Device_Mac_Address = self.get_parameter('Device_Mac_Address').value 
 
