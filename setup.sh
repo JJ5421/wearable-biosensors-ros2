@@ -43,7 +43,7 @@ echo "cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown" | sudo EDITOR='tee -a' visudo
 echo "Cloning the git repository..."
 cd /home/cdcl
 git clone https://github.com/JJ5421/wearable-biosensors-ros2.git
-chmod 777 -R /home/wearable-biosensors-ros2
+chmod 777 -R /home/cdcl/wearable-biosensors-ros2
 
 # Step 7: Make pi_startup.sh executable
 echo "Making pi_startup.sh executable..."
