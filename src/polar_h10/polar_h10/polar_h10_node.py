@@ -64,9 +64,9 @@ class ros2_polar_h10(Node):
         #############################################################
         bionum = os.getenv('BIO_NUM')
         if self.Parm_Sensor_Enable:
-            self.pub_polar_h10_hr = self.create_publisher(Vitals, 'biosensors-' + bionum + '/polar_h10/hr', 10) 
-            self.pub_polar_h10_ibi = self.create_publisher(Int32, 'biosensors-' + bionum + '/polar_h10/ibi', 10) 
-            self.pub_polar_h10_bat = self.create_publisher(Int32, 'biosensors-' + bionum + '/polar_h10/dev', 10)  # battery level
+            self.pub_polar_h10_hr = self.create_publisher(Vitals, 'biosensors' + bionum + '/polar_h10/hr', 10) 
+            self.pub_polar_h10_ibi = self.create_publisher(Int32, 'biosensors' + bionum + '/polar_h10/ibi', 10) 
+            self.pub_polar_h10_bat = self.create_publisher(Int32, 'biosensors' + bionum + '/polar_h10/dev', 10)  # battery level
             
 	    #############################################################
         # ROS main loop
