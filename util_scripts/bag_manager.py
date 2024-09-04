@@ -41,32 +41,38 @@ def execute_command_r(command):
 def button_10_hold():
     global recording
     global proc
-    if not recording:
-        recording = True
-        led_green.on()
-        led_red.off()
-        proc = execute_command_r("ros2 bag record /biosensors/vernier_respiration_belt/force /biosensors/vernier_respiration_belt/bpm /biosensors/polar_h10/hr")
-        print("Running ROS Bag\n")
-    else:
-        recording = False
-        led_green.off()
-        led_red.on()
-        os.killpg(os.getpgid(proc.pid), signal.SIGINT)
-        proc = None
-        print("Ending ROS Bag\n")
+    if button_bag.is_pressed:  # Check if the button is still being held
+        if not recording:
+            recording = True
+            led_green.on()
+            led_red.off()
+            proc = execute_command_r("ros2 bag record /biosensors/vernier_respiration_belt/force /biosensors/vernier_respiration_belt/bpm /biosensors/polar_h10/hr")
+            print("Running ROS Bag\n")
+        else:
+            recording = False
+            led_green.off()
+            led_red.on()
+            os.killpg(os.getpgid(proc.pid), signal.SIGINT)
+            proc = None
+            print("Ending ROS Bag\n")
 
-# Event detection callback
+# Event detection callback when button is pressed
 def button_bag_pressed():
     global button_bag_timer
     if button_bag.is_pressed:
         button_bag_timer = threading.Timer(hold_duration, button_10_hold)
         button_bag_timer.start()
-    else:
-        if button_bag_timer is not None:
-            button_bag_timer.cancel()
+
+# Event detection callback when button is released
+def button_bag_released():
+    global button_bag_timer
+    if button_bag_timer is not None:
+        button_bag_timer.cancel()
+        button_bag_timer = None  # Reset the timer
 
 # Add event detection
 button_bag.when_pressed = button_bag_pressed
+button_bag.when_released = button_bag_released
 
 # Initial LED setup
 led_green.off()
@@ -78,4 +84,3 @@ try:
 except KeyboardInterrupt:
     led_green.off()
     led_red.off()
-
