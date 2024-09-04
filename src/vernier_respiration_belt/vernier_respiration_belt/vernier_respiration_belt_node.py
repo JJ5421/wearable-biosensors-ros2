@@ -34,7 +34,7 @@ class ros2_vernier_respiration_belt(Node):
 
         
         # For the Veriner Respriation Belt H10 device.
-        self.declare_parameter('Device_Name', os.getenv('VERNIER_SERIAL')) # Should be changed inro your device name
+        self.declare_parameter('Device_Name', 'GDX-RB 0K5016Q9') # Should be changed inro your device name
         self.Parm_Device_Name = self.get_parameter('Device_Name').value 
         self.declare_parameter('Device_Sampling_Rate', 100) #unit = milliseconds 
         self.Parm_Device_Sampling_Rate = self.get_parameter('Device_Sampling_Rate').value 
