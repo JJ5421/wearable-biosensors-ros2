@@ -12,7 +12,7 @@ bag_directory = os.path.expanduser('/home/cdcl/wearable-biosensors-ros2/ros_bags
 led_yellow = LED(25)
 
 # Button pins
-button_power_pin = 32
+button_power_pin = 12
 
 # Initialize Button with pull-down resistor
 button_power = Button(button_power_pin, pull_up=False)
