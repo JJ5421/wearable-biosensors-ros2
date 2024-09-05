@@ -16,7 +16,7 @@ led_green = LED(24)
 led_red = LED(23)
 
 # Button pins
-button_bag = Button(13, pull_up=False)
+button_bag = Button(33, pull_up=False)
 
 # State variables
 recording = False
