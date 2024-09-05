@@ -150,6 +150,7 @@ RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
     echo "alias sri='source install/setup.bash'">> /home/cdcl/.bashrc && \
     echo -e 'source /opt/ros/humble/setup.bash' >> /home/cdcl/.bashrc && \
     echo "source /home/cdcl/wearable-biosensors-ros2/install/setup.bash" >> /home/cdcl/.bashrc && \
+    echo "export ROS_DOMAIN_ID=0" >>/home/cdcl/.bashrc  
 
 # Add the required sudo configurations for user cdcl
 RUN echo 'cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown' | tee -a /etc/sudoers \
@@ -169,6 +170,7 @@ RUN chmod +x /home/cdcl/startup_script.sh
 #RUN echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
 
 # Make the "cdcl" user's working director "/home/cdcl"
+#RUN chown -R cdcl /home/cdcl/
 RUN cd /home/cdcl/wearable-biosensors-ros2
 USER cdcl
 
