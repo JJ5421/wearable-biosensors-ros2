@@ -49,9 +49,9 @@ def button_10_hold():
             led_green.on()
             led_red.off()
             proc = execute_command_r("ros2 bag record" + 
-                " /biosensors" + bionum + "/vernier_respiration_belt/force" + 
-                " /biosensors" + bionum + "/vernier_respiration_belt/bpm" +  
-                " /biosensors" + bionum + "/polar_h10/hr")
+                "/biosensors" + bionum + "/vernier_respiration_belt/force" + 
+                "/biosensors" + bionum + "/vernier_respiration_belt/bpm" +  
+                "/biosensors" + bionum + "/polar_h10/hr")
             print("Running ROS Bag\n")
         else:
             recording = False
