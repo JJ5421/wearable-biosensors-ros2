@@ -9,6 +9,8 @@ from gpiozero import LED, Button
 
 bag_directory = os.path.expanduser('/home/cdcl/wearable-biosensors-ros2/ros_bags/')
 
+bionum = os.getenv('BIO_NUM')
+
 # LED pins
 led_green = LED(24)
 led_red = LED(23)
@@ -46,7 +48,10 @@ def button_10_hold():
             recording = True
             led_green.on()
             led_red.off()
-            proc = execute_command_r("ros2 bag record /biosensors/vernier_respiration_belt/force /biosensors/vernier_respiration_belt/bpm /biosensors/polar_h10/hr")
+            proc = execute_command_r("ros2 bag record" + 
+                "/biosensors" + bionum + "/vernier_respiration_belt/force" + 
+                "/biosensors" + bionum + "/vernier_respiration_belt/bpm" +  
+                "/biosensors" + bionum + "/polar_h10/hr")
             print("Running ROS Bag\n")
         else:
             recording = False
