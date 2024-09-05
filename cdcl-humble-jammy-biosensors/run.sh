@@ -9,7 +9,7 @@
 docker run --restart=always \
     --privileged \
     -e ROS_DOMAIN_ID="0" \
-    -e POLAR_MAC='DF:10:D1:9F:9B:DF' \
+    -e POLAR_MAC='E9:B6:B2:24:CC:61' \
     -e VERNIER_SERIAL='0K5016Q9' \
     -e BIO_NUM='1' \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
