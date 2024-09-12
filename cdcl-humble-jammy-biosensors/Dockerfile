@@ -39,7 +39,7 @@ RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/s
 # add a user named "cdcl" and add it to the "sudo" group
 RUN useradd -ms /bin/bash cdcl && usermod -aG sudo cdcl
 
-# change the password of the "cdcl" user to "cdcl
+# change the password of the "cdcl" user to "cdcl"
 RUN echo "cdcl:cdcl" | chpasswd
 
 # Copy the local key
@@ -57,6 +57,8 @@ SHELL ["/bin/bash", "-c"]
 ARG ROS_DISTRO=humble
 ENV ROS_DISTRO=$ROS_DISTRO
 ARG INSTALL_PACKAGE=base
+
+RUN mkdir -p /home/cdcl/wearable-biosensors-ros2
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
@@ -87,7 +89,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     bluetooth && \
     rm -rf /var/lib/apt/lists/*
     
-
 RUN source "/opt/ros/${ROS_DISTRO}/setup.bash"
 
 RUN pip install \
@@ -129,6 +130,7 @@ RUN apt-get update && apt-get install -y \
     libboost-python-dev \
     kbd \
     && rm -rf /var/lib/apt/lists/*
+
 # Install/build keyboard from source
 RUN cd /tmp && \
     git clone https://github.com/boppreh/keyboard.git && \
@@ -136,15 +138,7 @@ RUN cd /tmp && \
     python setup.py build && \
     python setup.py install
 
-
-# build wearable biosensors ros2 packages
-RUN cd /home/cdcl/ && \
-    git clone https://github.com/JJ5421/wearable-biosensors-ros2.git && \
-    source /opt/ros/humble/setup.bash && \
-    cd /home/cdcl/wearable-biosensors-ros2/ && \
-    colcon build --symlink-install
-
-# add scripts
+# Customize .bashrc
 RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
     echo "alias sr2='source /opt/ros/humble/setup.bash'">> /home/cdcl/.bashrc && \
     echo "alias sri='source install/setup.bash'">> /home/cdcl/.bashrc && \
@@ -155,22 +149,9 @@ RUN echo "alias cb='colcon build --symlink-install'">> /home/cdcl/.bashrc && \
 # Add the required sudo configurations for user cdcl
 RUN echo 'cdcl ALL=(ALL) NOPASSWD: /sbin/shutdown' | tee -a /etc/sudoers \
     && echo 'cdcl ALL=(ALL) NOPASSWD: /usr/local/bin/pigpiod' | tee -a /etc/sudoers
-RUN chmod -R 777 /home/cdcl/wearable-biosensors-ros2/ros_bags/
 RUN usermod -aG bluetooth cdcl
 
-# Copy the startup script into the image
-COPY startup_script.sh /home/cdcl/startup_script.sh
-#COPY wifi_connect.sh /home/cdcl/wifi_connect.sh
-
-# Ensure the scripts have executable permissions
-RUN chmod +x /home/cdcl/startup_script.sh 
-#/home/cdcl/wifi_connect.sh
-
-# Enable WPA supplicant service
-#RUN echo -e 'network={\n    ssid="Balloon"\n    psk="Firewire14"\n}' | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf > /dev/null
-
 # Make the "cdcl" user's working director "/home/cdcl"
-#RUN chown -R cdcl /home/cdcl/
 RUN cd /home/cdcl/wearable-biosensors-ros2
 USER cdcl
 
@@ -179,15 +160,5 @@ WORKDIR //home/cdcl/wearable-biosensors-ros2
 # Set the initial ENTRYPOINT to start SSH service and then launch a shell
 ENTRYPOINT ["bash", "-c", "\
     echo 'cdcl' | sudo -S service ssh start && \
-    /bin/bash /home/cdcl/startup_script.sh && \
+    /bin/bash /home/cdcl/cdcl-humble-jammy-biosensors/startup_script.sh && \
     /bin/bash"]
-
-# Deprecated startup sequences and content:
-# ENTRYPOINT ["bash", "-c", "echo 'cdcl' | sudo -S service ssh start && /bin/bash /home/cdcl/startup_script.sh && echo 'cdcl' | sudo -S service dbus start & /bin/bash"]
-# ENTRYPOINT ["bash", "-c", "\
-#     echo 'cdcl' | sudo -S service ssh start && \
-#     /bin/bash /home/cdcl/startup_script.sh && \
-#     wpa_supplicant -B -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0 & \
-#     /bin/bash"]
-# Set the startup script to run on container start
-#CMD ["/bin/bash", "-c", "/home/cdcl/startup_script.sh"]

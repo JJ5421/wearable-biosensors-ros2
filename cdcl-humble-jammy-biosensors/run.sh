@@ -8,14 +8,13 @@
 #    -v /home/yashas/biosensors_ws:/home/cdcl/cdcl_ws \
 docker run --restart=always \
     --privileged \
+    -e BIO_NUM='1' \
     -e ROS_DOMAIN_ID="0" \
     -e POLAR_MAC='E9:B6:B2:24:CC:61' \
     -e VERNIER_SERIAL='0K5016Q9' \
-    -e BIO_NUM='1' \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
+    -v /home/cdcl/wearable-biosensors-ros2:/home/cdcl/wearable-biosensors-ros2 \
     -v /dev/bus/usb:/dev/bus/usb \
-    -v /home/cdcl/wearable-biosensors-ros2/ros_bags:/home/cdcl/wearable-biosensors-ros2/ros_bags \
-    -v /home/cdcl/wearable-biosensors-ros2/VitalLogs:/home/cdcl/wearable-biosensors-ros2/VitalLogs \
     -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
     -v /dev/mem:/dev/mem \
     -v /dev/gpiochip0:/dev/gpiochip0 \
