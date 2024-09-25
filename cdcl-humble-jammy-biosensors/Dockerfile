@@ -153,12 +153,15 @@ RUN usermod -aG bluetooth cdcl
 
 # Make the "cdcl" user's working director "/home/cdcl"
 RUN cd /home/cdcl/wearable-biosensors-ros2
+#RUN mkdir -p /home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/
+#RUN touch /home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/startup_script.sh
 USER cdcl
 
 WORKDIR //home/cdcl/wearable-biosensors-ros2
 
+
 # Set the initial ENTRYPOINT to start SSH service and then launch a shell
 ENTRYPOINT ["bash", "-c", "\
     echo 'cdcl' | sudo -S service ssh start && \
-    /bin/bash /home/cdcl/cdcl-humble-jammy-biosensors/startup_script.sh && \
+    /bin/bash /home/cdcl/wearable-biosensors-ros2/cdcl-humble-jammy-biosensors/startup_script.sh && \
     /bin/bash"]
