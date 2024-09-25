@@ -6,7 +6,6 @@ from launch_ros.actions import Node
 from launch import LaunchDescription, Action
 import launch
 
-
 def generate_launch_description():  
     # Subject Information
     Subject_Number = "P1"
@@ -22,7 +21,7 @@ def generate_launch_description():
             'Chunk_Enable': True,
             'Chunk_Length': 20,
             ### For sensor devices
-            'Device_Name': 'GDX-RB 0K5016Q9',
+            'Device_Name': 'GDX-RB 0K5016Q9', # This needs to be changed to your sensor ID if you want to use this launch script
             # 'Device_Name': "GDX-RB 0K2002Z5",
             'Device_Sampling_Rate': 10 #unit = milliseconds
             }] 

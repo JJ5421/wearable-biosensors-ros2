@@ -9,9 +9,9 @@
 docker run --restart=always \
     --privileged \
     -e BIO_NUM='1' \
-    -e ROS_DOMAIN_ID="0" \
+    -e ROS_DOMAIN_ID="6" \
     -e POLAR_MAC='E9:B6:B2:24:CC:61' \
-    -e VERNIER_SERIAL='0K5016Q9' \
+    -e VERNIER_SERIAL='GDX-RB 0K5016Q9' \
     -e DBUS_SESSION_BUS_ADDRESS="/var/run/dbus/system_bus_socket" \
     -v /home/cdcl/wearable-biosensors-ros2:/home/cdcl/wearable-biosensors-ros2 \
     -v /dev/bus/usb:/dev/bus/usb \

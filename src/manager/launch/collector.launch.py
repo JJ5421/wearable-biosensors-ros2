@@ -3,6 +3,9 @@ from launch_ros.actions import Node
 from launch.actions import ExecuteProcess
 import os
 
+v_serial = os.getenv('VERNIER_SERIAL')
+p_mac = os.getenv('POLAR_MAC')
+
 def generate_launch_description():
     ld = LaunchDescription()
 
@@ -12,7 +15,7 @@ def generate_launch_description():
         parameters=[{'Sensor_Enable':True}, 
                     {'Chunk_Enable':False}, 
                     {'Chunk_Length':128},
-                    {'Device_Name':"GDX-RB 0K5016Q9"}, 
+                    {'Device_Name':v_serial}, 
                     {'Device_Sampling_Rate':100}
                     ],
         respawn=True
@@ -24,7 +27,7 @@ def generate_launch_description():
         parameters=[{'Sensor_Enable':True}, 
                     {'Chunk_Enable':False}, 
                     {'Chunk_Length':128},
-                    {'Device_Mac_Address':'DF:10:D1:9F:9B:DF'}],
+                    {'Device_Mac_Address':p_mac}],
         respawn=True
     )
 

@@ -26,9 +26,8 @@ class ros2_polar_h10(Node):
         self.Parm_Chunk_Length = self.get_parameter('Chunk_Length').value 
 
         # For the Polar H10 device.
-        p_mac = os.getenv('POLAR_MAC')
-        print(p_mac)
-        self.declare_parameter('Device_Mac_Address', p_mac) # Should be replaced into your device ID.
+        #p_mac = os.getenv('POLAR_MAC')
+        self.declare_parameter('Device_Mac_Address', 'EE:75:D1:12:36:4B') # Should be replaced by your device ID if launched manually.
         self.Parm_Device_Mac_Address = self.get_parameter('Device_Mac_Address').value 
 
 
